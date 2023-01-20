@@ -92,7 +92,8 @@ nav section {
   row-gap: 10px;
 }
 
-.nav-cards {
+.nav-cards,
+.home-cards {
   width: 100%;
   position: relative;
   display: flex;
@@ -102,7 +103,8 @@ nav section {
   overflow: hidden;
 }
 
-.nav-cards img {
+.nav-cards img,
+.home-cards img {
   width: 100%;
 }
 
@@ -120,4 +122,40 @@ nav section {
 #hamburger-nav,
 #hamburger-close-btn {
   display: none;
+}
+
+/*    HOME MAIN     */
+
+main {
+  padding: 20px;
+  height: calc(100vh - 66px);
+}
+
+#home-cards-container {
+  height: 85%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#home-cards-container a {
+  height: calc(50% - 10px);
+}
+
+.home-cards {
+  height: 100%;
+}
+
+#home-cards-description-container {
+  width: 70%;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  align-items: center;
+}
+
+#home-cards-description-container p {
+  color: var(--main-light-color);
+  text-align: center;
 }
