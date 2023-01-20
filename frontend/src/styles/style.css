@@ -124,6 +124,10 @@ nav section {
   display: none;
 }
 
+#nav-a {
+  margin-top: 4px;
+}
+
 /*    HOME MAIN     */
 
 main {
@@ -188,4 +192,74 @@ main {
 #home-title-h1 {
   text-align: left;
   margin-left: 10%;
+}
+
+/*    LOGIN     */
+
+.login-container {
+  width: 300px;
+  margin: 0 auto;
+  border: 1px solid #ccc;
+  padding: 20px;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 8px 12px;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 14px;
+}
+
+input[type="submit"] {
+  width: 40%;
+  background-color: #30af82;
+  color: white;
+  padding: 10px 20px;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 7px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-left: 30%;
+  margin-top: 9%;
+}
+
+.input {
+  background-color: rgb(224, 222, 222);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.input-field {
+  width: 90%;
+}
+
+.input-field header {
+  margin-bottom: 5px;
+}
+
+.right a {
+  color: #30af82;
+  font-size: 12px;
+  text-decoration: underline;
+}
+
+.right p {
+  font-size: 12px;
+}
+
+.login h1 {
+  color: #30af82;
+  text-align: center;
+}
+
+#login-main {
+  justify-content: center;
 }

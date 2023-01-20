@@ -4,8 +4,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script type="module" src="index.js"></script>
-    <link rel="stylesheet" href="styles/style.css" />
+    <script type="module" src="../index.js"></script>
+    <link rel="stylesheet" href="../styles/style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -21,7 +21,7 @@
   <body>
     <nav>
       <header>
-        <a href="./index.html" id="nav-a"
+        <a href="../index.html" id="nav-a"
           ><svg
             xmlns="http://www.w3.org/2000/svg"
             width="125"
@@ -57,57 +57,56 @@
         <div id="nav-cards-container">
           <a href="#">
             <div class="nav-cards">
-              <img src="./assets/images/nav-bg-1.jpg" />
+              <img src="../assets/images/nav-bg-1.jpg" />
               <h2>CompArt</h2>
             </div>
           </a>
           <a href="#">
             <div class="nav-cards">
-              <img src="./assets/images/nav-bg-2.jpg" />
+              <img src="../assets/images/nav-bg-2.jpg" />
               <h2>Collection</h2>
             </div>
           </a>
           <a href="#">
             <div class="nav-cards">
-              <img src="./assets/images/nav-bg-3.jpg" />
+              <img src="../assets/images/nav-bg-3.jpg" />
               <h2>Favorite</h2>
             </div>
           </a>
         </div>
         <div id="nav-btns-container">
-          <a href="./pages/login.html"><button>Log In</button></a>
-          <a href="./pages/sign.html"><button>Sign In</button></a>
+          <a href="../pages/login.html"><button>Log In</button></a>
+          <a href="../pages/sign.html"><button>Sign In</button></a>
         </div>
       </section>
     </nav>
-    <main>
-      <section id="home-title-container">
-        <hr class="hr1" />
-        <h1 id="home-title-h1 ">Choose your path</h1>
-        <hr class="hr2" />
-      </section>
-      <section id="home-cards-container">
-        <a href="#">
-          <div class="home-cards">
-            <img src="./assets/images/home-1.jpg" />
-            <div id="home-cards-description-container">
-              <h2>CompArt</h2>
-              <p>
-                Search your desired painting by providing a detailed description
-              </p>
-            </div>
+    <main id="login-main">
+      <div class="login">
+        <h1>Log In</h1>
+      </div>
+      <div class="container">
+        <div class="input-field">
+          <div class="top-header">
+            <header>E-mail</header>
           </div>
-        </a>
-        <a href="#">
-          <div class="home-cards">
-            <img src="./assets/images/home-2.jpg" />
-            <div id="home-cards-description-container">
-              <h2>SearchArt</h2>
-              <p>Search your desired paining in our wide collection</p>
-            </div>
+          <input type="text" class="input" required />
+        </div>
+        <div class="input-field">
+          <header>Password</header>
+          <input type="password" class="input" required />
+        </div>
+        <div class="input-field">
+          <input type="submit" class="input" value="Log In" />
+        </div>
+        <div class="bottom">
+          <div class="right">
+            <p>
+              Don't have an account yet?
+              <a href="../pages/signin.html">Sign In</a>
+            </p>
           </div>
-        </a>
-      </section>
+        </div>
+      </div>
     </main>
   </body>
 </html>
