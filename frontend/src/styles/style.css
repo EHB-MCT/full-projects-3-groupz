@@ -11,6 +11,8 @@
   --main-title-weight: 500;
   --main-text-weight: 400;
   --main-btn-font-size: 20px;
+  --main-subtitle-size: 22px;
+  --main-subtitle-weight: 700;
 }
 
 * {
@@ -30,10 +32,20 @@ h1 {
   color: var(--main-green-color);
 }
 
+h2 {
+  font-weight: var(--main-subtitle-weight);
+  font-size: var(--main-subtitle-size);
+  color: var(--main-light-color);
+}
+
 p {
   font-weight: var(--main-text-weight);
   font-size: var(--main-text-size);
   color: var(--main-dark-color);
+}
+
+a {
+  text-decoration: none;
 }
 
 button {
@@ -43,5 +55,69 @@ button {
   border-radius: 7px;
   padding: 10px 20px;
   font-size: var(--main-btn-font-size);
+  font-weight: var(--main-subtitle-weight);
   width: 174px;
+}
+
+/*    NAVIGATION     */
+
+nav header {
+  background-color: var(--main-green-color);
+  height: 66px;
+  padding: 0 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#hamburger-btn,
+#hamburger-close-btn {
+  color: var(--main-light-color);
+  font-size: 46px;
+}
+
+nav section {
+  height: calc(100vh - 66px);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#nav-cards-container {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+
+.nav-cards {
+  width: 100%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.nav-cards img {
+  width: 100%;
+}
+
+.nav-cards h2 {
+  position: absolute;
+}
+
+#nav-btns-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 10px;
+}
+
+#hamburger-nav,
+#hamburger-close-btn {
+  display: none;
 }
