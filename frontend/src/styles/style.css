@@ -52,11 +52,36 @@ button {
   background-color: var(--main-green-color);
   color: var(--main-light-color);
   border: none;
-  border-radius: 7px;
+  border-radius: 14px;
   padding: 10px 20px;
   font-size: var(--main-btn-font-size);
   font-weight: var(--main-subtitle-weight);
   width: 174px;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 8px 12px;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 14px;
+  background-color: rgb(224, 222, 222);
+}
+
+input[type="submit"] {
+  width: 40%;
+  background-color: #30af82;
+  color: white;
+  padding: 10px 20px;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 7px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-left: 30%;
+  margin-top: 9%;
 }
 
 /*    NAVIGATION     */
@@ -169,10 +194,14 @@ main {
 }
 
 #home-title-container {
-  display: flex;
+  /* display: flex;
   justify-content: space-between;
+  align-items: center; */
+  height: 40px;
+  display: grid;
+  grid-template-columns: 50px auto 1fr;
   align-items: center;
-  height: 5%;
+  column-gap: 10px;
 }
 
 .hr1,
@@ -182,11 +211,11 @@ main {
 }
 
 .hr1 {
-  width: 10%;
+  width: 100%;
 }
 
 .hr2 {
-  width: 25%;
+  width: 100%;
 }
 
 #home-title-h1 {
@@ -201,34 +230,6 @@ main {
   margin: 0 auto;
   border: 1px solid #ccc;
   padding: 20px;
-}
-
-input[type="text"],
-input[type="password"] {
-  width: 100%;
-  padding: 8px 12px;
-  margin-bottom: 20px;
-  box-sizing: border-box;
-  border: 1px solid #ccc;
-  border-radius: 14px;
-}
-
-input[type="submit"] {
-  width: 40%;
-  background-color: #30af82;
-  color: white;
-  padding: 10px 20px;
-  margin-bottom: 20px;
-  border: none;
-  border-radius: 7px;
-  cursor: pointer;
-  font-size: 16px;
-  margin-left: 30%;
-  margin-top: 9%;
-}
-
-.input {
-  background-color: rgb(224, 222, 222);
 }
 
 .container {
@@ -262,4 +263,21 @@ input[type="submit"] {
 
 #login-main {
   justify-content: center;
+}
+
+/*    COMPART     */
+
+#compart-main {
+  display: grid;
+  grid-template-rows: 40px 1fr 45px;
+}
+
+#compart-demo-btn-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#compart-main-subcontainer form {
+  margin-top: 20px;
 }
