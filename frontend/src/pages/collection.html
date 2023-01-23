@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script type="module" src="../index.js"></script>
+    <script type="module" src="../components/collection.js"></script>
     <link rel="stylesheet" href="../styles/style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -18,7 +18,8 @@
     />
     <title>CompArt</title>
   </head>
-  <body>
+  <body id="collection-body">
+    <div id="filter-popup-bg"></div>
     <nav>
       <header>
         <a href="../index.html" id="nav-a"
@@ -55,7 +56,7 @@
       </header>
       <section id="hamburger-nav">
         <div id="nav-cards-container">
-          <a href="#">
+          <a href="./compart.html">
             <div class="nav-cards">
               <img src="../assets/images/nav-bg-1.jpg" />
               <h2>CompArt</h2>
@@ -89,6 +90,160 @@
           <span class="material-symbols-outlined filter-btn"> filter_alt </span>
         </div>
         <hr class="hr3" />
+      </section>
+      <div id="filter-popup">
+        <span id="filter-close-btn" class="material-symbols-outlined">
+          close
+        </span>
+        <form>
+          <div class="filter-form-subcontainer">
+            <h2>Soort Kunstwerken</h2>
+            <div>
+              <div class="filter-div">
+                <input
+                  id="alles-kunstwerken"
+                  type="radio"
+                  name="kunstwerken"
+                  value="alles-kunstwerken"
+                />
+                <label for="alles-kunstwerken">Toon Alles</label>
+              </div>
+
+              <div class="filter-div">
+                <input
+                  id="collage"
+                  type="radio"
+                  name="kunstwerken"
+                  value="collage"
+                />
+                <label for="collage">Collage</label>
+              </div>
+              <div class="filter-div">
+                <input
+                  id="fotografie"
+                  type="radio"
+                  name="kunstwerken"
+                  value="fotografie"
+                />
+                <label for="fotografie">Fotografie</label>
+              </div>
+              <div class="filter-div">
+                <input
+                  id="grafiek"
+                  type="radio"
+                  name="kunstwerken"
+                  value="grafiek"
+                />
+                <label for="grafiek">Grafiek</label>
+              </div>
+              <div class="filter-div">
+                <input
+                  id="illustratie"
+                  type="radio"
+                  name="kunstwerken"
+                  value="illustratie"
+                />
+                <label for="illustratie">Illustratie</label>
+              </div>
+              <div class="filter-div">
+                <input
+                  id="mixed-media"
+                  type="radio"
+                  name="kunstwerken"
+                  value="mixed-media"
+                />
+                <label for="mixed-media">Mixed Media</label>
+              </div>
+              <div class="filter-div">
+                <input
+                  id="ruimtelijk-werk"
+                  type="radio"
+                  name="kunstwerken"
+                  value="ruimtelijk-werk"
+                />
+                <label for="ruimtelijk-werk">Ruimtelijk Werk</label>
+              </div>
+              <div class="filter-div">
+                <input
+                  id="shilderen"
+                  type="radio"
+                  name="kunstwerken"
+                  value="shilderen"
+                />
+                <label for="shilderen">Shilderen</label>
+              </div>
+              <div class="filter-div">
+                <input
+                  id="tekenen"
+                  type="radio"
+                  name="kunstwerken"
+                  value="tekenen"
+                />
+                <label for="tekenen">Tekenen</label>
+              </div>
+              <div class="filter-div">
+                <input
+                  id="overige"
+                  type="radio"
+                  name="kunstwerken"
+                  value="overige"
+                />
+                <label for="overige">Overige</label>
+              </div>
+            </div>
+          </div>
+          <div class="filter-form-subcontainer">
+            <h2>Locatie</h2>
+            <div>
+              <div class="filter-div">
+                <input
+                  id="alles-locatie"
+                  type="radio"
+                  name="locatie"
+                  value="alles-locatie"
+                />
+                <label for="alles-locatie">Toon Alles</label>
+              </div>
+              <div class="filter-div">
+                <input id="leuven" type="radio" name="locatie" value="leuven" />
+                <label for="leuven">Leuven</label>
+              </div>
+              <div class="filter-div">
+                <input
+                  id="antwerpen"
+                  type="radio"
+                  name="locatie"
+                  value="antwerpen"
+                />
+                <label for="antwerpen">Antwerpen</label>
+              </div>
+              <div class="filter-div">
+                <input
+                  id="brussel"
+                  type="radio"
+                  name="locatie"
+                  value="brussel"
+                />
+                <label for="brussel">Brussel</label>
+              </div>
+              <div class="filter-div">
+                <input
+                  id="kortrijk"
+                  type="radio"
+                  name="locatie"
+                  value="kortrijk"
+                />
+                <label for="kortrijk">Kortrijk</label>
+              </div>
+            </div>
+          </div>
+          <button type="submit">Filter</button>
+        </form>
+      </div>
+      <section class="collection-container-row">
+        <div id="collection-column1" class="collection-container-column"></div>
+        <div id="collection-column2" class="collection-container-column"></div>
+        <div id="collection-column3" class="collection-container-column"></div>
       </section>
     </main>
   </body>
