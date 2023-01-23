@@ -1,8 +1,16 @@
 const express = require('express');
-const app = express();
-const port = 6456;
 const fs = require('fs/promises');
 const bodyParser = require('body-parser');
+const { MongoClient } = require('mongodb');
+const config = require('../config.json');
+
+//Create the client to use
+const client = new MongoClient(config.finalUrl)
+
+const app = express();
+const port = 6456;
+
+app.use(bodyParser.json());
 
 //Root route
 app.get('/', (req, res) => {
@@ -12,13 +20,21 @@ app.get('/', (req, res) => {
 //Return all
 app.get('/art', async (req, res) => {
     try{
-        //Read the file
-        let data = await fs.readFile('data/art.json');
-        //Send back the file
-        res.status(200).send(JSON.parse(data));
+        //connect to the db
+        await client.connect();
+
+        //retrieve the art collection data
+        const colli = client.db('kunst').collection('art collection');
+        const arts = await colli.find({}).toArray();
+
+        //Send back the data with the response
+        res.status(200).send(arts);
     }catch(error){
         console.log(error)
-        res.status(500).send('file could not be read');
+        res.status(500).send({
+           error: 'Something went wrong',
+           value: error 
+        });
     }
 });
 
