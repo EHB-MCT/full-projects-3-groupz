@@ -3,6 +3,7 @@ const fs = require('fs/promises');
 const bodyParser = require('body-parser');
 const { MongoClient } = require('mongodb');
 const config = require('../config.json');
+const cors = require('cors');
 
 //Create the client to use
 const client = new MongoClient(config.finalUrl)
@@ -11,6 +12,7 @@ const app = express();
 const port = 6456;
 
 app.use(bodyParser.json());
+app.use(cors())
 
 //Root route
 app.get('/', (req, res) => {
