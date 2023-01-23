@@ -144,6 +144,12 @@ nav section {
   row-gap: 10px;
 }
 
+#hamburger-nav {
+  position: fixed;
+  background-color: var(--main-bg-color);
+  z-index: 999;
+}
+
 #hamburger-nav,
 #hamburger-close-btn {
   display: none;
@@ -160,7 +166,6 @@ main {
   height: calc(100vh - 66px);
   display: flex;
   flex-direction: column;
-  /* justify-content: space-between; */
   row-gap: 30px;
 }
 
@@ -194,9 +199,6 @@ main {
 }
 
 #home-title-container {
-  /* display: flex;
-  justify-content: space-between;
-  align-items: center; */
   height: 40px;
   display: grid;
   grid-template-columns: 50px auto 1fr;
