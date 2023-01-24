@@ -86,7 +86,7 @@ button {
 input[type="text"],
 input[type="password"] {
   width: 100%;
-  padding: -1px 12px;
+  padding: 1px 1px;
   margin-bottom: 20px;
   box-sizing: border-box;
   border: 2px solid black;
@@ -440,5 +440,6 @@ main {
 
 ::placeholder {
   font-family: "MaisonNeue-light";
+  padding-bottom: 15px !important;
 }
 
