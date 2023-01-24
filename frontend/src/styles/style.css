@@ -48,7 +48,6 @@
 }
 
 body {
-
   font-family: "MaisonNeue-Book", serif;
   background-color: var(--main-bg-color);
 }
@@ -98,10 +97,8 @@ input[type="password"] {
   outline: black;
 }
 
-
-
-input[type=text]:focus {
-  border-top: 1px solid var(--main-body-color)
+input[type="text"]:focus {
+  border-top: 1px solid var(--main-body-color);
 }
 
 input[type="submit"] {
@@ -111,7 +108,7 @@ input[type="submit"] {
   padding: 10px 20px;
   margin-bottom: 20px;
   border: none;
- 
+
   cursor: pointer;
   font-size: 16px;
   margin-left: 30%;
@@ -286,7 +283,6 @@ main {
 }
 
 .login h1 {
-
   text-align: center;
 }
 
@@ -432,7 +428,7 @@ main {
   color: #000000;
 }
 
-.filter-form-subcontainer>div {
+.filter-form-subcontainer > div {
   display: flex;
   flex-direction: column;
   row-gap: 20px;
@@ -443,10 +439,7 @@ main {
   padding-bottom: 15px !important;
 }
 
-
 /* Artiesten pagina */
-
-
 
 .infoArtiesten p {
   margin-left: 40px;
@@ -483,4 +476,18 @@ h2 {
   margin-top: 200px;
 }
 
+/*  IMG POPUP  */
 
+#img-popup {
+  z-index: 997;
+  position: fixed;
+  display: none;
+  width: 360px;
+  height: 50%;
+  background-color: var(--main-bg-color);
+  align-items: center;
+  top: 50%;
+  left: 50%;
+  /* transform: translateX(-50% -50%); */
+  transform: translate(-50%, -50%);
+}
