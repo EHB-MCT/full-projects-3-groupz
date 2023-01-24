@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script type="module" src="../index.js"></script>
+    <script type="module" src="../utils/login.js"></script>
     <link rel="stylesheet" href="../styles/style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -84,16 +84,16 @@
       <div class="login">
         <h1>Log In</h1>
       </div>
-      <div class="container">
+      <div class="container" id="loginform">
         <div class="input-field">
           <div class="top-header">
             <header>E-mail</header>
           </div>
-          <input type="text" class="input" required />
+          <input type="text" class="input" id="inputEmail" required />
         </div>
         <div class="input-field">
           <header>Password</header>
-          <input type="password" class="input" required />
+          <input type="password" class="input" id="inputPassword" required />
         </div>
         <div class="input-field">
           <input type="submit" class="input" value="Log In" />
