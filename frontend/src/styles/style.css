@@ -1,3 +1,28 @@
+@font-face {
+  font-family: "MaisonNeue-Book";
+  src: url("../fonts/MaisonNeue-Book.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "MaisonNeue-Demi";
+  src: url("../fonts/MaisonNeue-Demi.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "MaisonNeue-Light";
+  src: url("../fonts/MaisonNeue-Light.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "MaisonNeue-Medium";
+  src: url("../fonts/MaisonNeue-Medium.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "ClearfaceStd-Bold";
+  src: url("../fonts/ClearfaceStd-Bold.otf") format("opentype");
+}
+
 :root {
   /* colors */
   --main-bg-color: #eeeeee;
@@ -8,11 +33,8 @@
   /* font-size */
   --main-title-size: 30px;
   --main-text-size: 16px;
-  --main-title-weight: 500;
-  --main-text-weight: 400;
   --main-btn-font-size: 20px;
   --main-subtitle-size: 22px;
-  --main-subtitle-weight: 700;
   --main-filter-label-size: 18px;
 }
 
@@ -23,24 +45,22 @@
 }
 
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: "MaisonNeue-Book", serif;
   background-color: var(--main-bg-color);
 }
 
 h1 {
-  font-weight: var(--main-title-weight);
+  font-family: "ClearfaceStd-Bold", sans-serif;
   font-size: var(--main-title-size);
-  color: var(--main-green-color);
+  color: var(--main-dark-color);
 }
 
 h2 {
-  font-weight: var(--main-subtitle-weight);
   font-size: var(--main-subtitle-size);
   color: var(--main-light-color);
 }
 
 p {
-  font-weight: var(--main-text-weight);
   font-size: var(--main-text-size);
   color: var(--main-dark-color);
 }
@@ -56,7 +76,6 @@ button {
   border-radius: 14px;
   padding: 10px 20px;
   font-size: var(--main-btn-font-size);
-  font-weight: var(--main-subtitle-weight);
   width: 174px;
 }
 
@@ -371,7 +390,6 @@ main {
 #filter-popup form label {
   color: var(--main-light-color);
   font-size: var(--main-filter-label-size);
-  font-weight: var(--main-text-weight);
 }
 
 .filter-div {
