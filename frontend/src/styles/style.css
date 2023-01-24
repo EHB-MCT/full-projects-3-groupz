@@ -443,3 +443,42 @@ main {
   padding-bottom: 15px !important;
 }
 
+
+/* Artiesten pagina */
+
+
+
+.infoArtiesten p {
+  margin-left: 40px;
+  width: 80%;
+  margin-top: 10px;
+  margin-bottom: 50px;
+}
+
+.artiesten {
+  display: flex;
+  color: white;
+  background-color: #30af82;
+  box-shadow: 0px 3px 6px gray;
+}
+
+.ArtiestenH,
+.artiestenP {
+  margin-left: 30px;
+}
+
+.artiesten,
+h2 {
+  margin-right: 50px;
+  padding: 5px;
+}
+
+.artiesten p {
+  color: white;
+  margin-top: 5px;
+  padding-right: 13px;
+}
+
+.artiestenWrapper {
+  margin-top: 200px;
+}
