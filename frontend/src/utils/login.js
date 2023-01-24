@@ -1,8 +1,22 @@
-document.getElementById('loginform').addEventListener("submit",event => {
+document.getElementById('loginform').addEventListener("submit", event => {
     event.preventDefault()
-    const email = document.getElementById("inputEmail").value;
-    const password = document.getElementById("inputPassword").value;
-  
-    console.log(email, password)
+
+    let user = {}
+    user.email = document.getElementById("inputEmail").value;
+    user.password = document.getElementById("inputPassword").value;
+
+    getArtworkData("http://localhost:6456/login", "POST", user).then(data => {
+      console.log(data)
+    })
   })
-  
+
+  async function getArtworkData(url, method, data){
+    let resp = await fetch(url, {
+      method: method,
+      headers: {
+        'Content-Type': "application/json"
+      },
+      body: JSON.stringify(data)
+    });
+    return await resp.json();
+  }
