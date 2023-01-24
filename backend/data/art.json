@@ -150,21 +150,6 @@
         "categories": "Illustratie"
     },
     {
-        "_id": "63ca5f7911ed7c768ffd7ed1",
-        "CMS entry ID": 332885,
-        "Titel": "Just because",
-        "Kunstenaar": "Pieter Bauters",
-        "Verkoopprijs": 950,
-        "breedte": "10",
-        "hoogte": "40",
-        "diepte": "10",
-        "Archief": 1057,
-        "Locatie": 20721,
-        "Hoofdkleuren": "bruin",
-        "img": "http://www.kunstinhuis.be/assets/files/artworks/_thumb/1057_0076.jpg",
-        "categories": "Ruimtelijk werk"
-    },
-    {
         "_id": "63ca5f7911ed7c768ffd7ed2",
         "CMS entry ID": 249186,
         "Titel": "Black line 3",
@@ -297,6 +282,21 @@
         "Locatie": "Gent",
         "Hoofdkleuren": "grijs\nzwart",
         "img": "http://www.kunstinhuis.be/assets/files/artworks/_thumb/0831_0222.jpg",
+        "categories": "Schilderen"
+    },
+    {
+        "_id": "63ca5f7911ed7c768ffd7ed1",
+        "CMS entry ID": 215004,
+        "Titel": "Portrait of what we see ...",
+        "Kunstenaar": "Yves Velter",
+        "Verkoopprijs": 500,
+        "breedte": "40",
+        "hoogte": "40",
+        "diepte": "0",
+        "Archief": 831,
+        "Locatie": "Gent",
+        "Hoofdkleuren": "grijs\nwit\nblauw",
+        "img": "http://www.kunstinhuis.be/assets/files/artworks/_thumb/0831_0137.jpg",
         "categories": "Schilderen"
     }
 ]
