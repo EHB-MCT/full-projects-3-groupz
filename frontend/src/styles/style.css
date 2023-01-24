@@ -30,6 +30,11 @@
   --main-gray-color: #aaa7a7;
   --main-dark-color: #000000;
   --main-light-color: #ffffff;
+  --main-NAV-color: #3e3c4f;
+  --main-body-color: #f1f0eb;
+
+
+
   /* font-size */
   --main-title-size: 30px;
   --main-text-size: 16px;
@@ -45,6 +50,7 @@
 }
 
 body {
+
   font-family: "MaisonNeue-Book", serif;
   background-color: var(--main-bg-color);
 }
@@ -73,7 +79,7 @@ button {
   background-color: var(--main-green-color);
   color: var(--main-light-color);
   border: none;
-  border-radius: 14px;
+  /* border-radius: 14px; */
   padding: 10px 20px;
   font-size: var(--main-btn-font-size);
   width: 174px;
@@ -82,12 +88,22 @@ button {
 input[type="text"],
 input[type="password"] {
   width: 100%;
-  padding: 8px 12px;
+  padding: -1px 12px;
   margin-bottom: 20px;
   box-sizing: border-box;
-  border: 1px solid #ccc;
-  border-radius: 14px;
-  background-color: rgb(224, 222, 222);
+  border: 2px solid black;
+  /* border-radius: 14px; */
+  background-color: var(--main-body-color);
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  outline: black;
+}
+
+
+
+input[type=text]:focus {
+  border-top: 1px solid var(--main-body-color)
 }
 
 input[type="submit"] {
@@ -107,7 +123,7 @@ input[type="submit"] {
 /*    NAVIGATION     */
 
 nav header {
-  background-color: var(--main-green-color);
+  background-color: var(--main-NAV-color);
   height: 66px;
   padding: 0 20px;
   display: flex;
@@ -144,7 +160,7 @@ nav section {
   display: flex;
   justify-content: center;
   align-items: center;
-  border-radius: 20px;
+  /* border-radius: 20px; */
   overflow: hidden;
 }
 
@@ -230,7 +246,7 @@ main {
 .hr2,
 .hr3 {
   height: 3px;
-  background-color: var(--main-gray-color);
+  background-color: var(--main-dark-color);
 }
 
 #home-title-h1 {
@@ -364,16 +380,16 @@ main {
   height: auto;
   z-index: 999;
   display: none;
-  background-color: var(--main-green-color);
+  background-color: var(--main-body-color);
   top: 20px;
   left: 50%;
   transform: translate(-50%);
-  border-radius: 20px;
+  /* border-radius: 20px; */
   flex-direction: column;
 }
 
 #filter-popup span {
-  color: var(--main-light-color);
+  color: var(--main-dark-color);
   align-self: flex-end;
   font-size: 34px;
   margin-top: 12px;
@@ -385,10 +401,12 @@ main {
   display: flex;
   flex-direction: column;
   row-gap: 50px;
+  background-color: var(--main-body-color);
+  color: #000000;
 }
 
 #filter-popup form label {
-  color: var(--main-light-color);
+  color: var(--main-dark-color);
   font-size: var(--main-filter-label-size);
 }
 
@@ -402,8 +420,8 @@ main {
 }
 
 #filter-popup button {
-  background-color: var(--main-light-color);
-  color: var(--main-green-color);
+  background-color: var(--main-green-color);
+  color: var(--main-light-color);
 }
 
 .filter-form-subcontainer {
@@ -412,7 +430,11 @@ main {
   row-gap: 30px;
 }
 
-.filter-form-subcontainer > div {
+.filter-form-subcontainer h2 {
+  color: #000000;
+}
+
+.filter-form-subcontainer>div {
   display: flex;
   flex-direction: column;
   row-gap: 20px;
