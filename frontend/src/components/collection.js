@@ -27,13 +27,13 @@ getArtworkData().then((response) => {
   console.log(response);
   response.forEach((artwork) => {
     if (c1Counter <= c2Counter && c1Counter <= c3Counter) {
-      c1String += `<img class="artwork" src="${artwork.img}" />`;
+      c1String += `<img class="artwork" src="${artwork.img}" data-title="${artwork.Titel}" data-artist="${artwork.Kunstenaar}" data-price="${artwork.Verkoopprijs}" data-height="${artwork.hoogte}" data-width="${artwork.breedte}"  />`;
       c1Counter++;
     } else if (c2Counter <= c3Counter && c2Counter <= c1Counter) {
-      c2String += `<img class="artwork" src="${artwork.img}" />`;
+      c2String += `<img class="artwork" src="${artwork.img}" data-title="${artwork.Titel}" data-artist="${artwork.Kunstenaar}" data-price="${artwork.Verkoopprijs}" data-height="${artwork.hoogte}" data-width="${artwork.breedte}"  />`;
       c2Counter++;
     } else if (c3Counter <= c1Counter && c3Counter <= c2Counter) {
-      c3String += `<img class="artwork" src="${artwork.img}" />`;
+      c3String += `<img class="artwork" src="${artwork.img}" data-title="${artwork.Titel}" data-artist="${artwork.Kunstenaar}" data-price="${artwork.Verkoopprijs}" data-height="${artwork.hoogte}" data-width="${artwork.breedte}"  />`;
       c3Counter++;
     }
   });
@@ -46,8 +46,20 @@ getArtworkData().then((response) => {
   artworkImages.forEach((image) => {
     image.addEventListener("click", (e) => {
       e.preventDefault();
-      // console.log(e.target.src);
-      imgPopup();
+      const artworkTitle = e.target.getAttribute("data-title");
+      const artworkArtist = e.target.getAttribute("data-artist");
+      const artworkPrice = e.target.getAttribute("data-price");
+      const artworkHeight = e.target.getAttribute("data-height");
+      const artworkWidth = e.target.getAttribute("data-width");
+      const artworkImage = e.target.src;
+      imgPopup(
+        artworkTitle,
+        artworkArtist,
+        artworkPrice,
+        artworkHeight,
+        artworkWidth,
+        artworkImage
+      );
     });
   });
 });

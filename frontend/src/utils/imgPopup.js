@@ -1,9 +1,47 @@
-export default function imgPopup() {
+export default function imgPopup(title, artist, price, height, width, img) {
   const popupBg = document.getElementById("filter-popup-bg");
   const imgPopup = document.getElementById("img-popup");
 
   popupBg.style.display = "block";
-  imgPopup.style.display = "flex";
+  imgPopup.innerHTML = `
+  <div id="img-popup-img-container">
+        <img
+          src="${img}"
+        />
+      </div>
+      <div id="img-popup-information-container">
+        <div id="img-popup-information-sub-container-left">
+          <div id="img-popup-information-sub-container-left-top">
+            <p class="img-popup-title">${title}</p>
+            <p>${artist}</p>
+          </div>
+          <div id="img-popup-information-sub-container-left-bottom">
+            <button>FAVORITE</button>
+          </div>
+        </div>
+        <div id="img-popup-information-sub-container-right">
+          <div class="img-popup-information-details-container">
+            <div class="img-popup-details-icon-container">
+              <span class="material-symbols-outlined"> height </span>
+            </div>
+            <p>${height} cm</p>
+          </div>
+          <div class="img-popup-information-details-container">
+            <div class="img-popup-details-icon-container">
+              <span class="material-symbols-outlined width-icon"> height </span>
+            </div>
+            <p>${width} cm</p>
+          </div>
+          <div class="img-popup-information-details-container">
+            <div class="img-popup-details-icon-container">
+              <span class="material-symbols-outlined"> payments </span>
+            </div>
+            <p>€ ${price}</p>
+          </div>
+        </div>
+      </div>
+  `;
+  imgPopup.style.display = "block";
   popupBg.addEventListener("click", (e) => {
     e.preventDefault();
     popupBg.style.display = "none";
