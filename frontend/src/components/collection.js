@@ -1,6 +1,6 @@
 import nav from "../utils/nav.js";
 import { getArtworkData } from "../utils/getData.js";
-import filter from "../utils/filter.js";
+import filter from "../utils/filter.js"; 
 
 nav();
 
@@ -23,7 +23,7 @@ let c2String = "";
 let c3String = "";
 
 getArtworkData().then((response) => {
-  console.log(response);
+  // console.log(response);
   response.forEach((artwork) => {
     if (c1Counter <= c2Counter && c1Counter <= c3Counter) {
       c1String += `<img src="${artwork.img}" />`;
@@ -41,3 +41,5 @@ getArtworkData().then((response) => {
   collectionC2.innerHTML = c2String;
   collectionC3.innerHTML = c3String;
 });
+
+

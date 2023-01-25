@@ -13,3 +13,12 @@ export default function filter(button, closeButton, bg, popup) {
     popup.style.display = "none";
   });
 }
+
+
+
+
+
+console.log("wail-test2");
+
+
+

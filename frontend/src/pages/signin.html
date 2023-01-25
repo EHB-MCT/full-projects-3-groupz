@@ -1,123 +1,106 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script type="module" src="..//utils/signup.js"></script>
-    <link rel="stylesheet" href="../styles/style.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"
-    />
-    <title>CompArt</title>
-  </head>
-  <body>
-    <nav>
-      <header>
-        <a href="../index.html" id="nav-a"
-          ><svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="125"
-            height="22"
-            viewBox="0 0 125 22"
-          >
-            <text
-              id="KUNST_IN_HUIS"
-              data-name="KUNST IN HUIS"
-              transform="translate(0 17)"
-              fill="#fff"
-              font-size="18"
-              font-family="Roboto-Bold, Roboto"
-              font-weight="700"
-            >
-              <tspan x="0" y="0">KUNST</tspan>
-              <tspan
-                y="0"
-                font-family="Roboto-Regular, Roboto"
-                font-weight="400"
-              >
-                IN HUIS
-              </tspan>
-            </text>
-          </svg></a
-        >
-        <span id="hamburger-btn" class="material-symbols-outlined"> menu </span>
-        <span id="hamburger-close-btn" class="material-symbols-outlined">
-          close
-        </span>
-      </header>
-      <section id="hamburger-nav">
-        <div id="nav-cards-container">
-          <a href="./compart.html">
-            <div class="nav-cards">
-              <img src="../assets/images/nav-bg-1.jpg" />
-              <h2>CompArt</h2>
-            </div>
-          </a>
-          <a href="./collection.html">
-            <div class="nav-cards">
-              <img src="../assets/images/nav-bg-2.jpg" />
-              <h2>Collection</h2>
-            </div>
-          </a>
-          <a href="#">
-            <div class="nav-cards">
-              <img src="../assets/images/nav-bg-3.jpg" />
-              <h2>Favorite</h2>
-            </div>
-          </a>
-        </div>
-        <div id="nav-btns-container">
-          <a href="./login.html"><button>Log In</button></a>
-          <a href="./signin.html"><button>Sign In</button></a>
-        </div>
-      </section>
-    </nav>
-    <main id="login-main">
-      <div class="login">
-        <h1>Sign In</h1>
-      </div>
-      <form class="container" id="signupform">
-        <div class="input-field">
-          <div class="top-header">
-            <!-- <header>Username</header> -->
-            <input type="text" placeholder="Username" class="input" id="inputUsername" required />
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script type="module" src="..//utils/signup.js"></script>
+
+  <script type="module" src="../index.js"></script>
+  <link rel="stylesheet" href="../styles/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+  <title>CompArt</title>
+</head>
+
+<body>
+  <nav>
+    <header>
+      <a href="../index.html" id="nav-a"><svg xmlns="http://www.w3.org/2000/svg" width="125" height="22"
+          viewBox="0 0 125 22">
+          <text id="KUNST_IN_HUIS" data-name="KUNST IN HUIS" transform="translate(0 17)" fill="#fff" font-size="18"
+            font-family="Roboto-Bold, Roboto" font-weight="700">
+            <tspan x="0" y="0">KUNST</tspan>
+            <tspan y="0" font-family="Roboto-Regular, Roboto" font-weight="400">
+              IN HUIS
+            </tspan>
+          </text>
+        </svg></a>
+      <span id="hamburger-btn" class="material-symbols-outlined"> menu </span>
+      <span id="hamburger-close-btn" class="material-symbols-outlined">
+        close
+      </span>
+    </header>
+    <section id="hamburger-nav">
+      <div id="nav-cards-container">
+        <a href="./compart.html">
+          <div class="nav-cards">
+            <img src="../assets/images/nav-bg-1.jpg" />
+            <h2>CompArt</h2>
           </div>
+        </a>
+        <a href="./collection.html">
+          <div class="nav-cards">
+            <img src="../assets/images/nav-bg-2.jpg" />
+            <h2>Collectie</h2>
+          </div>
+        </a>
+        <a href="#">
+          <div class="nav-cards">
+            <img src="../assets/images/nav-bg-3.jpg" />
+            <h2>Favorite</h2>
+          </div>
+        </a>
+      </div>
+      <div id="nav-btns-container">
+        <a href="./login.html"><button>Inloggen</button></a>
+        <a href="./signin.html"><button>Aanmelden</button></a>
+      </div>
+    </section>
+  </nav>
+  <main id="login-main">
+    <div class="login">
+      <h1>Aanmelden</h1>
+    </div>
+    <form class="container" id="signupform">
+      <div class="input-field">
+        <div class="top-header">
+          <!-- <header>Username</header> -->
+          <input type="text" placeholder="Gebruikersnaam" class="input" id="inputUsername" required />
         </div>
-        <div class="input-field">
-          <!-- <div class="top-header">
+      </div>
+      <div class="input-field">
+        <!-- <div class="top-header">
             <header>E-mail</header>
           </div> -->
-          <input type="text" placeholder="E-mail" class="input" id="inputEmail" required />
-        </div>
-        <div class="input-field">
-          <!-- <header>Password</header> -->
-          <input type="password"  placeholder="Password" class="input" id="inputPassword" required />
-        </div>
-        <div class="input-field">
-          <!-- <header>Repeat Password</header> -->
-          <input type="password"  placeholder="Repeat Password" class="input" id="inputPassword2" required />
-        </div>
-        <div class="input-field">
-          <input type="submit" class="input" value="Sign In" />
-        </div>
+        <input type="text" placeholder="E-mail" class="input" id="inputEmail" required />
+      </div>
+      <div class="input-field">
+        <!-- <header>Password</header> -->
+        <input type="password" placeholder="Wachtwoord" class="input" id="inputPassword" required />
+      </div>
+      <div class="input-field">
+        <!-- <header>Repeat Password</header> -->
+        <input type="password" placeholder="Herschrijf wachtwoord" class="input" id="inputPassword2" required />
+      </div>
+      <div class="input-field">
+        <input type="submit" class="input" value="Aanmelden" />
+      </div>
 
-        <div class="bottom">
-          <div class="right">
-            <p>
-              Already have account?
-              <a href="../pages/login.html">Log In</a>
-            </p>
-          </div>
+      <div class="bottom">
+        <div class="right">
+          <p>
+            Al een account?
+            <a href="../pages/login.html">Inloggen</a>
+          </p>
         </div>
-      </form>
-    </main>
-  </body>
+      </div>
+    </form>
+  </main>
+</body>
+
 </html>
