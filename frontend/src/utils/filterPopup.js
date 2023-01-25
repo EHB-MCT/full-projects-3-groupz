@@ -1,4 +1,4 @@
-export default function filter(button, closeButton, bg, popup) {
+export default function filterPopup(button, closeButton, bg, popup) {
   button.addEventListener("click", (e) => {
     e.preventDefault();
     console.log("test");

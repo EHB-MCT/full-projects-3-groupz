@@ -1,20 +1,44 @@
 const express = require("express");
+const app = express();
+const cors = require("cors");
+const { MongoClient } = require("mongodb");
 const fs = require("fs/promises");
 const bodyParser = require("body-parser");
-const { MongoClient } = require("mongodb");
-const config = require("../config.json");
-const cors = require("cors");
+const{v4: uuidv4, validate: uuidValidate} = require('uuid');
+require('dotenv').config()
+
+//Create the client
+const client = new MongoClient(process.env.FINAL_URL);
+const port = process.env.port || 6456
 
 let users = [];
 
-//Create the client to use
-const client = new MongoClient(config.finalUrl);
-
-const app = express();
-const port = 6456;
-
-app.use(bodyParser.json());
+app.use(express.urlencoded({extended: false}));
+app.use(express.json())
 app.use(cors());
+
+//testMongo
+app.get("/testMongo", async(req,res) => {
+  try{
+    //connect to the db
+    await client.connect();
+
+    //retrieve the users collection data
+    const colli = client.db('kunst').collection('users')
+    const users = await colli.find({}).toArray();
+    
+
+    //Send back the file
+    res.status(200).send(users);
+  }catch(error){
+    res.status(500).send({
+      error: 'Something went wrong',
+      value: error
+    });
+  }finally {
+    await client.close();
+  }
+})
 
 //Root route
 app.get("/", (req, res) => {
@@ -43,58 +67,165 @@ app.get("/art", async (req, res) => {
 });
 
 //Sign up
-app.post("/signup", (req, res) => {
+app.post("/signup", async (req, res) => {
   //Check fo empty fields
   if (!req.body.username || !req.body.email || !req.body.password) {
     res.status(401).send({
       status: "Bad Request",
-      message: "The Fields are missing",
-    });
+      message: "Some fields are missing"
+    })
+    return
   }
-  //save to user array
-  users.push({
-    username: req.body.username,
-    email: req.body.email,
-    password: req.body.password,
-  });
-  //Send back response when user is saved
-  res.send({
-    status: "Saved",
-    message: "Users has been saved",
-  });
+  try{
+    //connect to the db
+    await client.connect();
+
+    const user = {
+      username: req.body.username,
+      email: req.body.email,
+      password: req.body.password,
+      uuid: uuidv4()
+    }
+    //retrieve the users collection data
+    const colli = client.db('kunst').collection('users');
+    const insertedUser = await colli.insertOne(user)
+
+    //Send back response when user is saved
+    res.status(201).send({
+      status: "Saved",
+      message: "Users has been saved",
+      data: insertedUser
+    });
+  }catch(error){
+    console.log(error)
+    res.status(500).send({
+      error: 'Somthing went wrong!',
+      value: error
+    });
+  }finally {
+    await client.close();
+  }
 });
 
 //Login
-app.post("/login", (req, res) => {
-  //Check fo empty fields
-  if (!req.body.email || !req.body.password) {
-    res.status(401).send({
-      status: "Bad Request",
-      message: "The Fields are missing",
-    });
-  }
-  let user = users.find((element) => element.email == req.body.email);
+app.post("/login", async (req,res) => {
 
-  if (user) {
-    if (user.password == req.body.password) {
-      res.status(200).send({
-        status: "Authentication succes",
-        message: "You are logged in!",
-      });
-    } else {
+  //Check for empty fields
+  if(!req.body.email || !req.body.password){
       res.status(401).send({
-        status: "Authentication error",
-        message: "Password is incorrect",
-      });
-    }
-  } else {
-    //No user found: send back error
-    res.status(401).send({
-      status: "Authentication error",
-      message: "No user with this email has been found",
-    });
+          status: "Bad Request",
+          message: "Some fields are missing: email, password"
+      })
+      return
   }
-});
+
+  try{
+    //connect to the db
+    await client.connect();
+
+    const loginuser = {
+      email: req.body.email,
+      password: req.body.password
+    }
+    //retrieve the users collection data
+    const colli = client.db('kunst').collection('users');
+    const query = {email: loginuser.email}
+    const user = await colli.findOne(query)
+
+    if(user){
+      //compare passwords
+      if(user.password == loginuser.password){
+        res.status(200).send({
+          status: "Authentication succesfull!",
+          message: "You are logged in!",
+          data: {
+            username: user.username,
+            email: user.email,
+            uuid: user.uuid
+          }
+        })
+      }else{
+        //Password is incorrect
+        res.status(401).send({
+          status: "Authentication error",
+          message: "Password is incorrect!"
+        })
+      }
+    }else{
+        //No user found: send back error
+        res.status(401).send({
+            status: "Authentication error",
+            message: "No user with this email has been found, register first."
+        })
+    }
+  }catch(error){
+    console.log(error)
+    res.status(500).send({
+      error: 'Somthing went wrong!',
+      value: error
+    });
+  }finally {
+    await client.close();
+  }
+})
+
+//VerifyID
+app.post("/verifyID", async (req,res) => {
+
+  //Check for empty & faulty fields
+  if(!req.body.uuid){
+      res.status(401).send({
+          status: "Bad Request",
+          message: "ID is missing"
+      })
+      return
+  }else{
+    if(!uuidValidate(req.body.uuid)){
+      res.status(401).send({
+        status: "Bad Request",
+        message: "ID is not a valid UUID"
+      })
+      return
+    }
+  }
+
+  try{
+    //connect to the db
+    await client.connect();
+
+    //retrieve the users collection data
+    const colli = client.db('kunst').collection('users');
+    
+    const query = {uuid: req.body.uuid}
+    const user = await colli.findOne(query)
+
+    if(user){
+      res.status(200).send({
+        status: "Verified",
+        message: "Your UUID is valid.",
+        data: {
+          username: user.username,
+          email: user.email,
+          uuid: user.uuid
+        }
+      })
+    }else{
+      //Password is incorrect
+      res.status(401).send({
+        status: "Veify error",
+        message: "There ae no users with this id ${req.body.uuid}"
+      })
+    }
+  }catch(error){
+    console.log(error)
+    res.status(500).send({
+      error: 'Somthing went wrong!',
+      value: error
+    });
+  }finally {
+    await client.close();
+  }
+})
 
 app.listen(port, () => {
   console.log(`API is running at http://localhost:${port}`);

@@ -9,7 +9,7 @@ document.getElementById('signupform').addEventListener("submit", event => {
 
     if(user.password == user.password2){
         getArtworkData("http://localhost:6456/signup", "POST", user).then(data => {
-            alert(data.message)
+            document.getElementById('succesmessagesignin').innerHTML = `Je bent succesvol aangemeld!`
         })
     }else{
         alert("Passwods do not match")

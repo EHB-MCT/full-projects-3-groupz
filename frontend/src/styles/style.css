@@ -48,7 +48,6 @@
 }
 
 body {
-
   font-family: "MaisonNeue-Book", serif;
   background-color: var(--main-bg-color);
 }
@@ -300,7 +299,6 @@ main {
 }
 
 .login h1 {
-
   text-align: center;
 }
 
@@ -372,7 +370,6 @@ main {
   width: 100%;
   vertical-align: middle;
   margin-top: 8px;
-
 }
 
 /*    FILTER POPUP    */
@@ -446,7 +443,7 @@ main {
   color: #000000;
 }
 
-.filter-form-subcontainer>div {
+.filter-form-subcontainer > div {
   display: flex;
   flex-direction: column;
   row-gap: 20px;
@@ -496,3 +493,118 @@ input {
   color: #000000;
 }
 
+/* Artiesten pagina */
+
+.infoArtiesten p {
+  margin-left: 40px;
+  width: 80%;
+  margin-top: 10px;
+  margin-bottom: 50px;
+}
+
+.artiesten {
+  display: flex;
+  color: white;
+  background-color: #30af82;
+  box-shadow: 0px 3px 6px gray;
+}
+
+.ArtiestenH,
+.artiestenP {
+  margin-left: 30px;
+}
+
+.artiesten h2 {
+  margin-right: 50px;
+  padding: 5px;
+}
+
+.artiesten p {
+  color: white;
+  margin-top: 5px;
+  padding-right: 13px;
+}
+
+.artiestenWrapper {
+  margin-top: 200px;
+}
+
+/*  IMG POPUP  */
+
+#img-popup {
+  z-index: 997;
+  position: fixed;
+  display: none;
+  width: 360px;
+  height: auto;
+  background-color: var(--main-bg-color);
+  align-items: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#img-popup-img-container {
+  width: 100%;
+}
+
+#img-popup-img-container img {
+  width: 100%;
+}
+
+#img-popup-information-container {
+  width: 100%;
+  height: auto;
+  padding: 20px;
+  background-color: var(--main-bg-color);
+  display: flex;
+  justify-content: space-between;
+}
+
+#img-popup-information-sub-container-right {
+  width: 35%;
+  display: flex;
+  flex-direction: column;
+  row-gap: 5px;
+}
+
+.img-popup-information-details-container {
+  display: flex;
+  align-items: center;
+  column-gap: 5px;
+}
+
+.img-popup-details-icon-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #dfdfdf;
+  padding: 3px;
+}
+
+.width-icon {
+  transform: rotate(90deg);
+}
+
+#img-popup-information-sub-container-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 65%;
+  row-gap: 15px;
+}
+
+.img-popup-title {
+  font-family: "MaisonNeue-Demi", sans-serif;
+  font-size: var(--main-btn-font-size);
+}
+
+#welcomemessage{
+  color: white;
+}
+
+.succesmessage{
+  padding: 10px;
+  margin-bottom: 10px;
+  color: rgb(57, 182, 124);
+}
