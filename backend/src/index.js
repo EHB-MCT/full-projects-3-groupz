@@ -71,7 +71,7 @@ app.post("/signup", async (req, res) => {
   if (!req.body.username || !req.body.email || !req.body.password) {
     res.status(401).send({
       status: "Bad Request",
-      message: "Some fields are missing",
+      message: "Some fields are missing"
     });
   }
 
@@ -116,30 +116,48 @@ app.post("/login", async (req,res) => {
       })
   }
 
-  //Check for the user in array
-  let user = users.find(element => element.email == req.body.email)
+  try{
+    //connect to the db
+    await client.connect();
 
-  if(user){
+    const loginuser = {
+      email: req.body.email,
+      password: req.body.password
+    }
+    //retrieve the users collection data
+    const colli = client.db('kunst').collection('users');
+    const query = {email: loginuser.email}
+    const user = await colli.findOne(query)
+
+    if(user){
       //compare passwords
-      if(user.password == req.body.password){
-          res.status(200).send({
-              status: "Authentication succesfull!",
-              message: "You are logged in!"
-          })
+      if(user.password == loginuser.password){
+        res.status(200).send({
+          status: "Authentication succesfull!",
+          message: "You are logged in!"
+        })
       }else{
-          //Password is incorrect
-          res.status(401).send({
-              status: "Authentication error",
-              message: "Password is incorrect!"
-          })
-
-      }
-  }else{
-      //No user found: send back error
-      res.status(401).send({
+        //Password is incorrect
+        res.status(401).send({
           status: "Authentication error",
-          message: "No user with this email has been found, register first."
-      })
+          message: "Password is incorrect!"
+        })
+      }
+    }else{
+        //No user found: send back error
+        res.status(401).send({
+            status: "Authentication error",
+            message: "No user with this email has been found, register first."
+        })
+    }
+  }catch(error){
+    console.log(error)
+    res.status(500).send({
+      error: 'Somthing went wrong!',
+      value: error
+    });
+  }finally {
+    await client.close();
   }
 })
 

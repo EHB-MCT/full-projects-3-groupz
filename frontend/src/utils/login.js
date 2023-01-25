@@ -6,7 +6,7 @@ document.getElementById('loginform').addEventListener("submit", event => {
     user.password = document.getElementById("inputPassword").value;
 
     getArtworkData("http://localhost:6456/login", "POST", user).then(data => {
-      console.log(data)
+      console.log(data.message)
     })
   })
 
