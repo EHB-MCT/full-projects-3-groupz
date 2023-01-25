@@ -543,3 +543,13 @@ main {
   font-family: "MaisonNeue-Demi", sans-serif;
   font-size: var(--main-btn-font-size);
 }
+
+#welcomemessage{
+  color: white;
+}
+
+.succesmessage{
+  padding: 10px;
+  margin-bottom: 10px;
+  color: rgb(57, 182, 124);
+}
