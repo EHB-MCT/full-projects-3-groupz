@@ -162,6 +162,7 @@ nav section {
   display: flex;
   flex-direction: column;
   row-gap: 10px;
+  margin-bottom: 10px;
 }
 
 .nav-cards,
@@ -174,6 +175,8 @@ nav section {
   /* border-radius: 20px; */
   overflow: hidden;
 }
+
+
 
 .nav-cards img,
 .home-cards img {
@@ -220,8 +223,10 @@ main {
   height: calc(90%);
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: space-between; 
+  
 }
+
 
 #home-cards-container a {
   height: calc(50% - 10px);
@@ -294,8 +299,23 @@ main {
   text-decoration: underline;
 }
 
+
+.right_2 a {
+  color: #30af82;
+  font-size: 12px;
+  text-decoration: underline;
+}
+
 .right p {
   font-size: 12px;
+ 
+
+}
+
+.right_2 p {
+  font-size: 12px;
+  margin-top: -30px;
+ 
 }
 
 .login h1 {
@@ -598,3 +618,4 @@ input {
   font-size: 16px;
   text-decoration: underline;
 }
+
