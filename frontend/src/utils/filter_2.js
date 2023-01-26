@@ -1,5 +1,7 @@
 // import data from '../art.json' assert {type: 'JSON'}
 // console.log(data)
+
+
 import {
   getArtworkData
 } from "./getData";
@@ -87,7 +89,7 @@ const app = {
 
 
   },
-  pickRandomAndDisplay() {}
+
 };
 
 
