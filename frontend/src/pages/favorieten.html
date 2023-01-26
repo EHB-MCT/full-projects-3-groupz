@@ -5,7 +5,6 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <script type="module" src="..//utils/signup.js"></script>
   <script defer type="module" src="../components/collection.js"></script>
   <link rel="stylesheet" href="../styles/style.css" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -13,10 +12,14 @@
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet" />
   <link rel="stylesheet"
     href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
-  <title>Account maken</title>
+  <title>Favorieten-lijst</title>
 </head>
 
-<body>
+<body id="collection-body">
+  <div id="filter-popup-bg"></div>
+  <div id="img-popup">
+    <p>this is from img-popup</p>
+  </div>
   <nav>
     <header>
       <a href="../index.html" id="nav-a"><svg xmlns="http://www.w3.org/2000/svg" width="125" height="22"
@@ -29,7 +32,6 @@
             </tspan>
           </text>
         </svg></a>
-      <p id="welcomemessage"></p>
       <span id="hamburger-btn" class="material-symbols-outlined"> menu </span>
       <span id="hamburger-close-btn" class="material-symbols-outlined">
         close
@@ -37,19 +39,19 @@
     </header>
     <section id="hamburger-nav">
       <div id="nav-cards-container">
-        <a href="./compart.html">
+        <a href="compart.html">
           <div class="nav-cards">
             <img src="../assets/images/nav-bg-1.jpg" />
             <h2>Lookalikes</h2>
           </div>
         </a>
-        <a href="./collection.html">
+        <a href="collection.html">
           <div class="nav-cards">
             <img src="../assets/images/nav-bg-2.jpg" />
             <h2>Collectie</h2>
           </div>
         </a>
-        <a href="/frontend/src/pages/favorieten.html">
+        <a href="favorieten.html">
           <div class="nav-cards">
             <img src="../assets/images/nav-bg-3.jpg" />
             <h2>Favorieten</h2>
@@ -68,45 +70,18 @@
       </div>
     </section>
   </nav>
-  <main id="login-main">
-    <div class="login">
-      <h1>Aanmelden</h1>
+  <main id="collection-main">
+    <section id="home-title-container">
+      <hr class="hr1" />
+      <h1 id="home-title-h1 ">Favorieten</h1>
+      <hr class="hr2" />
+    </section>
+    <div class="text-favorieten">
+      <p>
+        Heb je nog geen favorieten? Voeg er één toe of
+        <a href="../pages/login.html">INLOGGEN</a>
+      </p>
     </div>
-    <form class="container" id="signupform">
-      <div class="input-field">
-        <div class="top-header">
-          <!-- <header>Username</header> -->
-          <input type="text" placeholder="Gebruikersnaam" class="input" id="inputUsername" required />
-        </div>
-      </div>
-      <div class="input-field">
-        <!-- <div class="top-header">
-            <header>E-mail</header>
-          </div> -->
-        <input type="text" placeholder="E-mail" class="input" id="inputEmail" required />
-      </div>
-      <div class="input-field">
-        <!-- <header>Password</header> -->
-        <input type="password" placeholder="Wachtwoord" class="input" id="inputPassword" required />
-      </div>
-      <div class="input-field">
-        <!-- <header>Repeat Password</header> -->
-        <input type="password" placeholder="Herschrijf wachtwoord" class="input" id="inputPassword2" required />
-      </div>
-      <div class="input-field">
-        <input type="submit" class="input" value="Aanmelden" />
-      </div>
-
-      <div class="bottom">
-        <div class="right">
-          <p>
-            Al een account?
-            <a href="../pages/login.html">Inloggen</a>
-          </p>
-        </div>
-      </div>
-    </form>
-  </main>
 </body>
 
 </html>

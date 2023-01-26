@@ -1,119 +1,100 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script defer type="module" src="index.js"></script>
-    <script defer type="module" src="./utils/login.js"></script>
-    <link rel="stylesheet" href="styles/style.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"
-    />
-    <title>CompArt</title>
-  </head>
-  <body>
-    <nav>
-      <header>
-        <a href="./index.html" id="nav-a"
-          ><svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="125"
-            height="22"
-            viewBox="0 0 125 22"
-          >
-            <text
-              id="KUNST_IN_HUIS"
-              data-name="KUNST IN HUIS"
-              transform="translate(0 17)"
-              fill="#fff"
-              font-size="18"
-              font-family="Roboto-Bold, Roboto"
-              font-weight="700"
-            >
-              <tspan x="0" y="0">KUNST</tspan>
-              <tspan
-                y="0"
-                font-family="Roboto-Regular, Roboto"
-                font-weight="400"
-              >
-                IN HUIS
-              </tspan>
-            </text>
-          </svg></a
-        >
-        <p id="welcomemessage"></p>
-        <span id="hamburger-btn" class="material-symbols-outlined"> menu </span>
-        <span id="hamburger-close-btn" class="material-symbols-outlined">
-          close
-        </span>
-      </header>
-      <section id="hamburger-nav">
-        <div id="nav-cards-container">
-          <a href="./pages/compart.html">
-            <div class="nav-cards">
-              <img src="./assets/images/nav-bg-1.jpg" />
-              <h2>CompArt</h2>
-            </div>
-          </a>
-          <a href="./pages/collection.html">
-            <div class="nav-cards">
-              <img src="./assets/images/nav-bg-2.jpg" />
-              <h2>Collectie</h2>
-            </div>
-          </a>
-          <a href="#">
-            <div class="nav-cards">
-              <img src="./assets/images/nav-bg-3.jpg" />
-              <h2>Favorite</h2>
-            </div>
-          </a>
-          <a href="#">
-            <div class="nav-cards">
-              <img src="/frontend/src/assets/images/nav-bg-4.jpg" />
-              <h2>Artiesten</h2>
-            </div>
-          </a>
-        </div>
-        <div id="nav-btns-container">
-          <a href="./pages/login.html"><button>Inloggen</button></a>
-          <a href="./pages/signin.html"><button>Aanmelden</button></a>
-        </div>
-      </section>
-    </nav>
-    <main>
-      <section id="home-title-container">
-        <hr class="hr1" />
-        <h1 id="home-title-h1 ">Kies uw pad</h1>
-        <hr class="hr2" />
-      </section>
-      <section id="home-cards-container">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script defer type="module" src="index.js"></script>
+  <script defer type="module" src="./utils/login.js"></script>
+  <link rel="stylesheet" href="styles/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+  <title>Home</title>
+</head>
+
+<body>
+  <nav>
+    <header>
+      <a href="./index.html" id="nav-a"><svg xmlns="http://www.w3.org/2000/svg" width="125" height="22"
+          viewBox="0 0 125 22">
+          <text id="KUNST_IN_HUIS" data-name="KUNST IN HUIS" transform="translate(0 17)" fill="#fff" font-size="18"
+            font-family="Roboto-Bold, Roboto" font-weight="700">
+            <tspan x="0" y="0">KUNST</tspan>
+            <tspan y="0" font-family="Roboto-Regular, Roboto" font-weight="400">
+              IN HUIS
+            </tspan>
+          </text>
+        </svg></a>
+      <p id="welcomemessage"></p>
+      <span id="hamburger-btn" class="material-symbols-outlined"> menu </span>
+      <span id="hamburger-close-btn" class="material-symbols-outlined">
+        close
+      </span>
+    </header>
+    <section id="hamburger-nav">
+      <div id="nav-cards-container">
         <a href="./pages/compart.html">
-          <div class="home-cards">
-            <img src="./assets/images/home-1.jpg" />
-            <div id="home-cards-description-container">
-              <h2>CompArt</h2>
-              <p>Zoek uw gewenste schilderij door een beschrijving te geven</p>
-            </div>
+          <div class="nav-cards">
+            <img src="./assets/images/nav-bg-1.jpg" />
+            <h2>"Lookalikes"</h2>
           </div>
         </a>
         <a href="./pages/collection.html">
-          <div class="home-cards">
-            <img src="./assets/images/home-2.jpg" />
-            <div id="home-cards-description-container">
-              <h2>Collectie</h2>
-              <p>Zoek uw gewenste schilderij in onze ruime collectie</p>
-            </div>
+          <div class="nav-cards">
+            <img src="./assets/images/nav-bg-2.jpg" />
+            <h2>Collectie</h2>
           </div>
         </a>
-      </section>
-    </main>
-  </body>
+        <a href="/frontend/src/pages/favorieten.html">
+          <div class="nav-cards">
+            <img src="/frontend/src/assets/images/nav-bg-3.jpg" />
+            <h2>Favorieten</h2>
+          </div>
+        </a>
+        <a href="./pages/artiesten.html">
+          <div class="nav-cards">
+            <img src="/frontend/src/assets/images/nav-bg-4.jpg" />
+            <h2>Artiesten</h2>
+          </div>
+        </a>
+      </div>
+      <div id="nav-btns-container">
+        <a href="./pages/login.html"><button>Inloggen</button></a>
+        <a href="./pages/signin.html"><button>Aanmelden</button></a>
+      </div>
+    </section>
+  </nav>
+  <main>
+    <section id="home-title-container">
+      <hr class="hr1" />
+      <h1 id="home-title-h1 ">Kies uw pad</h1>
+      <hr class="hr2" />
+    </section>
+    <section id="home-cards-container">
+      <a href="./pages/compart.html">
+        <div class="home-cards">
+          <img src="./assets/images/home-1.jpg" />
+          <div id="home-cards-description-container">
+            <h2>"Lookalikes"</h2>
+            <p>Vind in onze collectie een kunstwerk dat lijkt op...</p>
+          </div>
+        </div>
+      </a>
+      <a href="./pages/collection.html">
+        <div class="home-cards">
+          <img src="./assets/images/home-2.jpg" />
+          <div id="home-cards-description-container">
+            <h2>Filter de collectie</h2>
+            <p>Zoek uw gewenste schilderij in onze ruime collectie</p>
+          </div>
+        </div>
+      </a>
+    </section>
+  </main>
+</body>
+
 </html>
