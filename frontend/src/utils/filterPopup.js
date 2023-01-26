@@ -1,4 +1,4 @@
-export default function filterPopup(button, closeButton, bg, popup) {
+export default function filterPopup(button, bg, popup) {
   button.addEventListener("click", (e) => {
     e.preventDefault();
     console.log("test");
@@ -6,7 +6,7 @@ export default function filterPopup(button, closeButton, bg, popup) {
     popup.style.display = "flex";
   });
 
-  closeButton.addEventListener("click", (e) => {
+  bg.addEventListener("click", (e) => {
     e.preventDefault();
     console.log("test");
     bg.style.display = "none";
@@ -14,11 +14,4 @@ export default function filterPopup(button, closeButton, bg, popup) {
   });
 }
 
-
-
-
-
 console.log("wail-test2");
-
-
-

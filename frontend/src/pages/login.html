@@ -17,8 +17,9 @@
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"
     />
-    <title>CompArt</title>
+    <title>Login</title>
   </head>
+
   <body>
     <nav>
       <header>
@@ -57,53 +58,70 @@
       </header>
       <section id="hamburger-nav">
         <div id="nav-cards-container">
-          <a href="./compart.html">
+          <a href="compart.html">
             <div class="nav-cards">
               <img src="../assets/images/nav-bg-1.jpg" />
-              <h2>CompArt</h2>
+              <h2>Lookalikes</h2>
             </div>
           </a>
-          <a href="./collection.html">
+          <a href="collection.html">
             <div class="nav-cards">
               <img src="../assets/images/nav-bg-2.jpg" />
               <h2>Collectie</h2>
             </div>
           </a>
-          <a href="#">
+          <a href="artiesten.html">
+            <div class="nav-cards">
+              <img src="../assets/images/nav-bg-4.jpg" />
+              <h2>Artiesten</h2>
+            </div>
+          </a>
+          <a href="favorieten.html">
             <div class="nav-cards">
               <img src="../assets/images/nav-bg-3.jpg" />
-              <h2>Favorite</h2>
+              <h2>Favorieten</h2>
             </div>
           </a>
         </div>
         <div id="nav-btns-container">
-          <a href="./login.html"><button>Inloggen</button></a>
-          <a href="./signin.html"><button>Aanmelden</button></a>
+          <a href="./login.html"><button>Aanmelden</button></a>
+          <a href="./signin.html"><button>Registreren</button></a>
         </div>
       </section>
     </nav>
     <main id="login-main">
       <div class="login">
-        <h1>Inloggen</h1>
+        <h1>Aanmelden</h1>
       </div>
       <form class="container" id="loginform">
         <div class="input-field">
-          <input type="text" placeholder="E-mail"  class="input" id="inputEmail" required />
+          <input
+            type="text"
+            placeholder="E-mail"
+            class="input"
+            id="inputEmail"
+            required
+          />
         </div>
         <div class="input-field">
-
-          <input type="password" placeholder="Wachtwoord" class="input" id="inputPassword" required />
+          <input
+            type="password"
+            placeholder="Wachtwoord"
+            class="input"
+            id="inputPassword"
+            required
+          />
         </div>
         <div class="input-field">
-          <input type="submit" class="input" value="Inloggen" />
+          <input type="submit" class="input" value="Aanmelden" />
         </div>
         <p id="succesmessageinlog" class="succesmessage"></p>
 
         <div class="bottom">
           <div class="right">
             <p>
-             Nog geen account?
-              <a href="../pages/signin.html">Aanmelden</a>
+              Nog geen account?
+              <a href="../pages/signin.html">Registreren</a>
             </p>
           </div>
         </div>

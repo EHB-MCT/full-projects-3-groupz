@@ -1,5 +1,5 @@
 export default function imgPopup(title, artist, price, height, width, img) {
-  const popupBg = document.getElementById("filter-popup-bg");
+  const popupBg = document.getElementById("img-popup-bg");
   const imgPopup = document.getElementById("img-popup");
 
   popupBg.style.display = "block";
@@ -16,7 +16,7 @@ export default function imgPopup(title, artist, price, height, width, img) {
             <p>${artist}</p>
           </div>
           <div id="img-popup-information-sub-container-left-bottom">
-            <button>FAVORITE</button>
+            <button>Favoriet</button>
           </div>
         </div>
         <div id="img-popup-information-sub-container-right">

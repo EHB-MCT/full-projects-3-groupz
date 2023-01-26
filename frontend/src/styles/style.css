@@ -36,7 +36,7 @@
   /* font-size */
   --main-title-size: 30px;
   --main-text-size: 16px;
-  --main-btn-font-size: 20px;
+  --main-btn-font-size: 18px;
   --main-subtitle-size: 22px;
   --main-filter-label-size: 18px;
 }
@@ -73,19 +73,19 @@ a {
 }
 
 button {
+  font-family: "MaisonNeue-Book", serif;
   background-color: var(--main-green-color);
   color: var(--main-light-color);
   border: none;
-  /* border-radius: 14px; */
-  padding: 10px 20px;
   font-size: var(--main-btn-font-size);
-  width: 174px;
+  width: 160px;
+  height: 43px;
 }
 
 input[type="text"],
 input[type="password"] {
   width: 100%;
-  padding: 1px 1px;
+  padding: 5px 1px;
   margin-bottom: 20px;
   box-sizing: border-box;
   border: 2px solid black;
@@ -111,10 +111,8 @@ input.input_collection{
   outline: black;
 }
 
-
-
-input[type=text]:focus {
-  border-top: 1px solid var(--main-body-color)
+input[type="text"]:focus {
+  border-top: 1px solid var(--main-body-color);
 }
 
 input[type="submit"] {
@@ -141,6 +139,8 @@ nav header {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  /* position: fixed;
+  width: 100%; */
 }
 
 #hamburger-btn,
@@ -374,7 +374,8 @@ main {
 
 /*    FILTER POPUP    */
 
-#filter-popup-bg {
+#filter-popup-bg,
+#img-popup-bg {
   z-index: 997;
   position: fixed;
   display: none;
@@ -406,7 +407,7 @@ main {
 }
 
 #filter-popup form {
-  padding: 0 20px 20px 20px;
+  padding: 20px;
   display: flex;
   flex-direction: column;
   row-gap: 50px;
@@ -459,10 +460,8 @@ main {
 }
 
 .search_button {
-
   width: 300px;
   position: relative;
-
 }
 
 /* 
@@ -475,9 +474,8 @@ input {
   border-radius: 5px;
 } */
 
-.btn_search{
+.btn_search {
   position: absolute;
-  top: 0;
   right: 5px;
   z-index: 2;
   border: none;
@@ -506,27 +504,13 @@ input {
   display: flex;
   color: white;
   background-color: #30af82;
-  box-shadow: 0px 3px 6px gray;
-}
-
-.ArtiestenH,
-.artiestenP {
-  margin-left: 30px;
-}
-
-.artiesten h2 {
-  margin-right: 50px;
-  padding: 5px;
+  align-items: center;
+  padding: 5px 15px;
+  column-gap: 20px;
 }
 
 .artiesten p {
   color: white;
-  margin-top: 5px;
-  padding-right: 13px;
-}
-
-.artiestenWrapper {
-  margin-top: 200px;
 }
 
 /*  IMG POPUP  */
@@ -599,12 +583,18 @@ input {
   font-size: var(--main-btn-font-size);
 }
 
-#welcomemessage{
+#welcomemessage {
   color: white;
 }
 
-.succesmessage{
+.succesmessage {
   padding: 10px;
   margin-bottom: 10px;
   color: rgb(57, 182, 124);
+}
+
+.text-favorieten a {
+  color: #30af82;
+  font-size: 16px;
+  text-decoration: underline;
 }
