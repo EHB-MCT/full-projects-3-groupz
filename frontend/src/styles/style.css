@@ -98,7 +98,7 @@ input[type="password"] {
 }
 
 input.input_collection{
-  width: 110%;
+  width: 100%;
   padding: 1px 1px;
   margin-bottom: 20px;
   box-sizing: border-box;
@@ -478,10 +478,10 @@ input {
 .btn_search{
   position: absolute;
   top: 0;
-  right: -45px;
+  right: 5px;
   z-index: 2;
   border: none;
-  top: -3px;
+  top: 220px;
   height: 30px;
   cursor: pointer;
   color: white;
