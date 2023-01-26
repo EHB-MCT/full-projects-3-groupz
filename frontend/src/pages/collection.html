@@ -1,171 +1,260 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script defer type="module" src="../components/collection.js"></script>
+    <script type="module" src="../filter.js"></script>
+    <script type="module" src="/frontend/src/utils/filter_2.js"></script>
+    <script type="module" src="/frontend/src/utils/login.js"></script>
+    <script type="module" src="/frontend/src/index.js"></script>
+    <link rel="stylesheet" href="../styles/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"
+    />
+    <title>Collectie</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <script defer type="module" src="../components/collection.js"></script>
-  <script type="module" src="../filter.js"></script>
-  <script type="module" src="/frontend/src/utils/filter_2.js"></script>
-  <script type="module" src="/frontend/src/utils/login.js"></script>
-  <script type="module" src="/frontend/src/index.js"></script>
-  <link rel="stylesheet" href="../styles/style.css" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet" />
-  <link rel="stylesheet"
-    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
-  <title>Collectie</title>
-</head>
-
-<body id="collection-body">
-  <div id="filter-popup-bg"></div>
-  <nav>
-    <header>
-      <a href="../index.html" id="nav-a"><svg xmlns="http://www.w3.org/2000/svg" width="125" height="22"
-          viewBox="0 0 125 22">
-          <text id="KUNST_IN_HUIS" data-name="KUNST IN HUIS" transform="translate(0 17)" fill="#fff" font-size="18"
-            font-family="Roboto-Bold, Roboto" font-weight="700">
-            <tspan x="0" y="0">KUNST</tspan>
-            <tspan y="0" font-family="Roboto-Regular, Roboto" font-weight="400">
-              IN HUIS
-            </tspan>
-          </text>
-        </svg></a>
-      <span id="hamburger-btn" class="material-symbols-outlined"> menu </span>
-      <span id="hamburger-close-btn" class="material-symbols-outlined">
-        close
-      </span>
-    </header>
-    <section id="hamburger-nav">
-      <div id="nav-cards-container">
-        <a href="./compart.html">
-          <div class="nav-cards">
-            <img src="../assets/images/nav-bg-1.jpg" />
-            <h2>Lookalikes</h2>
-          </div>
-        </a>
-        <a href="collection.html">
-          <div class="nav-cards">
-            <img src="../assets/images/nav-bg-2.jpg" />
-            <h2>Collectie</h2>
-          </div>
-        </a>
-        <a href="/frontend/src/pages/favorieten.html">
-          <div class="nav-cards">
-            <img src="../assets/images/nav-bg-3.jpg" />
-            <h2>Favorieten</h2>
-          </div>
-        </a>
-        <a href="artiesten.html">
-          <div class="nav-cards">
-            <img src="../assets/images/nav-bg-4.jpg" />
-            <h2>Artiesten</h2>
-          </div>
-        </a>
-      </div>
-      <div id="nav-btns-container">
-        <a href="./login.html"><button>Inloggen</button></a>
-        <a href="./signin.html"><button>Aanmelden</button></a>
-      </div>
-    </section>
-  </nav>
-  <main id="collection-main">
-    <section id="collection-title-container">
-      <hr class="hr1" />
-      <h1 id="home-title-h1 ">Collectie</h1>
-      <hr class="hr2" />
-      <div id="filter-btn-container">
-        <span class="material-symbols-outlined filter-btn"> filter_alt </span>
-      </div>
-      <hr class="hr3" />
-    </section>
-    <div id="filter-popup">
-      <span id="filter-close-btn" class="material-symbols-outlined">
-        close
-      </span>
-      <form>
-        <div class="filter-form-subcontainer">
-          <h2>Soort Kunstwerken</h2>
-          <div>
-            <div class="filter-div">
-              <input id="alles-kunstwerken" type="radio" name="kunstwerken" value="alles-kunstwerken" />
-              <label for="alles-kunstwerken">Toon Alles</label>
+  <body id="collection-body">
+    <div id="filter-popup-bg"></div>
+    <div id="img-popup-bg"></div>
+    <div id="img-popup"></div>
+    <nav>
+      <header>
+        <a href="../index.html" id="nav-a"
+          ><svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="125"
+            height="22"
+            viewBox="0 0 125 22"
+          >
+            <text
+              id="KUNST_IN_HUIS"
+              data-name="KUNST IN HUIS"
+              transform="translate(0 17)"
+              fill="#fff"
+              font-size="18"
+              font-family="Roboto-Bold, Roboto"
+              font-weight="700"
+            >
+              <tspan x="0" y="0">KUNST</tspan>
+              <tspan
+                y="0"
+                font-family="Roboto-Regular, Roboto"
+                font-weight="400"
+              >
+                IN HUIS
+              </tspan>
+            </text>
+          </svg></a
+        >
+        <span id="hamburger-btn" class="material-symbols-outlined"> menu </span>
+        <span id="hamburger-close-btn" class="material-symbols-outlined">
+          close
+        </span>
+      </header>
+      <section id="hamburger-nav">
+        <div id="nav-cards-container">
+          <a href="compart.html">
+            <div class="nav-cards">
+              <img src="../assets/images/nav-bg-1.jpg" />
+              <h2>Lookalikes</h2>
             </div>
-
-            <div class="filter-div">
-              <input id="collage" type="radio" name="kunstwerken" value="collage" />
-              <label for="collage">Collage</label>
+          </a>
+          <a href="collection.html">
+            <div class="nav-cards">
+              <img src="../assets/images/nav-bg-2.jpg" />
+              <h2>Collectie</h2>
             </div>
-            <div class="filter-div">
-              <input id="fotografie" type="radio" name="kunstwerken" value="fotografie" />
-              <label for="fotografie">Fotografie</label>
+          </a>
+          <a href="artiesten.html">
+            <div class="nav-cards">
+              <img src="../assets/images/nav-bg-4.jpg" />
+              <h2>Artiesten</h2>
             </div>
-            <div class="filter-div">
-              <input id="grafiek" type="radio" name="kunstwerken" value="grafiek" />
-              <label for="grafiek">Grafiek</label>
+          </a>
+          <a href="favorieten.html">
+            <div class="nav-cards">
+              <img src="../assets/images/nav-bg-3.jpg" />
+              <h2>Favorieten</h2>
             </div>
-            <div class="filter-div">
-              <input id="illustratie" type="radio" name="kunstwerken" value="illustratie" />
-              <label for="illustratie">Illustratie</label>
-            </div>
-            <div class="filter-div">
-              <input id="mixed-media" type="radio" name="kunstwerken" value="mixed-media" />
-              <label for="mixed-media">Mixed Media</label>
-            </div>
-            <div class="filter-div">
-              <input id="ruimtelijk-werk" type="radio" name="kunstwerken" value="ruimtelijk-werk" />
-              <label for="ruimtelijk-werk">Ruimtelijk Werk</label>
-            </div>
-            <div class="filter-div">
-              <input id="shilderen" type="radio" name="kunstwerken" value="shilderen" />
-              <label for="shilderen">Shilderen</label>
-            </div>
-            <div class="filter-div">
-              <input id="tekenen" type="radio" name="kunstwerken" value="tekenen" />
-              <label for="tekenen">Tekenen</label>
-            </div>
-            <div class="filter-div">
-              <input id="overige" type="radio" name="kunstwerken" value="overige" />
-              <label for="overige">Overige</label>
-            </div>
-          </div>
+          </a>
         </div>
-        <div class="filter-form-subcontainer">
-          <h2>Locatie</h2>
-          <div>
-            <div class="filter-div">
-              <input id="alles-locatie" type="radio" name="locatie" value="alles-locatie" />
-              <label for="alles-locatie">Toon Alles</label>
-            </div>
-            <div class="filter-div">
-              <input id="leuven" type="radio" name="locatie" value="leuven" />
-              <label for="leuven">Leuven</label>
-            </div>
-            <div class="filter-div">
-              <input id="antwerpen" type="radio" name="locatie" value="antwerpen" />
-              <label for="antwerpen">Antwerpen</label>
-            </div>
-            <div class="filter-div">
-              <input id="brussel" type="radio" name="locatie" value="brussel" />
-              <label for="brussel">Brussel</label>
-            </div>
-            <div class="filter-div">
-              <input id="kortrijk" type="radio" name="locatie" value="kortrijk" />
-              <label for="kortrijk">Kortrijk</label>
+        <div id="nav-btns-container">
+          <a href="./login.html"><button>Aanmelden</button></a>
+          <a href="./signin.html"><button>Registreren</button></a>
+        </div>
+      </section>
+    </nav>
+    <main id="collection-main">
+      <section id="collection-title-container">
+        <hr class="hr1" />
+        <h1 id="home-title-h1 ">Collectie</h1>
+        <hr class="hr2" />
+        <div id="filter-btn-container">
+          <span class="material-symbols-outlined filter-btn"> filter_alt </span>
+        </div>
+        <hr class="hr3" />
+      </section>
+      <div id="filter-popup">
+        <form>
+          <div class="filter-form-subcontainer">
+            <h2>Soort Kunstwerken</h2>
+            <div>
+              <div class="filter-div">
+                <input
+                  id="alles-kunstwerken"
+                  type="radio"
+                  name="kunstwerken"
+                  value="alles-kunstwerken"
+                />
+                <label for="alles-kunstwerken">Toon Alles</label>
+              </div>
+
+              <div class="filter-div">
+                <input
+                  id="collage"
+                  type="radio"
+                  name="kunstwerken"
+                  value="collage"
+                />
+                <label for="collage">Collage</label>
+              </div>
+              <div class="filter-div">
+                <input
+                  id="fotografie"
+                  type="radio"
+                  name="kunstwerken"
+                  value="fotografie"
+                />
+                <label for="fotografie">Fotografie</label>
+              </div>
+              <div class="filter-div">
+                <input
+                  id="grafiek"
+                  type="radio"
+                  name="kunstwerken"
+                  value="grafiek"
+                />
+                <label for="grafiek">Grafiek</label>
+              </div>
+              <div class="filter-div">
+                <input
+                  id="illustratie"
+                  type="radio"
+                  name="kunstwerken"
+                  value="illustratie"
+                />
+                <label for="illustratie">Illustratie</label>
+              </div>
+              <div class="filter-div">
+                <input
+                  id="mixed-media"
+                  type="radio"
+                  name="kunstwerken"
+                  value="mixed-media"
+                />
+                <label for="mixed-media">Mixed Media</label>
+              </div>
+              <div class="filter-div">
+                <input
+                  id="ruimtelijk-werk"
+                  type="radio"
+                  name="kunstwerken"
+                  value="ruimtelijk-werk"
+                />
+                <label for="ruimtelijk-werk">Ruimtelijk Werk</label>
+              </div>
+              <div class="filter-div">
+                <input
+                  id="shilderen"
+                  type="radio"
+                  name="kunstwerken"
+                  value="shilderen"
+                />
+                <label for="shilderen">Shilderen</label>
+              </div>
+              <div class="filter-div">
+                <input
+                  id="tekenen"
+                  type="radio"
+                  name="kunstwerken"
+                  value="tekenen"
+                />
+                <label for="tekenen">Tekenen</label>
+              </div>
+              <div class="filter-div">
+                <input
+                  id="overige"
+                  type="radio"
+                  name="kunstwerken"
+                  value="overige"
+                />
+                <label for="overige">Overige</label>
+              </div>
             </div>
           </div>
-        </div>
-        <button type="submit">Filter</button>
-      </form>
-    </div>
-    <section class="collection-container-row">
-      <div id="collection-column1" class="collection-container-column"></div>
-      <div id="collection-column2" class="collection-container-column"></div>
-      <div id="collection-column3" class="collection-container-column"></div>
-    </section>
-  </main>
-</body>
-
+          <div class="filter-form-subcontainer">
+            <h2>Locatie</h2>
+            <div>
+              <div class="filter-div">
+                <input
+                  id="alles-locatie"
+                  type="radio"
+                  name="locatie"
+                  value="alles-locatie"
+                />
+                <label for="alles-locatie">Toon Alles</label>
+              </div>
+              <div class="filter-div">
+                <input id="leuven" type="radio" name="locatie" value="leuven" />
+                <label for="leuven">Leuven</label>
+              </div>
+              <div class="filter-div">
+                <input
+                  id="antwerpen"
+                  type="radio"
+                  name="locatie"
+                  value="antwerpen"
+                />
+                <label for="antwerpen">Antwerpen</label>
+              </div>
+              <div class="filter-div">
+                <input
+                  id="brussel"
+                  type="radio"
+                  name="locatie"
+                  value="brussel"
+                />
+                <label for="brussel">Brussel</label>
+              </div>
+              <div class="filter-div">
+                <input
+                  id="kortrijk"
+                  type="radio"
+                  name="locatie"
+                  value="kortrijk"
+                />
+                <label for="kortrijk">Kortrijk</label>
+              </div>
+            </div>
+          </div>
+          <button type="submit">Filter</button>
+        </form>
+      </div>
+      <section class="collection-container-row">
+        <div id="collection-column1" class="collection-container-column"></div>
+        <div id="collection-column2" class="collection-container-column"></div>
+        <div id="collection-column3" class="collection-container-column"></div>
+      </section>
+    </main>
+  </body>
 </html>

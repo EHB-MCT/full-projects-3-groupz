@@ -1,15 +1,14 @@
 import nav from "../utils/nav.js";
 import { getArtworkData } from "../utils/getData.js";
 import filterPopup from "../utils/filterPopup.js";
-import imgPopup from "../utils/imgPopup.js"; 
+import imgPopup from "../utils/imgPopup.js";
 
 nav();
 
 const filterBtn = document.getElementById("filter-btn-container");
-const filterCloseBtn = document.getElementById("filter-close-btn");
 const filterPopupBg = document.getElementById("filter-popup-bg");
 const filterPopupContainer = document.getElementById("filter-popup");
-filterPopup(filterBtn, filterCloseBtn, filterPopupBg, filterPopupContainer);
+filterPopup(filterBtn, filterPopupBg, filterPopupContainer);
 
 const collectionC1 = document.getElementById("collection-column1");
 const collectionC2 = document.getElementById("collection-column2");
@@ -63,5 +62,3 @@ getArtworkData().then((response) => {
     });
   });
 });
-
-
