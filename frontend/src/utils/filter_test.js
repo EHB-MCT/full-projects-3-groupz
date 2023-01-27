@@ -18,7 +18,7 @@ const kortrijk = document.getElementById("kortrijk");
 const display = document.getElementById("collection-column2");
 const display2 = document.getElementById("collection-column3");
 const display1 = document.getElementById("collection-column1");
-const display_all = document.getElementById("collection-columns")
+const display_all = document.getElementById("collection-column1" || "collection-column2" || "collection-column3")
 const alles = document.getElementById("alles-kunstwerken");
 
 const alles2 = document.getElementById("alles-locatie");
@@ -45,12 +45,10 @@ getArtworkData().then((data) => {
     console.log(data)
 
     alles.addEventListener("click", () => {
-        display.innerHTML = "";
-        display1.innerHTML = "";
-        display2.innerHTML = "";
+       
         display_all.innerHTML = "";
         data.forEach(item => {
-            if (item.categories === "Collage" || "Fotografie" || "Grafiek" || "Tekenen" || "Illustratie" || "Mixed Media" || "Ruimtelijke werk" || "Schilderen") {
+            if (item.categories === "Collage" || "Fotografie" || "Grafiek" || "Tekenen" || "Illustratie" || "Mixed Media" || "Ruimtelijk werk" || "Schilderen") {
                 display_all.innerHTML += `<img src="${item.img}"> `;
             }
         });
@@ -69,7 +67,7 @@ getArtworkData().then((data) => {
         display2.innerHTML = "";
         display_all.innerHTML = "";
         data.forEach(item => {
-            if (item.categories === "Collage" || "Fotografie" || "Grafiek" || "Tekenen" || "Illustratie" || "Mixed Media" || "Ruimtelijke werk" || "Schilderen") {
+            if (item.categories === "Collage" || "Fotografie" || "Grafiek" || "Tekenen" || "Illustratie" || "Mixed Media" || "Ruimtelijk werk" || "Schilderen") {
                 display_all.innerHTML += `<img src="${item.img}"> `;
             }
         });
@@ -152,7 +150,7 @@ getArtworkData().then((data) => {
         display1.innerHTML = "";
         display.innerHTML = "";
         data.forEach(item => {
-            if (item.categories === "Ruimtelijke werk") {
+            if (item.categories === "Ruimtelijk werk") {
                 display.innerHTML += `<img src="${item.img}"> `;
             }
         });
