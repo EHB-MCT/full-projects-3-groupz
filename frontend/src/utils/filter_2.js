@@ -2,26 +2,26 @@
 // console.log(data)
 
 
-import {
-  getArtworkData
-} from "./getData";
+// import {
+//   getArtworkData
+// } from "./getData";
 
-getArtworkData()
+// getArtworkData()
 
 
-const app = {
-  eventList: [],
-  filteredEventList: [],
-  searchTerm: "",
-  sortBy: "location", 
-  sortBy:"sort",
+// const app = {
+//   eventList: [],
+//   filteredEventList: [],
+//   searchTerm: "",
+//   sortBy: "location",
+//   sortBy: "sort",
 
-  addEventListeners: function () {
-      document.getElementById("collage").addEventListener("click", () => {
-          this.applyFilter();
-      });
+//   addEventListeners: function () {
+//     document.getElementById("collage").addEventListener("click", () => {
+//       this.applyFilter();
+//     });
 
-  },
+//   },
 
   // init() {
 
@@ -29,74 +29,73 @@ const app = {
   //     this.fetchEvents();
   // },
 
-  fetchEvents(
+  // fetchEvents(
 
 
-  ) {
-      getArtworkData.then(response => {
-          return response.json();
-      }).then(data => {
-          console.log("test");
-          data.forEach(element => {
-              
-              const categories = element.categories;
-              const img = element.img;
-              const locatie = element.locatie;
+  // ) {
+  //   getArtworkData.then(response => {
+  //     return response.json();
+  //   }).then(data => {
+  //     console.log("test");
+  //     data.forEach(element => {
 
-              let items = "";
-              if (categories, img, locatie) {
-                  items = new Event(categories, img, locatie);
-              }
+  //       const categories = element.categories;
+  //       const img = element.img;
+  //       const locatie = element.locatie;
 
-              // const items = new Event(Title, Description, Image, Location);
-              this.eventList.push(items);
+  //       let items = "";
+  //       if (categories, img, locatie) {
+  //         items = new Event(categories, img, locatie);
+  //       }
 
-              this.filteredEventList = this.eventList;
+  //       // const items = new Event(Title, Description, Image, Location);
+  //       this.eventList.push(items);
 
-          });
-          this.render();
-      });
+  //       this.filteredEventList = this.eventList;
 
-  },
-  
-  applyFilter: function () {
+  //     });
+  //     this.render();
+  //   });
 
-      this.eventList.sort((a, b) => {
-          return a.title - b.title;
-      });
-      this.render();
-  },
+  // },
 
-  render: function () {
+  // applyFilter: function () {
 
-      let eventHtml = document.getElementById("eventContainer");
-      eventHtml.innerHTML = "";
-      let htmlString = "";
-      this.eventList.forEach(element => {
-          htmlString += element.htmlString;
-      });
+  //   this.eventList.sort((a, b) => {
+  //     return a.title - b.title;
+  //   });
+  //   this.render();
+  // },
 
-      eventHtml.innerHTML = htmlString;
+  // render: function () {
 
-      // let htmlString = '';
-      // this.eventList.forEach(element =>{
-      //     htmlString += element.htmlString;
-      // });
-      // document.getElementById('eventContainer').innerHtml = htmlString;
+  //   let eventHtml = document.getElementById("eventContainer");
+  //   eventHtml.innerHTML = "";
+  //   let htmlString = "";
+  //   this.eventList.forEach(element => {
+  //     htmlString += element.htmlString;
+  //   });
 
+  //   eventHtml.innerHTML = htmlString;
 
+    // let htmlString = '';
+    // this.eventList.forEach(element =>{
+    //     htmlString += element.htmlString;
+    // });
+    // document.getElementById('eventContainer').innerHtml = htmlString;
 
 
 
-  },
-
-};
 
 
-console.log("wail-test150")
+//   },
 
-app.init();
-app.fetchEvents();
+// };
+
+
+
+// app.init();
+// app.fetchEvents();
 
 // Success 
 
@@ -187,3 +186,169 @@ app.fetchEvents();
 //     .then((json) => console.log(json));
 
 
+
+
+import {
+  getArtworkData
+} from "../utils/getData.js";
+
+
+getArtworkData();
+
+console.log("test_link")
+
+const collage = document.getElementById("collage");
+const fotografie = document.getElementById("photograph");
+const grafiek = document.getElementById("grafiek");
+const illustratie = document.getElementById("illustratie");
+const mixed_media = document.getElementById("mixed_media");
+const ruimtelijke_werk = document.getElementById("ruimtelijke_werk");
+const schilderen = document.getElementById("schilderen");
+const tekenen = document.getElementById("overige");
+const display = document.getElementById("display");
+
+
+collage.addEventListener('click', () => {
+  display.innerHTML = "";
+  data.forEach(item => {
+    if (item.categories === "Collage") {
+      display.innerHTML += `<img> src="${item.img}"`;
+    }
+  });
+});
+
+fotografie.addEventListener('click', () => {
+  display.innerHTML = "";
+  data.forEach(item => {
+    if (item.categories === "Fotografie") {
+      display.innerHTML += `<img> src="${item.img}"`;
+    }
+  });
+});
+
+grafiek.addEventListener('click', () => {
+  display.innerHTML = "";
+  data.forEach(item => {
+    if (item.categories === "Grafiek") {
+      display.innerHTML += `<img> src="${item.img}"`;
+    }
+  });
+});
+
+illustratie.addEventListener('click', () => {
+  display.innerHTML = "";
+  data.forEach(item => {
+    if (item.categories === "Illustratie") {
+      display.innerHTML += `<img> src="${item.img}"`;
+    }
+  });
+});
+
+mixed_media.addEventListener('click', () => {
+  display.innerHTML = "";
+  data.forEach(item => {
+    if (item.categories === "Mixed Media") {
+      display.innerHTML += `<img> src="${item.img}"`;
+    }
+  });
+});
+
+ruimtelijke_werk.addEventListener('click', () => {
+  display.innerHTML = "";
+  data.forEach(item => {
+    if (item.categories === "Ruimtelijke werk") {
+      display.innerHTML += `<img> src="${item.img}"`;
+    }
+  });
+});
+
+tekenen.addEventListener('click', () => {
+  display.innerHTML = "";
+  data.forEach(item => {
+    if (item.categories === "Tekenen") {
+      display.innerHTML += `<img> src="${item.img}"`;
+    }
+  });
+});
+
+schilderen.addEventListener('click', () => {
+  display.innerHTML = "";
+  data.forEach(item => {
+    if (item.categories === "Schilderen") {
+      display.innerHTML += `<img> src="${item.img}"`;
+    }
+  });
+});
+
+
+
+
+
+
+
+
+
+getArtworkData().then((data) => {
+  console.log(data)
+
+collage.addEventListener("click", () => {
+  display.innerHTML = "";
+  data.forEach(item => {
+    if (item.categories === "Collage") {
+      display.innerHTML += `<img> src="${item.img}"`;
+    }
+  });
+}),
+fotografie.addEventListener("click", () => {
+  display.innerHTML = "";
+  data.forEach(item => {
+    if (item.categories === "Fotografie") {
+      display.innerHTML += `<img> src="${item.img}"`;
+    }
+  });
+}),
+
+grafiek.addEventListener("click", () => {
+  display.innerHTML = "";
+  data.forEach(item => {
+    if (item.categories === "Grafiek") {
+      display.innerHTML += `<img> src="${item.img}"`;
+    }
+  });
+}),
+illustratie.addEventListener("click", () => {
+  display.innerHTML = "";
+  data.forEach(item => {
+    if (item.categories === "Illustratie") {
+      display.innerHTML += `<img> src="${item.img}"`;
+    }
+  });
+}),
+mixed_media.addEventListener("click", () => {
+  display.innerHTML = "";
+  data.forEach(item => {
+    if (item.categories === "Mixed Media") {
+      display.innerHTML += `<img> src="${item.img}"`;
+    }
+  });
+}),
+ruimtelijke_werk.addEventListener("click", () => {
+  display.innerHTML = "";
+  data.forEach(item => {
+    if (item.categories === "Ruimtelijke Werk") {
+      display.innerHTML += `<img> src="${item.img}"`;
+    }
+  });
+}),
+tekenen.addEventListener("click", () => {
+  display.innerHTML = "";
+  data.forEach(item => {
+    if (item.categories === "Tekenen") {
+      display.innerHTML += `<img> src="${item.img}"`;
+    }
+  });
+})
+
+
+
+})
