@@ -239,12 +239,16 @@ app.post("/generateImage", async (req, res) => {
   const response = await openai.createImage({
     prompt: description,
     n: 1,
-    size: "1024x1024",
+    size: "512x512",
   });
 
   let imageUrl = response.data.data[0].url;
+
   console.log(imageUrl);
-  res.send(imageUrl);
+
+  res.json({
+    imageUrl: imageUrl,
+  });
 });
 
 app.listen(port, () => {
