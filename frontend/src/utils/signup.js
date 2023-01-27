@@ -9,10 +9,10 @@ document.getElementById('signupform').addEventListener("submit", event => {
 
     if(user.password == user.password2){
         getArtworkData("http://localhost:6456/signup", "POST", user).then(data => {
-            document.getElementById('succesmessagesignin').innerHTML = `Je bent succesvol aangemeld!`
+            document.getElementById('succesmessagesignin').innerHTML = `Je bent succesvol geregistreerd!`
         })
     }else{
-        alert("Passwods do not match")
+        document.getElementById('nonsuccesmessagesignin').innerText = `Wachtwoorden passen niet!`
     }
 })
 

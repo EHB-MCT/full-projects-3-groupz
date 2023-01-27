@@ -613,6 +613,12 @@ input {
   color: rgb(57, 182, 124);
 }
 
+.nonsuccesmessage{
+  padding: 10px;
+  margin-bottom: 10px;
+  color: rgb(223, 33, 12);
+}
+
 .text-favorieten a {
   color: #30af82;
   font-size: 16px;
