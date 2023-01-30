@@ -11,7 +11,11 @@ export default function artiestCard(data) {
     </div>
     <div class="infoArtiesten">
       <p>${item.discription}</p>
-    </div>`;
+    </div>
+    <div id="nav-btns-container" class="artiesten-button">
+    <a href=""><button>Website</button></a>
+    <a href=""><button>meer info</button></a>
+  </div>`;
     })
     artisten.innerHTML = htmlString
 }

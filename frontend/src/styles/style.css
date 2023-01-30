@@ -512,10 +512,11 @@ input {
 /* Artiesten pagina */
 
 .infoArtiesten p {
-  margin-left: 40px;
-  width: 80%;
-  margin-top: 10px;
-  margin-bottom: 50px;
+  margin-left: 1%;
+  width: 99%;
+  margin-top: 15px;
+  overflow:hidden;
+  max-height: 114px;
 }
 
 .artiesten {
@@ -523,8 +524,9 @@ input {
   color: white;
   background-color: #3e3c4f;
   align-items: center;
-  padding: 5px 15px;
+  padding: 7.5px 15px;
   column-gap: 20px;
+  justify-content: space-between;
 }
 
 .artiesten p {
@@ -622,3 +624,8 @@ input {
   font-size: 16px;
   text-decoration: underline;
 }
+
+.artiesten-button{
+  margin: 15px 0px 50px 10px;
+}
+
