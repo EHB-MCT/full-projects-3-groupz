@@ -21,7 +21,33 @@ compartForm.addEventListener("submit", async (e) => {
   })
     .then((res) => res.json())
     .then((data) => {
-      htmlString = `<img src="${data.imageUrl}"   />`;
+      let img = data.imageUrl;
+
+      htmlString = `<img src="${img}"/>`;
       resultContainer.innerHTML = htmlString;
+
+      let imagesData = {
+        imageUrl: img,
+      };
+
+      fetch("http://localhost:8080/uploadImageUrl", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(imagesData),
+      })
+        .then(
+          (response) => {
+            console.log(response);
+            response.json();
+          } // if the response is a JSON object
+        )
+        .then(
+          (success) => console.log(success) // Handle the success response object
+        )
+        .catch(
+          (error) => console.log(error) // Handle the error response object
+        );
     });
 });

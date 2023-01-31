@@ -4,38 +4,57 @@ import (
 	"net/http"
 
 	"github.com/gin-gonic/gin"
-	// "errors"
+
+	"image/jpeg"
+	"image/png"
+	"os"
 )
 
-type book struct{
-	ID			string `json:"id"`
-	Title		string `json:"title"`
-	Author		string `json:"author"`
-	Quantity	int `json:"quantity"`
-}
+func handleUploadImageUrl(c *gin.Context) {
+	var imagesData struct {
+		ImageUrl string `json:"imageUrl"`
+	}
 
-var books = []book{
-	{ID: "1", Title: "In Search of Lost Time", Author: "Marcel Proust", Quantity: 2},
-	{ID: "2", Title: "The Great Gatsby", Author: "F. Scott Fitzgerald", Quantity: 5},
-	{ID: "3", Title: "War and Peace", Author: "Leo Tolstoy", Quantity: 6},
-}
-
-// GET request
-func getBooks(c *gin.Context){
-	// IndentedJSON -> returns formatted JSON
-	c.IndentedJSON(http.StatusOK, books)
-}
-
-// POST request
-func createBook(c *gin.Context){
-	var newBook book
-
-	if err := c.BindJSON(&newBook); err != nil {
+	if err := c.ShouldBindJSON(&imagesData); err != nil {
+		c.JSON(http.StatusBadRequest, gin.H{"error": err.Error()})
 		return
 	}
 
-	books = append(books, newBook)
-	c.IndentedJSON(http.StatusCreated, newBook)
+	// logic to handle uploaded image URL
+	imgUrl := imagesData.ImageUrl
+	convertImage(imgUrl)
+
+	c.JSON(http.StatusOK, gin.H{"message": "Image URL uploaded successfully"})
+}
+
+func convertImage(url string) error {
+    // Download the PNG image from the URL
+    response, err := http.Get(url)
+    if err != nil {
+        return err
+    }
+    defer response.Body.Close()
+
+    // Decode the PNG image
+    img, err := png.Decode(response.Body)
+    if err != nil {
+        return err
+    }
+
+    // Create a new JPG file
+    jpgFile, err := os.Create("converted.jpg")
+    if err != nil {
+        return err
+    }
+    defer jpgFile.Close()
+
+    // Encode the PNG image as JPG
+    err = jpeg.Encode(jpgFile, img, &jpeg.Options{Quality: 75})
+    if err != nil {
+        return err
+    }
+
+    return nil
 }
 
 func Cors() gin.HandlerFunc {
@@ -59,7 +78,7 @@ func main() {
 	// Router setup
 	router := gin.Default()
 	router.Use(Cors())
-	router.GET("/books", getBooks)
-	router.POST("/books", createBook)
+	router.POST("/uploadImageUrl", handleUploadImageUrl)
 	router.Run("localhost:8080")
+
 }
