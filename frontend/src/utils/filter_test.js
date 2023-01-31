@@ -2,14 +2,18 @@ import {
     getArtworkData
 } from "../utils/getData.js";
 
+import gallery from "./gallery.js";
+
+
+
 
 const collage = document.getElementById("collage");
 const fotografie = document.getElementById("fotografie");
 const grafiek = document.getElementById("grafiek");
 const illustratie = document.getElementById("illustratie");
 const mixed_media = document.getElementById("mixed_media");
-const ruimtelijke_werk = document.getElementById("ruimtelijke_werk");
-const schilderen = document.getElementById("schilderen");
+const ruimtelijke_werk = document.getElementById("ruimtelijk_werk");
+const schilderen = document.getElementById("shilderen");
 const tekenen = document.getElementById("tekenen");
 const leuven = document.getElementById("leuven");
 const antwerpen = document.getElementById("antwerpen");
@@ -20,254 +24,159 @@ const display2 = document.getElementById("collection-column3");
 const display1 = document.getElementById("collection-column1");
 const display_all = document.getElementById("collection-column1" || "collection-column2" || "collection-column3")
 const alles = document.getElementById("alles-kunstwerken");
-
 const alles2 = document.getElementById("alles-locatie");
+
+
+let filteredArray = [];
+
+
+////////////////////// WERKT \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 
 // FILTER OP CATEGORIES
 
-getArtworkData().then((data) => {
-    console.log(data)
+function filterArtworkData(button, data, soort, locatie) {
 
-    collage.addEventListener("click", () => {
-        display.innerHTML = "";
-        display1.innerHTML = "";
-        display2.innerHTML = "";
+
+    button.addEventListener("change", () => {
+        filteredArray = [];
+
+
+        if (soort === "alles" || locatie === "alles2") {
+            gallery(data)
+            return
+        }
+
         data.forEach(item => {
-            if (item.categories === "Collage") {
-                display.innerHTML += `<img src="${item.img}"> `;
+            if (item.categories === soort || item.Locatie === locatie) {
+                filteredArray.push(item);
             }
         });
+        gallery(filteredArray)
     })
-
-})
+}
 
 getArtworkData().then((data) => {
-    console.log(data)
 
-    alles.addEventListener("click", () => {
-       
-        display_all.innerHTML = "";
-        data.forEach(item => {
-            if (item.categories === "Collage" || "Fotografie" || "Grafiek" || "Tekenen" || "Illustratie" || "Mixed Media" || "Ruimtelijk werk" || "Schilderen") {
-                display_all.innerHTML += `<img src="${item.img}"> `;
-            }
-        });
-    })
+    // Soort
 
-})
+    filterArtworkData(collage, data, "Collage");
+    filterArtworkData(alles, data, "alles");
+    filterArtworkData(fotografie, data, "Fotografie");
+    filterArtworkData(ruimtelijke_werk, data, "Ruimtelijk werk");
+    filterArtworkData(schilderen, data, "Schilderen");
+    filterArtworkData(illustratie, data, "Illustratie");
+    filterArtworkData(grafiek, data, "Grafiek");
+    filterArtworkData(tekenen, data, "Tekenen");
+    filterArtworkData(mixed_media, data, "Mixed Media");
 
+    // Locatie 
 
-
-getArtworkData().then((data) => {
-    console.log(data)
-
-    alles2.addEventListener("click", () => {
-        display.innerHTML = "";
-        display1.innerHTML = "";
-        display2.innerHTML = "";
-        display_all.innerHTML = "";
-        data.forEach(item => {
-            if (item.categories === "Collage" || "Fotografie" || "Grafiek" || "Tekenen" || "Illustratie" || "Mixed Media" || "Ruimtelijk werk" || "Schilderen") {
-                display_all.innerHTML += `<img src="${item.img}"> `;
-            }
-        });
-    })
+    filterArtworkData(antwerpen, data, null, "Antwerpen");
+    filterArtworkData(brussel, data, null, "Brussel");
+    filterArtworkData(kortrijk, data, null, "Kortrijk");
+    filterArtworkData(leuven, data, null, "Leuven");
+    filterArtworkData(alles2, data, null, "alles2");
 
 })
 
 
-
-getArtworkData().then((data) => {
-    console.log(data)
-
-    fotografie.addEventListener("click", () => {
-        display.innerHTML = "";
-        display1.innerHTML = "";
-        display.innerHTML = "";
-        data.forEach(item => {
-            if (item.categories === "Fotografie") {
-                display.innerHTML += `<img src="${item.img}"> `;
-            }
-        }); 
-    })
-
-})
+////////////////////// WERKT_EINDE \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 
 
-getArtworkData().then((data) => {
-    console.log(data)
 
-    grafiek.addEventListener("click", () => {
-        display.innerHTML = "";
-        display1.innerHTML = "";
-        display.innerHTML = "";
-        data.forEach(item => {
-            if (item.categories === "Grafiek") {
-                display.innerHTML += `<img src="${item.img}"> `;
-            }
-        });
-    })
 
-})
 
-getArtworkData().then((data) => {
-    console.log(data)
 
-    illustratie.addEventListener("click", () => {
-        display.innerHTML = "";
-        display1.innerHTML = "";
-        display.innerHTML = "";
-        data.forEach(item => {
-            if (item.categories === "Illustratie") {
-                display.innerHTML += `<img src="${item.img}"> `;
-            }
-        });
-    })
 
-})
 
-getArtworkData().then((data) => {
-    console.log(data)
+// function filterArtworkData(form, data, categories, Locatie) {
 
-    mixed_media.addEventListener("click", () => {
-        display.innerHTML = "";
-        display1.innerHTML = "";
-        display.innerHTML = "";
-        data.forEach(item => {
-            if (item.categories === "Mixed Media") {
-                display.innerHTML += `<img src="${item.img}"> `;
-            }
-        });
-    })
 
-})
+//     //    getArtworkData.categories = categories
+//     //    getArtworkData.Locatie = Locatie
 
-getArtworkData().then((data) => {
-    console.log(data)
+//     // const data = getArtworkData()
 
-    ruimtelijke_werk.addEventListener("click", () => {
-        display.innerHTML = "";
-        display1.innerHTML = "";
-        display.innerHTML = "";
-        data.forEach(item => {
-            if (item.categories === "Ruimtelijk werk") {
-                display.innerHTML += `<img src="${item.img}"> `;
-            }
-        });
-    })
+//     form.addEventListener("submit", (e) => {
+//         e.preventDefault();
+//         const soort = e.target.kunstwerken.value;
+//         const locatie = e.target.locatie.value;
 
-})
 
-getArtworkData().then((data) => {
-    console.log(data)
+//         data.forEach((item) => {
+//             if (item.categories === categories) {
+//                 filteredArray.push(item);
+//             }
+//         });
 
-    schilderen.addEventListener("click", () => {
-        display.innerHTML = "";
-        display1.innerHTML = "";
-        display.innerHTML = "";
-        data.forEach(item => {
-            if (item.categories === "Schilderen") {
-                display.innerHTML += `<img src="${item.img}"> `;
-            }
-        });
-    })
+//         filteredArray.forEach((item) => {
+//             if (item.Locatie === Locatie) {
+//                 filteredArray.push(item);
+//             }
+//         });
 
-})
 
-getArtworkData().then((data) => {
-    console.log(data)
+//     });
+//     console.log(categories)
+// }
 
-    tekenen.addEventListener("click", () => {
-        display.innerHTML = "";
-        display1.innerHTML = "";
-        display.innerHTML = "";
-        data.forEach(item => {
-            if (item.categories === "Tekenen") {
-                display.innerHTML += `<img src="${item.img}"> `;
-            }
-        });
-    })
 
-})
 
-getArtworkData().then((data) => {
-    console.log(data)
 
-    over.addEventListener("click", () => {
-        display.innerHTML = "";
-        display1.innerHTML = "";
-        display.innerHTML = "";
-        data.forEach(item => {
-            if (item.categories === "Fotografie") {
-                display.innerHTML += `<img src="${item.img}"> `;
-            }
-        });
-    })
 
-})
 
-// FILTER OP LOCATIE 
 
-getArtworkData().then((data) => {
-    console.log(data)
 
-    brussel.addEventListener("click", () => {
-        display.innerHTML = "";
-        display1.innerHTML = "";
-        display.innerHTML = "";
-        data.forEach(item => {
-            if (item.Locatie === "Brussel") {
-                display.innerHTML += `<img src="${item.img}"> `;
-            }
-        });
-    })
 
-})
+// const data = getArtworkData()
 
-getArtworkData().then((data) => {
-    console.log(data)
+// let form = document.getElementById("filter-popup");
 
-    leuven.addEventListener("click", () => {
-        display.innerHTML = "";
-        display1.innerHTML = "";
-        display.innerHTML = "";
-        data.forEach(item => {
-            if (item.Locatie === "Leuven") {
-                display.innerHTML += `<img src="${item.img}"> `;
-            }
-        });
-    })
+// form.addEventListener("submit", (e) => {
+//     e.preventDefault();
 
-})
-getArtworkData().then((data) => {
-    console.log(data)
+//     const categories = e.target.kunstwerken.value;
+//     const Locatie = e.target.locatie.value;
 
-    kortrijk.addEventListener("click", () => {
-        display.innerHTML = "";
-        display1.innerHTML = "";
-        display.innerHTML = "";
-        data.forEach(item => {
-            if (item.Locatie === "Kortijk") {
-                display.innerHTML += `<img src="${item.img}"> `;
-            }
-        });
-    })
+//     data.forEach((item) => {
+//       if (item.categories === "Collage") {
+//         filteredArray.push(item);
+//       }
+//     });
 
-})
-getArtworkData().then((data) => {
-    console.log(data)
+//     filteredArray.forEach((item) => {
+//       if (item.Locatie === "Brussel") {
+//         filteredArray.push(item);
+//       }
+//     });
 
-    antwerpen.addEventListener("click", () => {
-        display.innerHTML = "";
-        display1.innerHTML = "";
-        display.innerHTML = "";
-        data.forEach(item => {
-            if (item.Locatie === "Antwerpen") {
-                display.innerHTML += `<img src="${item.img}"> `;
-            }
-        });
-    })
-})
+
+
+
+//     console.log("tettettst")
+// });
+
+
+
+
+// getArtworkData().then((data) => {
+//     console.log(data)
+
+//     collage.addEventListener("click", () => {
+//         filteredArray = [];
+//         display.innerHTML = "";
+//         display1.innerHTML = "";
+//         display2.innerHTML = "";
+//         data.forEach(item => {
+//             if (item.categories === "Collage") {
+//                 filteredArray.push(item);
+//             }
+//         });
+//         gallery(filteredArray)
+//     })
+
+// })
+
 
 
 
