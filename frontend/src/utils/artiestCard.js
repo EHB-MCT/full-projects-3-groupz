@@ -13,7 +13,7 @@ export default function artiestCard(data) {
       <p>${item.discription}</p>
     </div>
     <div id="nav-btns-container" class="artiesten-button">
-    <a href=""><button>Website</button></a>
+    <a href=" ${item.website}"><button>Website</button></a>
     <a href=""><button>meer info</button></a>
   </div>`;
     })

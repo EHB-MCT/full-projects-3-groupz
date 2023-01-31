@@ -18,33 +18,6 @@ app.use(express.urlencoded({ extended: false }));
 app.use(express.json());
 app.use(cors());
 
-//testMongo
-app.get("/testMongo", async (req, res) => {
-  try {
-    //connect to the db
-    await client.connect();
-
-    //retrieve the users collection data
-    const colli = client.db("kunst").collection("users");
-    const users = await colli.find({}).toArray();
-
-    //Send back the file
-    res.status(200).send(users);
-  } catch (error) {
-    res.status(500).send({
-      error: "Something went wrong",
-      value: error,
-    });
-  } finally {
-    await client.close();
-  }
-});
-
-//Root route
-app.get("/", (req, res) => {
-  res.send("Everything is OK");
-});
-
 //Return all
 app.get("/art", async (req, res) => {
   try {
