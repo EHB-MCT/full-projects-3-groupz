@@ -1,7 +1,5 @@
 import nav from "../utils/nav.js";
-import {
-  getArtworkData
-} from "../utils/getData.js";
+import { getArtworkData } from "../utils/getData.js";
 import filterPopup from "../utils/filterPopup.js";
 import gallery from "../utils/gallery.js";
 
@@ -24,4 +22,4 @@ filterPopup(filterBtn, filterPopupBg, filterPopupContainer);
 // let c2String = "";
 // let c3String = "";
 
-getArtworkData().then((response) => gallery(response))
+getArtworkData().then((response) => gallery(response));
