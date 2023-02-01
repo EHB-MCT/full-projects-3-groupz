@@ -11,6 +11,8 @@ document.getElementById('signupform').addEventListener("submit", event => {
         getArtworkData("http://localhost:6456/signup", "POST", user).then(data => {
             document.getElementById('succesmessagesignin').innerHTML = `Je bent succesvol geregistreerd!`
         })
+        setTimeout(1000)
+        window.location = './login.html'
     }else{
         document.getElementById('nonsuccesmessagesignin').innerText = `Wachtwoorden passen niet!`
     }

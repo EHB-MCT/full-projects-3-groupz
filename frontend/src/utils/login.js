@@ -11,19 +11,14 @@ document.getElementById('loginform').addEventListener("submit", event => {
     if (user) {
       document.getElementById('welcomemessage').innerText = `${result.data.username}`
       document.getElementById('succesmessageinlog').innerHTML = `Je bent succesvol ingelogd!`
+      setTimeout(1000)
+      window.location = '/index.html'
     } else {
       document.getElementById('succesmessageinlog').innerHTML = `Kijk of al je velden correct zijn ingevuld of registreer eerst!`
     }
 
 
-    if (user) {
-      document.getElementById('favorite_button').addEventListener("click", () => {
-        window.location = "./favorieten.html"
-      }) = `${result.data.username}`
-
-    } else {
-      document.getElementById('text_fav').innerHTML = `Maak eerst een account aan!`
-    }
+ 
   })
 
 
