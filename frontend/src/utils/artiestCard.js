@@ -33,8 +33,6 @@ export default function artiestCard(data) {
 
 
 
-
-
   display14.addEventListener("click", () => {
 
     window.location = "./artiestenInfo.html"
