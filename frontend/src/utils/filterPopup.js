@@ -1,5 +1,3 @@
-
-
 export default function filterPopup(button, bg, popup) {
   button.addEventListener("click", (e) => {
     e.preventDefault();
@@ -15,5 +13,3 @@ export default function filterPopup(button, bg, popup) {
     popup.style.display = "none";
   });
 }
-
-console.log("wail-test2");

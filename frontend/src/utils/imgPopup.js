@@ -1,7 +1,6 @@
 export default function imgPopup(title, artist, price, height, width, img) {
   const popupBg = document.getElementById("img-popup-bg");
   const imgPopup = document.getElementById("img-popup");
-
   popupBg.style.display = "block";
   imgPopup.innerHTML = `
   <div id="img-popup-img-container">

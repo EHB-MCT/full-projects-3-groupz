@@ -9,11 +9,11 @@ document.getElementById('favorite_button').addEventListener("click", event =>{
     sessionStorage.setItem('user', JSON.stringify(result.data))
     if(user){
       document.getElementById('favorite_button').addEventListener("click", () => {
-        window.location= "./favorieten.html"
-      }) = `${result.data.username}`
+        window.location= "./favorieten.html";
+      }) 
      
     }else{
-      document.getElementById('text_fav').innerHTML = `Maak eerst een account aan!`
+      document.getElementById('text_fav').innerHTML = `Maak eerst een account aan!`;
     }
   })
 })
