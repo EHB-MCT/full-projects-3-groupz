@@ -1,41 +1,122 @@
 package main
 
 import (
+	"fmt"
+	"image/jpeg"
+	"image/png"
 	"net/http"
+	"os"
 
+	"github.com/corona10/goimagehash"
 	"github.com/gin-gonic/gin"
-	// "errors"
 )
 
-type book struct{
-	ID			string `json:"id"`
-	Title		string `json:"title"`
-	Author		string `json:"author"`
-	Quantity	int `json:"quantity"`
+type Kunstwerk struct {
+	Id string `json:"_id"`
+	Img string `json:"img"`
 }
 
-var books = []book{
-	{ID: "1", Title: "In Search of Lost Time", Author: "Marcel Proust", Quantity: 2},
-	{ID: "2", Title: "The Great Gatsby", Author: "F. Scott Fitzgerald", Quantity: 5},
-	{ID: "3", Title: "War and Peace", Author: "Leo Tolstoy", Quantity: 6},
+type ImagesData struct {
+	ImageUrl    string     `json:"imageUrl"`
+	Kunstwerken []Kunstwerk `json:"kunstwerken"`
 }
 
-// GET request
-func getBooks(c *gin.Context){
-	// IndentedJSON -> returns formatted JSON
-	c.IndentedJSON(http.StatusOK, books)
-}
+func handleUploadImageUrl(c *gin.Context) {
+	var data ImagesData
 
-// POST request
-func createBook(c *gin.Context){
-	var newBook book
-
-	if err := c.BindJSON(&newBook); err != nil {
+	if err := c.ShouldBindJSON(&data); err != nil {
+		c.JSON(http.StatusBadRequest, gin.H{"error": err.Error()})
 		return
 	}
 
-	books = append(books, newBook)
-	c.IndentedJSON(http.StatusCreated, newBook)
+	// logic to handle uploaded image URL
+	imgUrl := data.ImageUrl
+	kunstwerken := data.Kunstwerken
+	PngUrlToJpg(imgUrl)
+	JpgUrlToJpg(kunstwerken[1].Img)
+
+	
+	file1, _ := os.Open("AI_generated_image.jpg")
+    file2, _ := os.Open("KIH_kunstwerk_image.jpg")
+
+	defer file1.Close()
+    defer file2.Close()
+
+	img1, _ := jpeg.Decode(file1)
+    img2, _ := jpeg.Decode(file2)
+	
+	width, height := 8, 8
+	hash1, _ := goimagehash.ExtAverageHash(img1, width, height)
+    hash2, _ := goimagehash.ExtAverageHash(img2, width, height)
+
+    distance, _ := hash1.Distance(hash2)
+
+    // Calculate the similarity as 100 minus the Hamming distance
+	similarity := 100 - distance
+	fmt.Printf("Similarity between images: %d%%\n", similarity)
+	
+
+	c.JSON(http.StatusOK, gin.H{"message": "Image URL uploaded successfully"})
+}
+
+func PngUrlToJpg(url string) error {
+    // Download the PNG image from the URL
+    response, err := http.Get(url)
+    if err != nil {
+        return err
+    }
+    defer response.Body.Close()
+
+    // Decode the PNG image
+    img, err := png.Decode(response.Body)
+    if err != nil {
+        return err
+    }
+
+    // Create a new JPG file
+    jpgFile, err := os.Create("AI_generated_image.jpg")
+    if err != nil {
+        return err
+    }
+    defer jpgFile.Close()
+
+    // Encode the PNG image as JPG
+    err = jpeg.Encode(jpgFile, img, &jpeg.Options{Quality: 75})
+    if err != nil {
+        return err
+    }
+
+    return nil
+}
+
+func JpgUrlToJpg(url string) error {
+    // Download the JPG image from the URL
+    response, err := http.Get(url)
+    if err != nil {
+        return err
+    }
+    defer response.Body.Close()
+
+    // Decode the JPG image
+    img, err := jpeg.Decode(response.Body)
+    if err != nil {
+        return err
+    }
+
+    // Create a new JPG file
+    jpgFile, err := os.Create("KIH_kunstwerk_image.jpg")
+    if err != nil {
+        return err
+    }
+    defer jpgFile.Close()
+
+    // Encode the JPG image
+    err = jpeg.Encode(jpgFile, img, &jpeg.Options{Quality: 75})
+    if err != nil {
+        return err
+    }
+
+    return nil
 }
 
 func Cors() gin.HandlerFunc {
@@ -59,7 +140,7 @@ func main() {
 	// Router setup
 	router := gin.Default()
 	router.Use(Cors())
-	router.GET("/books", getBooks)
-	router.POST("/books", createBook)
+	router.POST("/uploadImageUrl", handleUploadImageUrl)
 	router.Run("localhost:8080")
+
 }
