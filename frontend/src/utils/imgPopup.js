@@ -16,7 +16,7 @@ export default function imgPopup(title, artist, price, height, width, img) {
             <p>${artist}</p>
           </div>
           <div id="img-popup-information-sub-container-left-bottom">
-            <button id= "favorite_button" >Favoriet</button>
+            <button id="favorite_button">Favoriet</button>
             <p id = "text_fav" >
           </div>
         </div>
