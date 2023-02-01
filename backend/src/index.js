@@ -2,7 +2,7 @@ const express = require("express");
 const app = express();
 const cors = require("cors");
 const { MongoClient } = require("mongodb");
-const fs = require("fs/promises");
+const fs = require("fs");
 const bodyParser = require("body-parser");
 const { v4: uuidv4, validate: uuidValidate } = require("uuid");
 require("dotenv").config();
@@ -221,6 +221,15 @@ app.post("/generateImage", async (req, res) => {
 
   res.json({
     imageUrl: imageUrl,
+  });
+});
+
+app.get("/hashedJpg", (req, res) => {
+  fs.readFile("../data/hashed-image-data.json", (err, data) => {
+    if (err) {
+      res.status(500).send({ error: "Error reading file" });
+    }
+    res.json(JSON.parse(data));
   });
 });
 
