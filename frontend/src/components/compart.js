@@ -19,7 +19,7 @@ compartForm.addEventListener("submit", async (e) => {
   e.preventDefault();
   resultContainer.innerHTML = "<p>het beeld wordt gegenereerd...</p>";
   const description = compartInput.value;
-  await fetch("http://localhost:6456/generateImage", {
+  await fetch("https://kunstinhuis.onrender.com/generateImage", {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
