@@ -6,7 +6,7 @@ const https = require("https");
 let filteredOnEightDigitIdArray = [];
 
 // Read the file as a string
-fs.readFile("./KIH-data.json", "utf-8", (err, data) => {
+fs.readFile("./test-data.json", "utf-8", (err, data) => {
   if (err) {
     throw err;
   }
@@ -51,19 +51,6 @@ fs.readFile("./KIH-data.json", "utf-8", (err, data) => {
     });
 });
 
-// function isJPG(url) {
-//   return new Promise((resolve, reject) => {
-//     request({ url, method: "HEAD" }, (err, response) => {
-//       if (err) {
-//         return reject(err);
-//       }
-//       const contentType = response.headers["content-type"];
-//       const result = contentType && contentType.startsWith("image/jpeg");
-//       return resolve(result);
-//     });
-//   });
-// }
-
 function isJPG(url) {
   return new Promise((resolve, reject) => {
     request({ url, method: "HEAD" }, (err, response) => {
@@ -87,7 +74,7 @@ async function processArray(array) {
     await isJPG(url)
       .then((result) => {
         if (result === true) {
-          newArray.push({ [item]: url });
+          newArray.push({ id: item, url: url, hash: url });
         }
       })
       .catch((err) => console.error(err));
@@ -119,10 +106,10 @@ async function getImageHash(url) {
 }
 
 async function transformArray(array) {
-  return Promise.all(
-    array.map((obj) => {
-      const key = Object.keys(obj)[0];
-      return getImageHash(obj[key]).then((hash) => ({ [key]: hash }));
-    })
-  );
+  for (let i = 0; i < array.length; i++) {
+    const obj = array[i];
+    const hash = await getImageHash(obj.url);
+    obj.hash = hash;
+  }
+  return array;
 }
