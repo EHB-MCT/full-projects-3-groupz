@@ -8,18 +8,11 @@ const resultContainer = document.getElementById("result-container");
 
 let htmlString = "";
 
-let amnk;
-
-getArtworkData().then((response) => {
-  console.log(response);
-  amnk = response;
-});
-
 compartForm.addEventListener("submit", async (e) => {
   e.preventDefault();
   resultContainer.innerHTML = "<p>het beeld wordt gegenereerd...</p>";
   const description = compartInput.value;
-  await fetch("http://localhost:6456/generateImage", {
+  await fetch("https://kunstinhuis.onrender.com/generateImage", {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
@@ -35,7 +28,6 @@ compartForm.addEventListener("submit", async (e) => {
 
       let imagesData = {
         imageUrl: img,
-        kunstwerken: amnk,
       };
 
       console.log(imagesData);

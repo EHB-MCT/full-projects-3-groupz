@@ -1,60 +1,110 @@
 package main
 
 import (
+	"crypto/sha256"
+	"encoding/hex"
+	"encoding/json"
 	"fmt"
 	"image/jpeg"
 	"image/png"
+	"io"
+	"io/ioutil"
 	"net/http"
 	"os"
+	"sort"
 
-	"github.com/corona10/goimagehash"
 	"github.com/gin-gonic/gin"
 )
 
-type Kunstwerk struct {
-	Id string `json:"_id"`
-	Img string `json:"img"`
+type SimilarityData struct {
+    URL      string
+    Similarity float64
+}
+
+type Data struct {
+    ID    string `json:"id"`
+    URL   string `json:"url"`
+    Hash  string `json:"hash"`
 }
 
 type ImagesData struct {
 	ImageUrl    string     `json:"imageUrl"`
-	Kunstwerken []Kunstwerk `json:"kunstwerken"`
 }
 
 func handleUploadImageUrl(c *gin.Context) {
-	var data ImagesData
+	var AIdata ImagesData
+    var similarityArray []SimilarityData
 
-	if err := c.ShouldBindJSON(&data); err != nil {
+	if err := c.ShouldBindJSON(&AIdata); err != nil {
 		c.JSON(http.StatusBadRequest, gin.H{"error": err.Error()})
 		return
 	}
 
-	// logic to handle uploaded image URL
-	imgUrl := data.ImageUrl
-	kunstwerken := data.Kunstwerken
+	imgUrl := AIdata.ImageUrl
 	PngUrlToJpg(imgUrl)
-	JpgUrlToJpg(kunstwerken[1].Img)
 
-	
-	file1, _ := os.Open("AI_generated_image.jpg")
-    file2, _ := os.Open("KIH_kunstwerk_image.jpg")
+    resp, err := http.Get("http://localhost:6456/hashedJpg")
+    if err != nil {
+        panic(err)
+    }
+    defer resp.Body.Close()
 
-	defer file1.Close()
-    defer file2.Close()
+    var data []Data
 
-	img1, _ := jpeg.Decode(file1)
-    img2, _ := jpeg.Decode(file2)
-	
-	width, height := 8, 8
-	hash1, _ := goimagehash.ExtAverageHash(img1, width, height)
-    hash2, _ := goimagehash.ExtAverageHash(img2, width, height)
+    body, err := ioutil.ReadAll(resp.Body)
+    if err != nil {
+        panic(err)
+    }
 
-    distance, _ := hash1.Distance(hash2)
+    err = json.Unmarshal(body, &data)
+    if err != nil {
+        panic(err)
+    }
 
-    // Calculate the similarity as 100 minus the Hamming distance
-	similarity := 100 - distance
-	fmt.Printf("Similarity between images: %d%%\n", similarity)
-	
+    file1, _ := os.Open("AI_generated_image.jpg")
+    hasher := sha256.New()
+    _, _ = io.Copy(hasher, file1)
+    hash1 := hasher.Sum(nil)
+    fmt.Printf("test", data)
+    for i := 0; i < len(data); i++ {
+        hash2, _ := hex.DecodeString(data[i].Hash)
+
+        equalBits := 0
+        for k := 0; k < sha256.Size; k++ {
+            for l := 0; l < 8; l++ {
+                if (hash1[k] & (1 << uint(l))) == (hash2[k] & (1 << uint(l))) {
+                    equalBits++
+                }
+            }
+        }
+
+        similarity := 100.0 * float64(equalBits) / float64(sha256.Size * 8)
+        // fmt.Printf("Similarity between image hash1 and %s: %.2f%%\n", data[i].URL, similarity)
+
+        similarityData := SimilarityData{
+            URL: data[i].URL,
+            Similarity: similarity,
+        }
+
+        similarityArray = append(similarityArray, similarityData)
+    }
+    // fmt.Print("Similarity array:", similarityArray)
+
+
+    sort.Slice(similarityArray, func(i, j int) bool {
+        return similarityArray[i].Similarity > similarityArray[j].Similarity
+    })
+    
+    var top5 []SimilarityData
+    if len(similarityArray) > 5 {
+        top5 = similarityArray[:5]
+    } else {
+        top5 = similarityArray
+    }
+    
+    for i, similarityData := range top5 {
+        fmt.Printf("%d. URL: %s, Similarity: %.2f%%\n", i + 1, similarityData.URL, similarityData.Similarity)
+    }
 
 	c.JSON(http.StatusOK, gin.H{"message": "Image URL uploaded successfully"})
 }
@@ -89,35 +139,35 @@ func PngUrlToJpg(url string) error {
     return nil
 }
 
-func JpgUrlToJpg(url string) error {
-    // Download the JPG image from the URL
-    response, err := http.Get(url)
-    if err != nil {
-        return err
-    }
-    defer response.Body.Close()
+// func JpgUrlToJpg(url string) error {
+//     // Download the JPG image from the URL
+//     response, err := http.Get(url)
+//     if err != nil {
+//         return err
+//     }
+//     defer response.Body.Close()
 
-    // Decode the JPG image
-    img, err := jpeg.Decode(response.Body)
-    if err != nil {
-        return err
-    }
+//     // Decode the JPG image
+//     img, err := jpeg.Decode(response.Body)
+//     if err != nil {
+//         return err
+//     }
 
-    // Create a new JPG file
-    jpgFile, err := os.Create("KIH_kunstwerk_image.jpg")
-    if err != nil {
-        return err
-    }
-    defer jpgFile.Close()
+//     // Create a new JPG file
+//     jpgFile, err := os.Create("KIH_kunstwerk_image.jpg")
+//     if err != nil {
+//         return err
+//     }
+//     defer jpgFile.Close()
 
-    // Encode the JPG image
-    err = jpeg.Encode(jpgFile, img, &jpeg.Options{Quality: 75})
-    if err != nil {
-        return err
-    }
+//     // Encode the JPG image
+//     err = jpeg.Encode(jpgFile, img, &jpeg.Options{Quality: 75})
+//     if err != nil {
+//         return err
+//     }
 
-    return nil
-}
+//     return nil
+// }
 
 func Cors() gin.HandlerFunc {
 	return func(c *gin.Context) {
@@ -137,7 +187,6 @@ func Cors() gin.HandlerFunc {
 }
 
 func main() {
-	// Router setup
 	router := gin.Default()
 	router.Use(Cors())
 	router.POST("/uploadImageUrl", handleUploadImageUrl)

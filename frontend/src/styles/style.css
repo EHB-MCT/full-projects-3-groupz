@@ -637,3 +637,7 @@ input {
   display:flex; 
   flex-direction:column;
 }
+
+.material-symbols-outlined{
+  color: white;
+}

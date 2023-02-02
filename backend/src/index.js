@@ -2,7 +2,7 @@ const express = require("express");
 const app = express();
 const cors = require("cors");
 const { MongoClient } = require("mongodb");
-const fs = require("fs/promises");
+const fs = require("fs");
 const bodyParser = require("body-parser");
 const { v4: uuidv4, validate: uuidValidate } = require("uuid");
 require("dotenv").config();
@@ -183,7 +183,7 @@ app.post("/verifyID", async (req, res) => {
     } else {
       //Password is incorrect
       res.status(401).send({
-        status: "Veify error",
+        status: "Verify error",
         message: "There ae no users with this id ${req.body.uuid}",
       });
     }
@@ -212,7 +212,7 @@ app.post("/generateImage", async (req, res) => {
   const response = await openai.createImage({
     prompt: description,
     n: 1,
-    size: "512x512",
+    size: "1024x1024",
   });
 
   let imageUrl = response.data.data[0].url;
@@ -224,6 +224,15 @@ app.post("/generateImage", async (req, res) => {
   });
 });
 
-app.listen(port, () => {
-  console.log(`API is running at http://localhost:${port}`);
+app.get("/hashedJpg", (req, res) => {
+  fs.readFile("../data/hashed-image-data.json", (err, data) => {
+    if (err) {
+      res.status(500).send({ error: "Error reading file" });
+    }
+    res.json(JSON.parse(data));
+  });
 });
+
+app.listen(port, () => {
+  console.log(`API is running at http://localhost:${port}`)
+})  
