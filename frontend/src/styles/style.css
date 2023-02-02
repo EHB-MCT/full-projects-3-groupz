@@ -633,10 +633,12 @@ input {
 }
 
 #infoo{
-  margin: 30px;
+
   display:flex; 
   flex-direction:column;
 }
+
+
 
 .material-symbols-outlined{
   color: white;

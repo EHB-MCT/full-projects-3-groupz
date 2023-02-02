@@ -1,18 +1,30 @@
+
+
 const info_artist = document.getElementById("infoo");
+const artist_name = document.getElementById("home-title-container")
 
-const meer_info = JSON.parse(localStorage.getItem('meer_info'));
-const images = JSON.parse(localStorage.getItem('meer_info_images'));
+const selectedArtist = JSON.parse(localStorage.getItem("selectedArtist"));
 
-console.log(meer_info);
-console.log(images);
+if (selectedArtist) {
+  let html1 = '';
 
-if (meer_info && images) {
-    let html = '';
+  html1 += `
+   
+    
+    <p>${selectedArtist.discription}</p>
+    <img style="width:40%; height : 40%; margin-top:30px;" src="${selectedArtist.image}" alt="Image">
 
-    html += `
-    <img  style="width:50%; height : 50%; display:flex;"src="${images[0]}" alt="Image">
-    <p>${meer_info}</p>
-    `;
+  `;
 
-    info_artist.innerHTML = html;
+  info_artist.innerHTML = html1;
+
+
+  let html2 = '';
+
+  html2 += `
+  <hr class="hr1" />
+  <h1>${selectedArtist.Kunstenaar}</h1>
+  <hr class="hr2" />`
+
+  artist_name.innerHTML = html2;
 }
