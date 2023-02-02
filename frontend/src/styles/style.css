@@ -633,7 +633,5 @@ input {
 }
 
 .material-symbols-outlined{
-  position: absolute;
   color: white;
-  margin: 2%;
 }
