@@ -232,3 +232,7 @@ app.get("/hashedJpg", (req, res) => {
     res.json(JSON.parse(data));
   });
 });
+
+app.listen(port, () => {
+  console.log(`API is running at http://localhost:${port}`)
+})  
