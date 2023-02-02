@@ -183,7 +183,7 @@ app.post("/verifyID", async (req, res) => {
     } else {
       //Password is incorrect
       res.status(401).send({
-        status: "Veify error",
+        status: "Verify error",
         message: "There ae no users with this id ${req.body.uuid}",
       });
     }
