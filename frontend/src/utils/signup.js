@@ -11,8 +11,8 @@ document.getElementById('signupform').addEventListener("submit", event => {
         getArtworkData("https://kunstinhuis.onrender.com/signup", "POST", user).then(data => {
             document.getElementById('succesmessagesignin').innerHTML = `Je bent succesvol geregistreerd!`
         })
-        setTimeout(1000)
-        window.location = './login.html'
+        //setTimeout(1000)
+        //window.location = './login.html'
     }else{
         document.getElementById('nonsuccesmessagesignin').innerText = `Wachtwoorden passen niet!`
     }
