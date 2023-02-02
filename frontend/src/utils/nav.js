@@ -10,7 +10,7 @@ export default function nav() {
     hamburgerNavBtn.style.display = "none";
     hamburgerNavCloseBtn.style.display = "flex";
     collection_main.style.position = "fixed";
-    compart_main.style.position = "fixed";
+    // compart_main.style.position = "fixed";
   });
 
   hamburgerNavCloseBtn.addEventListener("click", () => {
@@ -18,6 +18,6 @@ export default function nav() {
     hamburgerNavBtn.style.display = "flex";
     hamburgerNavCloseBtn.style.display = "none";
     collection_main.style.position = "relative";
-    compart_main.style.position = "relative";
+    // compart_main.style.position = "relative";
   });
 }

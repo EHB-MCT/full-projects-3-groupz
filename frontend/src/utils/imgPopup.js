@@ -4,7 +4,7 @@ export default function imgPopup(title, artist, price, height, width, img) {
   popupBg.style.display = "block";
   imgPopup.innerHTML = `
   <div id="img-popup-img-container">
-        <img
+        <img id="img"
           src="${img}"
         />
       </div>
@@ -47,4 +47,25 @@ export default function imgPopup(title, artist, price, height, width, img) {
     popupBg.style.display = "none";
     imgPopup.style.display = "none";
   });
+
+  document.getElementById("favorite_button").addEventListener("click", function () {
+    let image = document.getElementById("img").src;
+    console.log(image);
+
+    let favoriteImages = [];
+    if (localStorage.getItem("favoriteImages")) {
+      favoriteImages = JSON.parse(localStorage.getItem("favoriteImages"));
+    }
+
+    if (!favoriteImages.includes(image)) {
+      favoriteImages.push(image);
+    }
+
+    localStorage.setItem("favoriteImages", JSON.stringify(favoriteImages));
+  });
+
+
 }
+
+
+
