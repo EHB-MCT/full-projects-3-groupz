@@ -1,1373 +1,2287 @@
 [
   {
-    "10030002": "4e103533bf7e2d6baf98796d65cc702c4cae84ebc4310d97b0cbfcc4b6fa2d5e"
+    "id": "10030002",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1003_0002.jpg",
+    "hash": "4e103533bf7e2d6baf98796d65cc702c4cae84ebc4310d97b0cbfcc4b6fa2d5e"
   },
   {
-    "10030004": "f4ed361d39ca7a3ccd33ec4b3b92817cb6e539df4e4f2f360f6ad000459ce1fb"
+    "id": "10030004",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1003_0004.jpg",
+    "hash": "f4ed361d39ca7a3ccd33ec4b3b92817cb6e539df4e4f2f360f6ad000459ce1fb"
   },
   {
-    "10030006": "b72f8d0c0aa00a60b220667e6c2293421d6ec0fac307dcf61198dfe50f522bed"
+    "id": "10030006",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1003_0006.jpg",
+    "hash": "b72f8d0c0aa00a60b220667e6c2293421d6ec0fac307dcf61198dfe50f522bed"
   },
   {
-    "10030007": "2019c4bccf4e4d1d21a76110e5543fb0d63f241b61289a3aad4a768e1593e346"
+    "id": "10030007",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1003_0007.jpg",
+    "hash": "2019c4bccf4e4d1d21a76110e5543fb0d63f241b61289a3aad4a768e1593e346"
   },
   {
-    "10030008": "88c3f8e15c48578b85e5a5155872e673dad95588ab0bc3aa50cc39d490f28ebc"
+    "id": "10030008",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1003_0008.jpg",
+    "hash": "88c3f8e15c48578b85e5a5155872e673dad95588ab0bc3aa50cc39d490f28ebc"
   },
   {
-    "10030009": "f627a6a6cf4e8b15b21ba4d238757ab43634ec705a9f5aff33fd0bfbfa3751cc"
+    "id": "10030009",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1003_0009.jpg",
+    "hash": "f627a6a6cf4e8b15b21ba4d238757ab43634ec705a9f5aff33fd0bfbfa3751cc"
   },
   {
-    "10030012": "615c226335a534326765a7b03c67dc3c1019e79be6a1c0452c78b5c98f263e59"
+    "id": "10030012",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1003_0012.jpg",
+    "hash": "615c226335a534326765a7b03c67dc3c1019e79be6a1c0452c78b5c98f263e59"
   },
   {
-    "10030015": "21ca83f07774573d7505e086bf4b42a9ce60f92adba573771c7504a81d90796c"
+    "id": "10030015",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1003_0015.jpg",
+    "hash": "21ca83f07774573d7505e086bf4b42a9ce60f92adba573771c7504a81d90796c"
   },
   {
-    "10030020": "156c34449c37f6addc969f95976c28eb9273edc4f00fc78182f9f3823a19cbfc"
+    "id": "10030020",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1003_0020.jpg",
+    "hash": "156c34449c37f6addc969f95976c28eb9273edc4f00fc78182f9f3823a19cbfc"
   },
   {
-    "10030021": "c9b6c7a6b4562057b8017767187b53baefac9fd9e7508aa26ca97e3e7dc361ed"
+    "id": "10030021",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1003_0021.jpg",
+    "hash": "c9b6c7a6b4562057b8017767187b53baefac9fd9e7508aa26ca97e3e7dc361ed"
   },
   {
-    "10030023": "67fd5b11ed7a83882ba4dc1106ef111408f551e0cbca1d62fb00dfa5e771186b"
+    "id": "10030023",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1003_0023.jpg",
+    "hash": "67fd5b11ed7a83882ba4dc1106ef111408f551e0cbca1d62fb00dfa5e771186b"
   },
   {
-    "10030024": "6a77d6d1139eb1b9c5767f1cb9f2b5317e1c322b37a7332c58c1159f8106da05"
+    "id": "10030024",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1003_0024.jpg",
+    "hash": "6a77d6d1139eb1b9c5767f1cb9f2b5317e1c322b37a7332c58c1159f8106da05"
   },
   {
-    "10030026": "f474bf660bebe27367d9976ef614a090a2f7d8fafebf956e980a69fcc63c88e4"
+    "id": "10030026",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1003_0026.jpg",
+    "hash": "f474bf660bebe27367d9976ef614a090a2f7d8fafebf956e980a69fcc63c88e4"
   },
   {
-    "10030028": "cac1567973d2d9b4c079fe51aa27781140dc55ce6aa5dadd81ae745200c0c4c1"
+    "id": "10030028",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1003_0028.jpg",
+    "hash": "cac1567973d2d9b4c079fe51aa27781140dc55ce6aa5dadd81ae745200c0c4c1"
   },
   {
-    "10030033": "98f63662af470cec15018714fd054417e1ab4916f34d12b3a3596ea60fc836b0"
+    "id": "10030033",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1003_0033.jpg",
+    "hash": "98f63662af470cec15018714fd054417e1ab4916f34d12b3a3596ea60fc836b0"
   },
   {
-    "10060022": "eafd72a02c9d8344da0caac416e832960af88a5b178d06397290405c3dbdd357"
+    "id": "10060022",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1006_0022.jpg",
+    "hash": "eafd72a02c9d8344da0caac416e832960af88a5b178d06397290405c3dbdd357"
   },
   {
-    "10060051": "3eceb0f7920a63193c55bbd4573be5a3dae83472d50e71b4b54d85bcf24e25d5"
+    "id": "10060051",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1006_0051.jpg",
+    "hash": "3eceb0f7920a63193c55bbd4573be5a3dae83472d50e71b4b54d85bcf24e25d5"
   },
   {
-    "10060052": "2ea8a1edd369f882ac2721a6df4c5ee16629805e400dcbbe2d82e5cbfed59e59"
+    "id": "10060052",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1006_0052.jpg",
+    "hash": "2ea8a1edd369f882ac2721a6df4c5ee16629805e400dcbbe2d82e5cbfed59e59"
   },
   {
-    "10060053": "f063b5dbbf63b2ec04922323b5a25d8231dc27956bccd0ea5ae7a719b0b6acdd"
+    "id": "10060053",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1006_0053.jpg",
+    "hash": "f063b5dbbf63b2ec04922323b5a25d8231dc27956bccd0ea5ae7a719b0b6acdd"
   },
   {
-    "10070006": "2e56e01785d27be1daa83c06f812da90c7dad043a9964750960e7e738b943d5c"
+    "id": "10070006",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1007_0006.jpg",
+    "hash": "2e56e01785d27be1daa83c06f812da90c7dad043a9964750960e7e738b943d5c"
   },
   {
-    "10070010": "5e4b49faf5082ba372a8bb48326187fc82530f1ef8b6cdda755639386990cb98"
+    "id": "10070010",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1007_0010.jpg",
+    "hash": "5e4b49faf5082ba372a8bb48326187fc82530f1ef8b6cdda755639386990cb98"
   },
   {
-    "10070014": "0008f0f20d3aa1e6c169da19e1a831ef84dba7c0ce1fcfe86b39217b53333ffd"
+    "id": "10070014",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1007_0014.jpg",
+    "hash": "0008f0f20d3aa1e6c169da19e1a831ef84dba7c0ce1fcfe86b39217b53333ffd"
   },
   {
-    "10070027": "38327e7a3c8ccf58b75c5d836671cc0b2abd217c66ca5e3e8e96b110835b4769"
+    "id": "10070027",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1007_0027.jpg",
+    "hash": "38327e7a3c8ccf58b75c5d836671cc0b2abd217c66ca5e3e8e96b110835b4769"
   },
   {
-    "10070028": "66cb621b3bd46611b3bc0c87e7bf24724e6030fb4adeaed0a53d587b93ad9cc6"
+    "id": "10070028",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1007_0028.jpg",
+    "hash": "66cb621b3bd46611b3bc0c87e7bf24724e6030fb4adeaed0a53d587b93ad9cc6"
   },
   {
-    "10070031": "f23ea80ff7e0ab189e140e238493347d547ce0ff03c4398572fb4aa702eaa7cf"
+    "id": "10070031",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1007_0031.jpg",
+    "hash": "f23ea80ff7e0ab189e140e238493347d547ce0ff03c4398572fb4aa702eaa7cf"
   },
   {
-    "10070032": "2ea11bfe3f172164bf044a894e255d2e087a78956d99a2929fb7b916347b186e"
+    "id": "10070032",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1007_0032.jpg",
+    "hash": "2ea11bfe3f172164bf044a894e255d2e087a78956d99a2929fb7b916347b186e"
   },
   {
-    "10070040": "d832efba9f868c575f348387cf57867fa54085fa1436cb4638dcc73163e926ed"
+    "id": "10070040",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1007_0040.jpg",
+    "hash": "d832efba9f868c575f348387cf57867fa54085fa1436cb4638dcc73163e926ed"
   },
   {
-    "10070051": "b09ce7d6561c454699c5c3ff53789c1cc46898d7c5bf68949e640cd40fdc8781"
+    "id": "10070051",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1007_0051.jpg",
+    "hash": "b09ce7d6561c454699c5c3ff53789c1cc46898d7c5bf68949e640cd40fdc8781"
   },
   {
-    "10070053": "c5a03173a77bd91be06e7d78f9a2f4e61748a6f7aa7dd32324249ae34efa31b0"
+    "id": "10070053",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1007_0053.jpg",
+    "hash": "c5a03173a77bd91be06e7d78f9a2f4e61748a6f7aa7dd32324249ae34efa31b0"
   },
   {
-    "10070055": "b7709d0550269b33901cf17ff1c0320950c26cd28ac4f4ffb7567ec66b8f02df"
+    "id": "10070055",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1007_0055.jpg",
+    "hash": "b7709d0550269b33901cf17ff1c0320950c26cd28ac4f4ffb7567ec66b8f02df"
   },
   {
-    "10070059": "97168fd5bb6a7b55977c531b8cd1a74805b4ca49d6463db5abeb6108b8b6eb4e"
+    "id": "10070059",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1007_0059.jpg",
+    "hash": "97168fd5bb6a7b55977c531b8cd1a74805b4ca49d6463db5abeb6108b8b6eb4e"
   },
   {
-    "10070060": "9b3e8431d8d14bdadcfc707e08d26a5291a963789164debb03a1ef50e6687aaf"
+    "id": "10070060",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1007_0060.jpg",
+    "hash": "9b3e8431d8d14bdadcfc707e08d26a5291a963789164debb03a1ef50e6687aaf"
   },
   {
-    "10070061": "3bf60b39f05beea00bc67662a195754644150e52d06f7c512ec28770618106c9"
+    "id": "10070061",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1007_0061.jpg",
+    "hash": "3bf60b39f05beea00bc67662a195754644150e52d06f7c512ec28770618106c9"
   },
   {
-    "10070066": "57fe82cc9ac4ac143387f1ef4d4959da89d7364817470ea56b2dcf2a59e45b5c"
+    "id": "10070066",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1007_0066.jpg",
+    "hash": "57fe82cc9ac4ac143387f1ef4d4959da89d7364817470ea56b2dcf2a59e45b5c"
   },
   {
-    "10070067": "d5e6b5dc1c6a5c4b1d1addd876d9d56d331d7d32b5a9c3b1e27c57586e4d40f4"
+    "id": "10070067",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1007_0067.jpg",
+    "hash": "d5e6b5dc1c6a5c4b1d1addd876d9d56d331d7d32b5a9c3b1e27c57586e4d40f4"
   },
   {
-    "10070070": "b115e27ed14d4332d88cbafc82241a76deddf03234365ba1c8f3351d75cecc3f"
+    "id": "10070070",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1007_0070.jpg",
+    "hash": "b115e27ed14d4332d88cbafc82241a76deddf03234365ba1c8f3351d75cecc3f"
   },
   {
-    "10070071": "51d6057a8ada87d8248fbb5a922a95d117399449c5e4c9a65b3cee118017cbbd"
+    "id": "10070071",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1007_0071.jpg",
+    "hash": "51d6057a8ada87d8248fbb5a922a95d117399449c5e4c9a65b3cee118017cbbd"
   },
   {
-    "10080001": "11099b00c7bf05529ad12b73c5070eeaa4648740f013d5e2209218a2a39c6b8a"
+    "id": "10080001",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1008_0001.jpg",
+    "hash": "11099b00c7bf05529ad12b73c5070eeaa4648740f013d5e2209218a2a39c6b8a"
   },
   {
-    "10080002": "a497163a2719772b603d2ad4065539c3103fdba568bba1636b2a5f72b11d1fc6"
+    "id": "10080002",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1008_0002.jpg",
+    "hash": "a497163a2719772b603d2ad4065539c3103fdba568bba1636b2a5f72b11d1fc6"
   },
   {
-    "10090003": "b7ac79c07821208bc4fcb02da5682f44724edc863ab2afdeeb265bb6fe249871"
+    "id": "10090003",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1009_0003.jpg",
+    "hash": "b7ac79c07821208bc4fcb02da5682f44724edc863ab2afdeeb265bb6fe249871"
   },
   {
-    "10090011": "42158f20976d34dcc6eba5463d6c5ef54c2f865de96c54754c65f5ea665b5eae"
+    "id": "10090011",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1009_0011.jpg",
+    "hash": "42158f20976d34dcc6eba5463d6c5ef54c2f865de96c54754c65f5ea665b5eae"
   },
   {
-    "10090012": "e8fa7f2c361fd03979da8709646a55bded63b72f2bc50c267038de02e79efad7"
+    "id": "10090012",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1009_0012.jpg",
+    "hash": "e8fa7f2c361fd03979da8709646a55bded63b72f2bc50c267038de02e79efad7"
   },
   {
-    "10090013": "f2a46a8c45aaec86ccdf56914fe1050af8abae8aedfa6b0f0dae9204dd018098"
+    "id": "10090013",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1009_0013.jpg",
+    "hash": "f2a46a8c45aaec86ccdf56914fe1050af8abae8aedfa6b0f0dae9204dd018098"
   },
   {
-    "10090015": "0c9f9373d97f61db55574f9f0ccb198f82bffc794540b5f8bcd9907534aecdaf"
+    "id": "10090015",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1009_0015.jpg",
+    "hash": "0c9f9373d97f61db55574f9f0ccb198f82bffc794540b5f8bcd9907534aecdaf"
   },
   {
-    "10090017": "ad02ef031a3055873cdd1c5daf53d52a29938f1d85d5cf72483c109ecd90fa31"
+    "id": "10090017",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1009_0017.jpg",
+    "hash": "ad02ef031a3055873cdd1c5daf53d52a29938f1d85d5cf72483c109ecd90fa31"
   },
   {
-    "10090018": "489bff6f5a91b12b452292d53f47d37278599d90dc17e89551ed8c9048d8344d"
+    "id": "10090018",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1009_0018.jpg",
+    "hash": "489bff6f5a91b12b452292d53f47d37278599d90dc17e89551ed8c9048d8344d"
   },
   {
-    "10090019": "89d5e0d4a605a653c23cbbf070a32b63d5efd6f240a9edd4b59562f22cb37405"
+    "id": "10090019",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1009_0019.jpg",
+    "hash": "89d5e0d4a605a653c23cbbf070a32b63d5efd6f240a9edd4b59562f22cb37405"
   },
   {
-    "10090020": "e6748a166da96a7f2d164bedccb1157bb2b565117e3ce5f8f03359a361793f46"
+    "id": "10090020",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1009_0020.jpg",
+    "hash": "e6748a166da96a7f2d164bedccb1157bb2b565117e3ce5f8f03359a361793f46"
   },
   {
-    "10090021": "385dbcbb7dda509eea023299e6944db641851bdc1a660d4eb41bd427a8bf2e4e"
+    "id": "10090021",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1009_0021.jpg",
+    "hash": "385dbcbb7dda509eea023299e6944db641851bdc1a660d4eb41bd427a8bf2e4e"
   },
   {
-    "10120004": "b3cdb66c00c5341cd789d983b0f597583c4302432970d62a34cde0d651d5302c"
+    "id": "10120004",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1012_0004.jpg",
+    "hash": "b3cdb66c00c5341cd789d983b0f597583c4302432970d62a34cde0d651d5302c"
   },
   {
-    "10120005": "fe2d7915351948a463bf5199c71ebd3341098967c611e087c17bae9dd1042b11"
+    "id": "10120005",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1012_0005.jpg",
+    "hash": "fe2d7915351948a463bf5199c71ebd3341098967c611e087c17bae9dd1042b11"
   },
   {
-    "10120006": "b1806fb26c8bdbb7977f972c0fead7f0edc8c8775fa57c33d247b7a361c3c3e7"
+    "id": "10120006",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1012_0006.jpg",
+    "hash": "b1806fb26c8bdbb7977f972c0fead7f0edc8c8775fa57c33d247b7a361c3c3e7"
   },
   {
-    "10120011": "a66784bb4614833b333e68d86f8fa8cc7b34d6bd1b924c3e20686f47723b9bab"
+    "id": "10120011",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1012_0011.jpg",
+    "hash": "a66784bb4614833b333e68d86f8fa8cc7b34d6bd1b924c3e20686f47723b9bab"
   },
   {
-    "10120015": "70e301fb264052f10b6c62429318b6fcee439f48abc63471a9195e2770a08218"
+    "id": "10120015",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1012_0015.jpg",
+    "hash": "70e301fb264052f10b6c62429318b6fcee439f48abc63471a9195e2770a08218"
   },
   {
-    "10120018": "7ae2aefd52de1bcd6e0ff85e1ae30a069e6a1322317f1178cd4c8200831dacf3"
+    "id": "10120018",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1012_0018.jpg",
+    "hash": "7ae2aefd52de1bcd6e0ff85e1ae30a069e6a1322317f1178cd4c8200831dacf3"
   },
   {
-    "10120019": "bef0e28f538859b3b9f01e8bd28e51a692132aaa503bf4819269a7bfc289aa0f"
+    "id": "10120019",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1012_0019.jpg",
+    "hash": "bef0e28f538859b3b9f01e8bd28e51a692132aaa503bf4819269a7bfc289aa0f"
   },
   {
-    "10120021": "6186d11efa60070131d57eaaba7e680ade392a8b8deb574657836cc827dca379"
+    "id": "10120021",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1012_0021.jpg",
+    "hash": "6186d11efa60070131d57eaaba7e680ade392a8b8deb574657836cc827dca379"
   },
   {
-    "10120029": "10f39f9dbd6e21a2322232f477ef75da617e2386d9e42ace711c7fd698fa7482"
+    "id": "10120029",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1012_0029.jpg",
+    "hash": "10f39f9dbd6e21a2322232f477ef75da617e2386d9e42ace711c7fd698fa7482"
   },
   {
-    "10120030": "02f5f70aea26dd3440c600bfaf98ba168c118116e91769670ef247da09952b09"
+    "id": "10120030",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1012_0030.jpg",
+    "hash": "02f5f70aea26dd3440c600bfaf98ba168c118116e91769670ef247da09952b09"
   },
   {
-    "10120031": "dad30f561ae00860aee786cccd7e29485244e0573ae74f8b0e0a27ce2abc7b99"
+    "id": "10120031",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1012_0031.jpg",
+    "hash": "dad30f561ae00860aee786cccd7e29485244e0573ae74f8b0e0a27ce2abc7b99"
   },
   {
-    "10120033": "55cf69b9b62be4069b04675f1af1d8ed2b5135d1c25f3e56f6d650f18637b9fc"
+    "id": "10120033",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1012_0033.jpg",
+    "hash": "55cf69b9b62be4069b04675f1af1d8ed2b5135d1c25f3e56f6d650f18637b9fc"
   },
   {
-    "10120034": "ed9181ce508cdbac6e4a558ab8b3d85223cacfd4d69631ef53c85557a34fda0d"
+    "id": "10120034",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1012_0034.jpg",
+    "hash": "ed9181ce508cdbac6e4a558ab8b3d85223cacfd4d69631ef53c85557a34fda0d"
   },
   {
-    "10120035": "002a31aea8d4c13284d4973f409aa444c5fd790b2a138a42752fd525a9066b93"
+    "id": "10120035",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1012_0035.jpg",
+    "hash": "002a31aea8d4c13284d4973f409aa444c5fd790b2a138a42752fd525a9066b93"
   },
   {
-    "10120037": "1c55a8cb9c5c98a4c82d83375a52c95388cc7291177a15eafa4c35449824cc67"
+    "id": "10120037",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1012_0037.jpg",
+    "hash": "1c55a8cb9c5c98a4c82d83375a52c95388cc7291177a15eafa4c35449824cc67"
   },
   {
-    "10120040": "621de82cd7ba9f5e61fd5128f31e1dbe408e8549cd1db87a5caa5b900bdbb283"
+    "id": "10120040",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1012_0040.jpg",
+    "hash": "621de82cd7ba9f5e61fd5128f31e1dbe408e8549cd1db87a5caa5b900bdbb283"
   },
   {
-    "10120041": "041235bfd9df7dcb4b2e21b7a17e92e56f62daa35016d433c7aeb479ab4981ea"
+    "id": "10120041",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1012_0041.jpg",
+    "hash": "041235bfd9df7dcb4b2e21b7a17e92e56f62daa35016d433c7aeb479ab4981ea"
   },
   {
-    "10120042": "d776e0b99456d322b9753b365e35e6a63295c904e918677fbb0f4a1132390bc9"
+    "id": "10120042",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1012_0042.jpg",
+    "hash": "d776e0b99456d322b9753b365e35e6a63295c904e918677fbb0f4a1132390bc9"
   },
   {
-    "10120043": "bed0644d6816c366ef86f7423d1dfd48380de19a54ec833143e44c60a8001d37"
+    "id": "10120043",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1012_0043.jpg",
+    "hash": "bed0644d6816c366ef86f7423d1dfd48380de19a54ec833143e44c60a8001d37"
   },
   {
-    "10120044": "01ca523338753247043d740494b930d5a195b7c8f2c0e2210d3befc0c2c0569d"
+    "id": "10120044",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1012_0044.jpg",
+    "hash": "01ca523338753247043d740494b930d5a195b7c8f2c0e2210d3befc0c2c0569d"
   },
   {
-    "10120045": "e1742869494e9d66e548bda97531046af462ebfc795ffd2ea3bd2b39d52934f0"
+    "id": "10120045",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1012_0045.jpg",
+    "hash": "e1742869494e9d66e548bda97531046af462ebfc795ffd2ea3bd2b39d52934f0"
   },
   {
-    "10120046": "8d98fc78d5ffd1e94bddd5c684b2df3e9c820abb9c836fa6df8dec3976205a6e"
+    "id": "10120046",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1012_0046.jpg",
+    "hash": "8d98fc78d5ffd1e94bddd5c684b2df3e9c820abb9c836fa6df8dec3976205a6e"
   },
   {
-    "10120047": "1a1fed2b333e3dcb1f2a644b3bda5ab7eb9fc91f6ad5ee1dac95fa775820592d"
+    "id": "10120047",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1012_0047.jpg",
+    "hash": "1a1fed2b333e3dcb1f2a644b3bda5ab7eb9fc91f6ad5ee1dac95fa775820592d"
   },
   {
-    "10120048": "775d4912088b42519a91f9380018326ba1178cb243156cfb4770664d432718aa"
+    "id": "10120048",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1012_0048.jpg",
+    "hash": "775d4912088b42519a91f9380018326ba1178cb243156cfb4770664d432718aa"
   },
   {
-    "10120049": "8824ff8e09542a2341f6a56c928d28e6a0f139f77e876129e0e4e3cacb0a43a2"
+    "id": "10120049",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1012_0049.jpg",
+    "hash": "8824ff8e09542a2341f6a56c928d28e6a0f139f77e876129e0e4e3cacb0a43a2"
   },
   {
-    "10120050": "de69620fdeebd98bcc519267a8fe3f6cef54cf65e3fe54ff0acd87d578445b79"
+    "id": "10120050",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1012_0050.jpg",
+    "hash": "de69620fdeebd98bcc519267a8fe3f6cef54cf65e3fe54ff0acd87d578445b79"
   },
   {
-    "10130004": "c1ff93a68efe89dc43758b27ab95e3b233819b9cbc270bc505fbd0954354ca89"
+    "id": "10130004",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1013_0004.jpg",
+    "hash": "c1ff93a68efe89dc43758b27ab95e3b233819b9cbc270bc505fbd0954354ca89"
   },
   {
-    "10130005": "afee1b5283540c690103ad163e7a98f59adef0ddc01ab55d11e1f0e88125e088"
+    "id": "10130005",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1013_0005.jpg",
+    "hash": "afee1b5283540c690103ad163e7a98f59adef0ddc01ab55d11e1f0e88125e088"
   },
   {
-    "10130006": "cdf3697330dd6d27cda59e65e7453cc64eeac2433fef27c1f8ddb24124a12292"
+    "id": "10130006",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1013_0006.jpg",
+    "hash": "cdf3697330dd6d27cda59e65e7453cc64eeac2433fef27c1f8ddb24124a12292"
   },
   {
-    "10130007": "62f3420f51dbb35edf24296e4cb8c0ca1ba7dabfca986e2e0f985ec9482373a4"
+    "id": "10130007",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1013_0007.jpg",
+    "hash": "62f3420f51dbb35edf24296e4cb8c0ca1ba7dabfca986e2e0f985ec9482373a4"
   },
   {
-    "10150009": "ee25f178ff59ee860ecc10947ace8b565360bc8f80ea2ca1562ecaca84cb98cf"
+    "id": "10150009",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1015_0009.jpg",
+    "hash": "ee25f178ff59ee860ecc10947ace8b565360bc8f80ea2ca1562ecaca84cb98cf"
   },
   {
-    "10200015": "f3b38a32e5e2832afdfbb69b2b20565a846e5a1381d3d4a14d0b0e07ddce270c"
+    "id": "10200015",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1020_0015.jpg",
+    "hash": "f3b38a32e5e2832afdfbb69b2b20565a846e5a1381d3d4a14d0b0e07ddce270c"
   },
   {
-    "10210005": "6cf242d887b002040b64512d5669a1a332d203824eb72e59fffe042f5a99f1bf"
+    "id": "10210005",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1021_0005.jpg",
+    "hash": "6cf242d887b002040b64512d5669a1a332d203824eb72e59fffe042f5a99f1bf"
   },
   {
-    "10210006": "a0887269e466e51fa49c613218323ae92f0a17b26193c83a1e514c81157eaf19"
+    "id": "10210006",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1021_0006.jpg",
+    "hash": "a0887269e466e51fa49c613218323ae92f0a17b26193c83a1e514c81157eaf19"
   },
   {
-    "10210007": "f476ff9c394d87af1e20691aa3f16460720a0c855d7c6253d4ff0975eca69881"
+    "id": "10210007",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1021_0007.jpg",
+    "hash": "f476ff9c394d87af1e20691aa3f16460720a0c855d7c6253d4ff0975eca69881"
   },
   {
-    "10210018": "d342d1eb0f9eaf39a83671dd39b1d108dc4daca7485798c6165eb1315cb40127"
+    "id": "10210018",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1021_0018.jpg",
+    "hash": "d342d1eb0f9eaf39a83671dd39b1d108dc4daca7485798c6165eb1315cb40127"
   },
   {
-    "10230029": "a16584f3896f91f9b213b607ee75d59ae78eaaf4a74e348ba863036ce065ed6a"
+    "id": "10230029",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1023_0029.jpg",
+    "hash": "a16584f3896f91f9b213b607ee75d59ae78eaaf4a74e348ba863036ce065ed6a"
   },
   {
-    "10280089": "6e372416cfb730e9af8bd062f468228a92efd19b5558baac5ff4d8358c20e9be"
+    "id": "10280089",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1028_0089.jpg",
+    "hash": "6e372416cfb730e9af8bd062f468228a92efd19b5558baac5ff4d8358c20e9be"
   },
   {
-    "10300009": "d2a8e2d59a68a917901c69da20f300bd8828f7b136bfa649d5ea9bdc57e6c54d"
+    "id": "10300009",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1030_0009.jpg",
+    "hash": "d2a8e2d59a68a917901c69da20f300bd8828f7b136bfa649d5ea9bdc57e6c54d"
   },
   {
-    "10300015": "937c846a9a3472ff7e575f126d09dfc205e152a3a413da32a4bccd9ce0a41747"
+    "id": "10300015",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1030_0015.jpg",
+    "hash": "937c846a9a3472ff7e575f126d09dfc205e152a3a413da32a4bccd9ce0a41747"
   },
   {
-    "10300016": "f4b75027489f1c3fb2bb525d8f4f8f635d85117477d92271730d6d88b0443507"
+    "id": "10300016",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1030_0016.jpg",
+    "hash": "f4b75027489f1c3fb2bb525d8f4f8f635d85117477d92271730d6d88b0443507"
   },
   {
-    "10300018": "45ae8e1e7843e6f58d59b3e194e040ef0941e9d029fdb4df39eb9732a95dd808"
+    "id": "10300018",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1030_0018.jpg",
+    "hash": "45ae8e1e7843e6f58d59b3e194e040ef0941e9d029fdb4df39eb9732a95dd808"
   },
   {
-    "10300021": "00976aa80dbea4d21eddd032364bf5c9cd032e2c6855590b3c17b9c4c17bcf6a"
+    "id": "10300021",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1030_0021.jpg",
+    "hash": "00976aa80dbea4d21eddd032364bf5c9cd032e2c6855590b3c17b9c4c17bcf6a"
   },
   {
-    "10300022": "db88e7fc8f29fd32f5bffd43132a10faa3032b4862c6f668eed9b416780e7b2f"
+    "id": "10300022",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1030_0022.jpg",
+    "hash": "db88e7fc8f29fd32f5bffd43132a10faa3032b4862c6f668eed9b416780e7b2f"
   },
   {
-    "10300025": "ed99246c008e4b5d41dd40cd801c16ea75f52e30498bb7203b6b33bed652dd50"
+    "id": "10300025",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1030_0025.jpg",
+    "hash": "ed99246c008e4b5d41dd40cd801c16ea75f52e30498bb7203b6b33bed652dd50"
   },
   {
-    "10300026": "89974ae8c3927e8cac52159f6a0e402506f8424306dcda601e584c088373e165"
+    "id": "10300026",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1030_0026.jpg",
+    "hash": "89974ae8c3927e8cac52159f6a0e402506f8424306dcda601e584c088373e165"
   },
   {
-    "10300032": "cde8f757012bebe9d32aad48d0845a0020ae37e1181cfb2e77cef3022c35d08d"
+    "id": "10300032",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1030_0032.jpg",
+    "hash": "cde8f757012bebe9d32aad48d0845a0020ae37e1181cfb2e77cef3022c35d08d"
   },
   {
-    "10300035": "985736ee3ac3e4ffbfb28abbc4fc0aae73a2ba5c2d4a0aab97e8c7381db3625e"
+    "id": "10300035",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1030_0035.jpg",
+    "hash": "985736ee3ac3e4ffbfb28abbc4fc0aae73a2ba5c2d4a0aab97e8c7381db3625e"
   },
   {
-    "10300036": "1c6b3ac2ae7169acd8d11a1313d78df95449bfacf899028248c0c85bb4d60b17"
+    "id": "10300036",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1030_0036.jpg",
+    "hash": "1c6b3ac2ae7169acd8d11a1313d78df95449bfacf899028248c0c85bb4d60b17"
   },
   {
-    "10300037": "cbd8fe41f968a2655f36ad5c26375c5cfc95923537bcae44079912c93e45728d"
+    "id": "10300037",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1030_0037.jpg",
+    "hash": "cbd8fe41f968a2655f36ad5c26375c5cfc95923537bcae44079912c93e45728d"
   },
   {
-    "10300038": "198ab6607e97bdcc7d63ef975f431c477fc40c34ea0e56f95b0aaf70d509dcf5"
+    "id": "10300038",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1030_0038.jpg",
+    "hash": "198ab6607e97bdcc7d63ef975f431c477fc40c34ea0e56f95b0aaf70d509dcf5"
   },
   {
-    "10300039": "81440f4f6a826fe062dfc09dbb4dd39aa41e2a081eb896b9007598144deccbd8"
+    "id": "10300039",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1030_0039.jpg",
+    "hash": "81440f4f6a826fe062dfc09dbb4dd39aa41e2a081eb896b9007598144deccbd8"
   },
   {
-    "10300045": "40679f5f5a45e3bec14207ec809d5c070b99ab1c35c670098673e2636195aecd"
+    "id": "10300045",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1030_0045.jpg",
+    "hash": "40679f5f5a45e3bec14207ec809d5c070b99ab1c35c670098673e2636195aecd"
   },
   {
-    "10300046": "10709a557932121c94c4ac81df85eeb3b78f711c62b19a0576e8d383e1023ae2"
+    "id": "10300046",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1030_0046.jpg",
+    "hash": "10709a557932121c94c4ac81df85eeb3b78f711c62b19a0576e8d383e1023ae2"
   },
   {
-    "10300047": "5886f0dc2024bb6adf3e23f2b32ada40bb0086352ea51f5332030f563c2052dc"
+    "id": "10300047",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1030_0047.jpg",
+    "hash": "5886f0dc2024bb6adf3e23f2b32ada40bb0086352ea51f5332030f563c2052dc"
   },
   {
-    "10300049": "e219dbc093b7e59bb2a3ef832574c871066c3801ac6c08963e6ca2e2cc67c58a"
+    "id": "10300049",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1030_0049.jpg",
+    "hash": "e219dbc093b7e59bb2a3ef832574c871066c3801ac6c08963e6ca2e2cc67c58a"
   },
   {
-    "10300050": "e0258fcba8155ab2d91268f5f72950fc5449d0a9716ebca724605ff547d4a437"
+    "id": "10300050",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1030_0050.jpg",
+    "hash": "e0258fcba8155ab2d91268f5f72950fc5449d0a9716ebca724605ff547d4a437"
   },
   {
-    "10300052": "b521cc32e1d4c54693646d604bdd0d9e1fb865ad4c468e7ed22f8f21befb692c"
+    "id": "10300052",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1030_0052.jpg",
+    "hash": "b521cc32e1d4c54693646d604bdd0d9e1fb865ad4c468e7ed22f8f21befb692c"
   },
   {
-    "10300053": "462e63f57e4fa6f72c63dce41a40d1017909ad41184db00a3bb64ec16555e0c2"
+    "id": "10300053",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1030_0053.jpg",
+    "hash": "462e63f57e4fa6f72c63dce41a40d1017909ad41184db00a3bb64ec16555e0c2"
   },
   {
-    "10300054": "f27fc49e5e2da4ac52b3811ee5e362c1a9991ec4a6c3334c4cb3404ae5c8f59d"
+    "id": "10300054",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1030_0054.jpg",
+    "hash": "f27fc49e5e2da4ac52b3811ee5e362c1a9991ec4a6c3334c4cb3404ae5c8f59d"
   },
   {
-    "10300055": "4c0f2a8b7b7f49939c4eb4bc610ec1b9ed78c0b4c473b3ef217c8f6f63a5ced2"
+    "id": "10300055",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1030_0055.jpg",
+    "hash": "4c0f2a8b7b7f49939c4eb4bc610ec1b9ed78c0b4c473b3ef217c8f6f63a5ced2"
   },
   {
-    "10300056": "848cc8e286cb76765972685b03ee18ad02ddd36c2b351a8bb0e0e16133a54895"
+    "id": "10300056",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1030_0056.jpg",
+    "hash": "848cc8e286cb76765972685b03ee18ad02ddd36c2b351a8bb0e0e16133a54895"
   },
   {
-    "10300057": "3ea51f3596a42f785aec622ffd8ea19436ce7b4c08103bb4bc9e2f2146df7249"
+    "id": "10300057",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1030_0057.jpg",
+    "hash": "3ea51f3596a42f785aec622ffd8ea19436ce7b4c08103bb4bc9e2f2146df7249"
   },
   {
-    "10300058": "4489b0fd673fc1e059c562bc0f0c5a545fc0125e03adb3789259ef44f2748817"
+    "id": "10300058",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1030_0058.jpg",
+    "hash": "4489b0fd673fc1e059c562bc0f0c5a545fc0125e03adb3789259ef44f2748817"
   },
   {
-    "10300059": "b65c9e5da1e371062c1de0c30f98a977727528795f102aec09bd7c6c557de8f3"
+    "id": "10300059",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1030_0059.jpg",
+    "hash": "b65c9e5da1e371062c1de0c30f98a977727528795f102aec09bd7c6c557de8f3"
   },
   {
-    "10300065": "e3b451860b9aea99be24a2c788bf5860bd8c91973f42574c7e77ef4fbbc1caea"
+    "id": "10300065",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1030_0065.jpg",
+    "hash": "e3b451860b9aea99be24a2c788bf5860bd8c91973f42574c7e77ef4fbbc1caea"
   },
   {
-    "10340005": "bc22a223ce3d545a9c0e512c4d00f0772a03e6b07b531e5b9b2ede37ef095054"
+    "id": "10340005",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1034_0005.jpg",
+    "hash": "bc22a223ce3d545a9c0e512c4d00f0772a03e6b07b531e5b9b2ede37ef095054"
   },
   {
-    "10340007": "5e99a7e297c5d5828152c463084bd4898f1155d0398916d1b1fd421a0e044bd0"
+    "id": "10340007",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1034_0007.jpg",
+    "hash": "5e99a7e297c5d5828152c463084bd4898f1155d0398916d1b1fd421a0e044bd0"
   },
   {
-    "10340018": "aeac66af4389eb68d7f087cf55cd5201583e1afc08478d10ee841266d36e4574"
+    "id": "10340018",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1034_0018.jpg",
+    "hash": "aeac66af4389eb68d7f087cf55cd5201583e1afc08478d10ee841266d36e4574"
   },
   {
-    "10340021": "9a1184cfc8252d7ae7718ba619074abf793d104ce573bdf4952dd430c5e14ffa"
+    "id": "10340021",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1034_0021.jpg",
+    "hash": "9a1184cfc8252d7ae7718ba619074abf793d104ce573bdf4952dd430c5e14ffa"
   },
   {
-    "10340023": "0f7367c0ca1752492db5ca36ae193e385d3884a2300e28a598a6d87f3625c41b"
+    "id": "10340023",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1034_0023.jpg",
+    "hash": "0f7367c0ca1752492db5ca36ae193e385d3884a2300e28a598a6d87f3625c41b"
   },
   {
-    "10340025": "e3d31c649042b88883be28d48f269c27a3579a6962f014f922c34599bb400fbd"
+    "id": "10340025",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1034_0025.jpg",
+    "hash": "e3d31c649042b88883be28d48f269c27a3579a6962f014f922c34599bb400fbd"
   },
   {
-    "10340029": "869bcc0d3900425f5d0c08ed7373f197a5f4105f4806e95e9a3b1e37adf4c404"
+    "id": "10340029",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1034_0029.jpg",
+    "hash": "869bcc0d3900425f5d0c08ed7373f197a5f4105f4806e95e9a3b1e37adf4c404"
   },
   {
-    "10340030": "adc6861d0021199a7d2b1acd62cecd0699a9fa4b7b1690eca405aa7ce1ba6bfc"
+    "id": "10340030",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1034_0030.jpg",
+    "hash": "adc6861d0021199a7d2b1acd62cecd0699a9fa4b7b1690eca405aa7ce1ba6bfc"
   },
   {
-    "10350002": "e2ad33285ea8a9d1c4b506393ea52818ebc7548350f49a84391c01a8bdc4b466"
+    "id": "10350002",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1035_0002.jpg",
+    "hash": "e2ad33285ea8a9d1c4b506393ea52818ebc7548350f49a84391c01a8bdc4b466"
   },
   {
-    "10350003": "ff7c33fc819115d69a8ee79a8b2fbe49a520be4881a035a4f92ef1e8c826a1a8"
+    "id": "10350003",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1035_0003.jpg",
+    "hash": "ff7c33fc819115d69a8ee79a8b2fbe49a520be4881a035a4f92ef1e8c826a1a8"
   },
   {
-    "10350015": "2d776a4929cacede5a8e3713682c34d5e923a584adb9b34fe498dacf33713c8b"
+    "id": "10350015",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1035_0015.jpg",
+    "hash": "2d776a4929cacede5a8e3713682c34d5e923a584adb9b34fe498dacf33713c8b"
   },
   {
-    "10350016": "995d7d7f581ea5f7bfde80aac5628302bb2cdb5ec63f0a8e6b5cd78b8975ba38"
+    "id": "10350016",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1035_0016.jpg",
+    "hash": "995d7d7f581ea5f7bfde80aac5628302bb2cdb5ec63f0a8e6b5cd78b8975ba38"
   },
   {
-    "10350018": "853cb5b368575d14db73131563266813870abfa118d71b3ccbfe2d13efeb5d80"
+    "id": "10350018",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1035_0018.jpg",
+    "hash": "853cb5b368575d14db73131563266813870abfa118d71b3ccbfe2d13efeb5d80"
   },
   {
-    "10350019": "28eb06580a94ed2af5a577e947b0bf4ecdbaa90c31e0a57654be7eff479856fe"
+    "id": "10350019",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1035_0019.jpg",
+    "hash": "28eb06580a94ed2af5a577e947b0bf4ecdbaa90c31e0a57654be7eff479856fe"
   },
   {
-    "10350020": "aad7f2e081f4d026101b423d184e426e7fdea7f9508bcd85201c27c1c86b701c"
+    "id": "10350020",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1035_0020.jpg",
+    "hash": "aad7f2e081f4d026101b423d184e426e7fdea7f9508bcd85201c27c1c86b701c"
   },
   {
-    "10350021": "0f52685ba9b17702b151092b74399faa75be0020803ba6d1ed9789ca6c2778ee"
+    "id": "10350021",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1035_0021.jpg",
+    "hash": "0f52685ba9b17702b151092b74399faa75be0020803ba6d1ed9789ca6c2778ee"
   },
   {
-    "10350023": "72dbbb4393d5bf0a6e3fcceec4bcaafdc1914a59a0e94572ffd3828b6345888d"
+    "id": "10350023",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1035_0023.jpg",
+    "hash": "72dbbb4393d5bf0a6e3fcceec4bcaafdc1914a59a0e94572ffd3828b6345888d"
   },
   {
-    "10350024": "e15cab606bd3d4152e7d1b667ac394e17aab6c7a4f3fd64fdcfdea1bb8ae0bce"
+    "id": "10350024",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1035_0024.jpg",
+    "hash": "e15cab606bd3d4152e7d1b667ac394e17aab6c7a4f3fd64fdcfdea1bb8ae0bce"
   },
   {
-    "10350025": "baf47fc2bd398704d3409b6ff01d1a487a85677b90991448012cf5eea2b23f1e"
+    "id": "10350025",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1035_0025.jpg",
+    "hash": "baf47fc2bd398704d3409b6ff01d1a487a85677b90991448012cf5eea2b23f1e"
   },
   {
-    "10350026": "29865efb3414fbfb0bc56f93204db9954523cc113202b871b69f1bdc977e2ce4"
+    "id": "10350026",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1035_0026.jpg",
+    "hash": "29865efb3414fbfb0bc56f93204db9954523cc113202b871b69f1bdc977e2ce4"
   },
   {
-    "10350027": "4e34a535ea5174264018fdb24de74e64519ca9c55e885cae6fd6af42bd576f7f"
+    "id": "10350027",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1035_0027.jpg",
+    "hash": "4e34a535ea5174264018fdb24de74e64519ca9c55e885cae6fd6af42bd576f7f"
   },
   {
-    "10350030": "40ed4cd91356b1aa221be718e947c77e4abd7141d90cfadabd50a76d65f42ad6"
+    "id": "10350030",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1035_0030.jpg",
+    "hash": "40ed4cd91356b1aa221be718e947c77e4abd7141d90cfadabd50a76d65f42ad6"
   },
   {
-    "10360004": "f48208dcc32f694abcb45077d02df779175791ff47e543cb817d9fa530b0fcc6"
+    "id": "10360004",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1036_0004.jpg",
+    "hash": "f48208dcc32f694abcb45077d02df779175791ff47e543cb817d9fa530b0fcc6"
   },
   {
-    "10360008": "da351f67f97d955f07256b4cff131e2c18f20b8ccb801d293fb63bb5fec50e27"
+    "id": "10360008",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1036_0008.jpg",
+    "hash": "da351f67f97d955f07256b4cff131e2c18f20b8ccb801d293fb63bb5fec50e27"
   },
   {
-    "10360011": "6e8e30df35f80f6fdb2ac27c41fb454fbed1a96c71f04d517019718795cc2bb1"
+    "id": "10360011",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1036_0011.jpg",
+    "hash": "6e8e30df35f80f6fdb2ac27c41fb454fbed1a96c71f04d517019718795cc2bb1"
   },
   {
-    "10360016": "86d1d957108d5e34e51e4a1db05494815d666ed15558ed8a43f5e9293eaca390"
+    "id": "10360016",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1036_0016.jpg",
+    "hash": "86d1d957108d5e34e51e4a1db05494815d666ed15558ed8a43f5e9293eaca390"
   },
   {
-    "10360017": "0639f588618a254e834b3bb486fba4346d94d0bc32bdc942383b819d7f630dd2"
+    "id": "10360017",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1036_0017.jpg",
+    "hash": "0639f588618a254e834b3bb486fba4346d94d0bc32bdc942383b819d7f630dd2"
   },
   {
-    "10360021": "a4578d3897d49074499bd7ca72a6f575cbdf70a8aa7570d7592bdefa5bc03ba6"
+    "id": "10360021",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1036_0021.jpg",
+    "hash": "a4578d3897d49074499bd7ca72a6f575cbdf70a8aa7570d7592bdefa5bc03ba6"
   },
   {
-    "10360024": "c55f2e5def7ca279a486662324e3aadee6de70211bb93550938ec7b9ef724a31"
+    "id": "10360024",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1036_0024.jpg",
+    "hash": "c55f2e5def7ca279a486662324e3aadee6de70211bb93550938ec7b9ef724a31"
   },
   {
-    "10360025": "c9c052169929142de5d1066cb77569373ae90425c1e58f95715d5955d70c0889"
+    "id": "10360025",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1036_0025.jpg",
+    "hash": "c9c052169929142de5d1066cb77569373ae90425c1e58f95715d5955d70c0889"
   },
   {
-    "10360030": "9eefd436eafeda520d8eff3ecb3b6f87f6fe7086f81b3aa3473481b5e5da31e2"
+    "id": "10360030",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1036_0030.jpg",
+    "hash": "9eefd436eafeda520d8eff3ecb3b6f87f6fe7086f81b3aa3473481b5e5da31e2"
   },
   {
-    "10360031": "f3f1776fe7950fe37c0cd5fa0a92a9bc48bb15101ad0310053cfc54b63df1a1e"
+    "id": "10360031",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1036_0031.jpg",
+    "hash": "f3f1776fe7950fe37c0cd5fa0a92a9bc48bb15101ad0310053cfc54b63df1a1e"
   },
   {
-    "10360032": "21f32a0a47af98d26211a06511881f8b48dccd78429c657c4d7bb31afe9191f1"
+    "id": "10360032",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1036_0032.jpg",
+    "hash": "21f32a0a47af98d26211a06511881f8b48dccd78429c657c4d7bb31afe9191f1"
   },
   {
-    "10360033": "e905efba22b1a40f27803825420fac188247a926da66d78f49d3272a1e0d7f9e"
+    "id": "10360033",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1036_0033.jpg",
+    "hash": "e905efba22b1a40f27803825420fac188247a926da66d78f49d3272a1e0d7f9e"
   },
   {
-    "10360036": "3a2ec2ddb8e7c9919f90b82628e204893e8168358aa8d5f1c4288485e25c9d7e"
+    "id": "10360036",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1036_0036.jpg",
+    "hash": "3a2ec2ddb8e7c9919f90b82628e204893e8168358aa8d5f1c4288485e25c9d7e"
   },
   {
-    "10360037": "a7d236e4f6f765619c1de660d3a600fd5c16b7d12b1521d9276a8024dccc19fd"
+    "id": "10360037",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1036_0037.jpg",
+    "hash": "a7d236e4f6f765619c1de660d3a600fd5c16b7d12b1521d9276a8024dccc19fd"
   },
   {
-    "10360039": "b87e00881f226ebac44d3606b8b131114fe6f3c1efa51100b17dec86567709dd"
+    "id": "10360039",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1036_0039.jpg",
+    "hash": "b87e00881f226ebac44d3606b8b131114fe6f3c1efa51100b17dec86567709dd"
   },
   {
-    "10360040": "2c43d64b0a214ee008c7c40ffb756958fb17c842417f35713394d663960e8e08"
+    "id": "10360040",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1036_0040.jpg",
+    "hash": "2c43d64b0a214ee008c7c40ffb756958fb17c842417f35713394d663960e8e08"
   },
   {
-    "10360042": "c84b9b871a5f50c1d99d7e40c2d51d2061b4a3f137cdebbec84cee09a4ef7a41"
+    "id": "10360042",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1036_0042.jpg",
+    "hash": "c84b9b871a5f50c1d99d7e40c2d51d2061b4a3f137cdebbec84cee09a4ef7a41"
   },
   {
-    "10360043": "bdb9481e2c2ae903e3ea249e62c68c3cfa3b4464ab6a30f13a98e4b00a72e3b9"
+    "id": "10360043",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1036_0043.jpg",
+    "hash": "bdb9481e2c2ae903e3ea249e62c68c3cfa3b4464ab6a30f13a98e4b00a72e3b9"
   },
   {
-    "10360044": "f3efb9128b315889823d9ace2e3f6f4432fd5cc065acfb074570eb22a4f16a94"
+    "id": "10360044",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1036_0044.jpg",
+    "hash": "f3efb9128b315889823d9ace2e3f6f4432fd5cc065acfb074570eb22a4f16a94"
   },
   {
-    "10360045": "816217f152836b03d6214f265856f3128cb5b2c14eeeb15a8b7c0dbc1eaa2206"
+    "id": "10360045",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1036_0045.jpg",
+    "hash": "816217f152836b03d6214f265856f3128cb5b2c14eeeb15a8b7c0dbc1eaa2206"
   },
   {
-    "10360046": "ed3eeec92e27d113cbd01f6cbb8307a1d7a17c169a028180d9fb4123b80b6fd7"
+    "id": "10360046",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1036_0046.jpg",
+    "hash": "ed3eeec92e27d113cbd01f6cbb8307a1d7a17c169a028180d9fb4123b80b6fd7"
   },
   {
-    "10360047": "c34b85e10e05f3adb74db3499cf415ed6608011b0f47d56adbc70004d8601ed1"
+    "id": "10360047",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1036_0047.jpg",
+    "hash": "c34b85e10e05f3adb74db3499cf415ed6608011b0f47d56adbc70004d8601ed1"
   },
   {
-    "10360048": "4f13b855316acda9a3c7633cdb93c7f81354766c2a5729954af99be6bacc4e6a"
+    "id": "10360048",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1036_0048.jpg",
+    "hash": "4f13b855316acda9a3c7633cdb93c7f81354766c2a5729954af99be6bacc4e6a"
   },
   {
-    "10360049": "6fe8e21e5163d541c671405c9a537b89f567975c0f4b1172557a9f8369b62e06"
+    "id": "10360049",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1036_0049.jpg",
+    "hash": "6fe8e21e5163d541c671405c9a537b89f567975c0f4b1172557a9f8369b62e06"
   },
   {
-    "10360050": "3b3b4504051d82054f6a085178f1c7a9415298e6a0cd0aafd4d5bc681878f94b"
+    "id": "10360050",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1036_0050.jpg",
+    "hash": "3b3b4504051d82054f6a085178f1c7a9415298e6a0cd0aafd4d5bc681878f94b"
   },
   {
-    "10360051": "b974ac497530ce4e524649c03c9d10741c9d0ae1cb0a4dc30f908f65dfe4e1ad"
+    "id": "10360051",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1036_0051.jpg",
+    "hash": "b974ac497530ce4e524649c03c9d10741c9d0ae1cb0a4dc30f908f65dfe4e1ad"
   },
   {
-    "10360052": "d694e21f487ebe9d9939a86a2acbd1033fbab3505fede3c1f652c45d2cf2efcf"
+    "id": "10360052",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1036_0052.jpg",
+    "hash": "d694e21f487ebe9d9939a86a2acbd1033fbab3505fede3c1f652c45d2cf2efcf"
   },
   {
-    "10360054": "ec081db5823dfa60fdcbaa53eeda3a0ae25a3d6df42fb3c49e5a46381b0f5b2b"
+    "id": "10360054",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1036_0054.jpg",
+    "hash": "ec081db5823dfa60fdcbaa53eeda3a0ae25a3d6df42fb3c49e5a46381b0f5b2b"
   },
   {
-    "10360055": "1a21f0134922bc7e65b95ac4aab1aafe0c92e119d214c5a03ead0d6b87743118"
+    "id": "10360055",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1036_0055.jpg",
+    "hash": "1a21f0134922bc7e65b95ac4aab1aafe0c92e119d214c5a03ead0d6b87743118"
   },
   {
-    "10360056": "d32c7147d56403eb8968518a94e14a25b940bee201419221695127e13c5e3b20"
+    "id": "10360056",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1036_0056.jpg",
+    "hash": "d32c7147d56403eb8968518a94e14a25b940bee201419221695127e13c5e3b20"
   },
   {
-    "10360057": "e989521ee4f09c4cc106497ddfe2236263013b4b7fb5932cf82ad1586947f495"
+    "id": "10360057",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1036_0057.jpg",
+    "hash": "e989521ee4f09c4cc106497ddfe2236263013b4b7fb5932cf82ad1586947f495"
   },
   {
-    "10360059": "87d858d5ca6290804ae5a35f9a2d33f057ad08dd9d5b23eb48a9c7fc3e41e4e6"
+    "id": "10360059",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1036_0059.jpg",
+    "hash": "87d858d5ca6290804ae5a35f9a2d33f057ad08dd9d5b23eb48a9c7fc3e41e4e6"
   },
   {
-    "10360060": "b05f7e6818e90589239e8f0a4ec7d270982b173d618cc2300e37a4e90265cdfe"
+    "id": "10360060",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1036_0060.jpg",
+    "hash": "b05f7e6818e90589239e8f0a4ec7d270982b173d618cc2300e37a4e90265cdfe"
   },
   {
-    "10360061": "a2f1767bdb727025eee7df04936b673cd2207316bcea794608b4c9e9338676fa"
+    "id": "10360061",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1036_0061.jpg",
+    "hash": "a2f1767bdb727025eee7df04936b673cd2207316bcea794608b4c9e9338676fa"
   },
   {
-    "10360063": "32659df3c3c299bc39246bd5d980d5cc2579cb9eae8a5769d93959b17efcfe82"
+    "id": "10360063",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1036_0063.jpg",
+    "hash": "32659df3c3c299bc39246bd5d980d5cc2579cb9eae8a5769d93959b17efcfe82"
   },
   {
-    "10360064": "1f6204329b3a172eba78a9b88ebe078fc933a8a4acb85843b982e41b37261601"
+    "id": "10360064",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1036_0064.jpg",
+    "hash": "1f6204329b3a172eba78a9b88ebe078fc933a8a4acb85843b982e41b37261601"
   },
   {
-    "10360065": "b67e3f3d590e19dab64fd1ca2429002ce18ecfc4ca47a87f606b86aba04b535b"
+    "id": "10360065",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1036_0065.jpg",
+    "hash": "b67e3f3d590e19dab64fd1ca2429002ce18ecfc4ca47a87f606b86aba04b535b"
   },
   {
-    "10360066": "90cf03c7fb217a653caa3c1545adde23949d9a40323fb1fb89f75577b7a6a5f6"
+    "id": "10360066",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1036_0066.jpg",
+    "hash": "90cf03c7fb217a653caa3c1545adde23949d9a40323fb1fb89f75577b7a6a5f6"
   },
   {
-    "10360067": "cb60f39fb50efb5cfe022763f3042ae1ee931936f566d2f6172c1642df362700"
+    "id": "10360067",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1036_0067.jpg",
+    "hash": "cb60f39fb50efb5cfe022763f3042ae1ee931936f566d2f6172c1642df362700"
   },
   {
-    "10400015": "82f247fec8d13e49df4ae630ed105aa52685635ba9c8ce9f48ab0b7cafe1fc6f"
+    "id": "10400015",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1040_0015.jpg",
+    "hash": "82f247fec8d13e49df4ae630ed105aa52685635ba9c8ce9f48ab0b7cafe1fc6f"
   },
   {
-    "10400023": "c395f439ecd288ecf19ed4f1ffcf9a6823688b569bcb178b2a0ffaf3f3411003"
+    "id": "10400023",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1040_0023.jpg",
+    "hash": "c395f439ecd288ecf19ed4f1ffcf9a6823688b569bcb178b2a0ffaf3f3411003"
   },
   {
-    "10420002": "02bfd08c84c7cb5ca13af03f4e3e1c04e3192963c420cd80861669d05c7f08dd"
+    "id": "10420002",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1042_0002.jpg",
+    "hash": "02bfd08c84c7cb5ca13af03f4e3e1c04e3192963c420cd80861669d05c7f08dd"
   },
   {
-    "10420003": "b4a09da2d588b822ae961cd0bfbc716f20def8b4c89ad20ad31a155540fa9133"
+    "id": "10420003",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1042_0003.jpg",
+    "hash": "b4a09da2d588b822ae961cd0bfbc716f20def8b4c89ad20ad31a155540fa9133"
   },
   {
-    "10420006": "6848f461d78fea0806d51a3c75fd565fe5da0fd51d9c96d3060facdddd5fcc5c"
+    "id": "10420006",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1042_0006.jpg",
+    "hash": "6848f461d78fea0806d51a3c75fd565fe5da0fd51d9c96d3060facdddd5fcc5c"
   },
   {
-    "10420007": "caf586c2944c2726b9d26bf6a026c40fcfcf6f6e53a82d570b49b96107dac0ce"
+    "id": "10420007",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1042_0007.jpg",
+    "hash": "caf586c2944c2726b9d26bf6a026c40fcfcf6f6e53a82d570b49b96107dac0ce"
   },
   {
-    "10420009": "5005f6cc45de8af987c9c220dfe048825b36280396f468cd84e2641a54cec359"
+    "id": "10420009",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1042_0009.jpg",
+    "hash": "5005f6cc45de8af987c9c220dfe048825b36280396f468cd84e2641a54cec359"
   },
   {
-    "10420010": "49fd08b6297e5ddd51bcd8a69e253c0fc97e1c22984d1ee6437c10edca67c527"
+    "id": "10420010",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1042_0010.jpg",
+    "hash": "49fd08b6297e5ddd51bcd8a69e253c0fc97e1c22984d1ee6437c10edca67c527"
   },
   {
-    "10420011": "0521076dd740e0dbb9f082c331e259b2747b35a84ac5ded88f4ba4008b7d713d"
+    "id": "10420011",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1042_0011.jpg",
+    "hash": "0521076dd740e0dbb9f082c331e259b2747b35a84ac5ded88f4ba4008b7d713d"
   },
   {
-    "10420012": "e1b502bdea31b80482f9689875ff8282b404315c7139958e71c40a82b9494af0"
+    "id": "10420012",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1042_0012.jpg",
+    "hash": "e1b502bdea31b80482f9689875ff8282b404315c7139958e71c40a82b9494af0"
   },
   {
-    "10420013": "3c764c65a5a83ea3b851c7d8bd654ce7b2e145b8724ced5e8f0af12c1b522dea"
+    "id": "10420013",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1042_0013.jpg",
+    "hash": "3c764c65a5a83ea3b851c7d8bd654ce7b2e145b8724ced5e8f0af12c1b522dea"
   },
   {
-    "10420016": "eed8f4ae6ffa6f53edb3962a1a6c3370fba172d31d9bf720d322bcce0f80eefb"
+    "id": "10420016",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1042_0016.jpg",
+    "hash": "eed8f4ae6ffa6f53edb3962a1a6c3370fba172d31d9bf720d322bcce0f80eefb"
   },
   {
-    "10420018": "44edead1455e19a883c989831487e63a0c23e67b53d8c7bbe49ee0ff3ea03475"
+    "id": "10420018",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1042_0018.jpg",
+    "hash": "44edead1455e19a883c989831487e63a0c23e67b53d8c7bbe49ee0ff3ea03475"
   },
   {
-    "10420019": "2ddd67647b939361a916e53dc32092c929129ac307fc0df0f51c468494c244af"
+    "id": "10420019",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1042_0019.jpg",
+    "hash": "2ddd67647b939361a916e53dc32092c929129ac307fc0df0f51c468494c244af"
   },
   {
-    "10420020": "14239f43023d35152ea475f74050278fe07e31254652f9c61341472650c98a8e"
+    "id": "10420020",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1042_0020.jpg",
+    "hash": "14239f43023d35152ea475f74050278fe07e31254652f9c61341472650c98a8e"
   },
   {
-    "10420021": "e5bf5daf8642c300d0b8acaba185589fcefe29c69501ceac344a03d235d3e2c1"
+    "id": "10420021",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1042_0021.jpg",
+    "hash": "e5bf5daf8642c300d0b8acaba185589fcefe29c69501ceac344a03d235d3e2c1"
   },
   {
-    "10420022": "08facca0e99ad436c5a59df1d21720e64bad7bde63bbacfb3c4c36275bdab3c8"
+    "id": "10420022",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1042_0022.jpg",
+    "hash": "08facca0e99ad436c5a59df1d21720e64bad7bde63bbacfb3c4c36275bdab3c8"
   },
   {
-    "10420023": "afc1f6707084167f609d9349396c42a515a6b15230b76d0e32b95059aa766dff"
+    "id": "10420023",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1042_0023.jpg",
+    "hash": "afc1f6707084167f609d9349396c42a515a6b15230b76d0e32b95059aa766dff"
   },
   {
-    "10420024": "b19d2dc188d7b034eef021ba39122c159bfc5128544f54e016779f53a394a274"
+    "id": "10420024",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1042_0024.jpg",
+    "hash": "b19d2dc188d7b034eef021ba39122c159bfc5128544f54e016779f53a394a274"
   },
   {
-    "10420025": "16458f34adc7b725804e69028ad47cc3cfbcd20172baf35b626ea665fd3cc59e"
+    "id": "10420025",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1042_0025.jpg",
+    "hash": "16458f34adc7b725804e69028ad47cc3cfbcd20172baf35b626ea665fd3cc59e"
   },
   {
-    "10420026": "3b5f34213b7e6ed35f0e985d63ec810ce1dd335730e17c0f634db65828d17d5d"
+    "id": "10420026",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1042_0026.jpg",
+    "hash": "3b5f34213b7e6ed35f0e985d63ec810ce1dd335730e17c0f634db65828d17d5d"
   },
   {
-    "10420027": "5023bce2daf26ea93232a3609f792e72e48077bc1b1bb212815bb67449b30f1d"
+    "id": "10420027",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1042_0027.jpg",
+    "hash": "5023bce2daf26ea93232a3609f792e72e48077bc1b1bb212815bb67449b30f1d"
   },
   {
-    "10420028": "63a713f52bc7ce34158b92cd2ed02cda76df2ab07d66a64953eaca85f49c7050"
+    "id": "10420028",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1042_0028.jpg",
+    "hash": "63a713f52bc7ce34158b92cd2ed02cda76df2ab07d66a64953eaca85f49c7050"
   },
   {
-    "10420029": "e67f7ecf4372600c59a1255737d7aeb4089adf3195b596474940d81e5b8edd90"
+    "id": "10420029",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1042_0029.jpg",
+    "hash": "e67f7ecf4372600c59a1255737d7aeb4089adf3195b596474940d81e5b8edd90"
   },
   {
-    "10430002": "934fcc278b4f48bdba34c3fcf8affe94f16b5a660fe68385e83fb10d6c165f90"
+    "id": "10430002",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1043_0002.jpg",
+    "hash": "934fcc278b4f48bdba34c3fcf8affe94f16b5a660fe68385e83fb10d6c165f90"
   },
   {
-    "10430004": "0892f7a40d2a430b39ca587f45746c10417494dc1af3a7ac0bfa69923ca4d768"
+    "id": "10430004",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1043_0004.jpg",
+    "hash": "0892f7a40d2a430b39ca587f45746c10417494dc1af3a7ac0bfa69923ca4d768"
   },
   {
-    "10430005": "b1ff1504d80e2dc18cb0e18657ac6737df0ed2a907da09cac7caf53d09585ee0"
+    "id": "10430005",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1043_0005.jpg",
+    "hash": "b1ff1504d80e2dc18cb0e18657ac6737df0ed2a907da09cac7caf53d09585ee0"
   },
   {
-    "10430008": "9460d7eb97d74aa2e42ef1e50a2ad650536760d62cb13acff429233cfefff4a4"
+    "id": "10430008",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1043_0008.jpg",
+    "hash": "9460d7eb97d74aa2e42ef1e50a2ad650536760d62cb13acff429233cfefff4a4"
   },
   {
-    "10430009": "9bd6ee0aefea14b95b2288caeb0719619bd0019ba4897132319951fa8c2cfd20"
+    "id": "10430009",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1043_0009.jpg",
+    "hash": "9bd6ee0aefea14b95b2288caeb0719619bd0019ba4897132319951fa8c2cfd20"
   },
   {
-    "10430010": "26183a89d50c12b318d5ad540c5f70919e043883d320d33224681defc35814e5"
+    "id": "10430010",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1043_0010.jpg",
+    "hash": "26183a89d50c12b318d5ad540c5f70919e043883d320d33224681defc35814e5"
   },
   {
-    "10430033": "bd8ad1086e4419723b7f84f4aeec4547caa03974152672669212a2e5b58f29ed"
+    "id": "10430033",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1043_0033.jpg",
+    "hash": "bd8ad1086e4419723b7f84f4aeec4547caa03974152672669212a2e5b58f29ed"
   },
   {
-    "10430034": "f960178c5d633b4d7b219a7502c8578c7626a75d163cc4868ad225e5f8becff9"
+    "id": "10430034",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1043_0034.jpg",
+    "hash": "f960178c5d633b4d7b219a7502c8578c7626a75d163cc4868ad225e5f8becff9"
   },
   {
-    "10430035": "f8bb427919fa4c03bcaf3a076dbf12ae83e8ef5d3cab6cbfed71203269a03ace"
+    "id": "10430035",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1043_0035.jpg",
+    "hash": "f8bb427919fa4c03bcaf3a076dbf12ae83e8ef5d3cab6cbfed71203269a03ace"
   },
   {
-    "10430036": "29c5daa5f0c7591479316ebbae6bc75ab88c114038e87868e39aaee3b63a19b7"
+    "id": "10430036",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1043_0036.jpg",
+    "hash": "29c5daa5f0c7591479316ebbae6bc75ab88c114038e87868e39aaee3b63a19b7"
   },
   {
-    "10430038": "c8618dfc2b3368890f66bf38136c1a38185e292ced4037ee77b9534e2dddb133"
+    "id": "10430038",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1043_0038.jpg",
+    "hash": "c8618dfc2b3368890f66bf38136c1a38185e292ced4037ee77b9534e2dddb133"
   },
   {
-    "10430039": "0b600714da4f673d5cbc1b09905dc224e55c09f576b3aeb531851d0e5b583d9f"
+    "id": "10430039",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1043_0039.jpg",
+    "hash": "0b600714da4f673d5cbc1b09905dc224e55c09f576b3aeb531851d0e5b583d9f"
   },
   {
-    "10430040": "452190307fac4d725e7f2a7c1e90de5ba1d676783e2969277a3df5fa8cbcd720"
+    "id": "10430040",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1043_0040.jpg",
+    "hash": "452190307fac4d725e7f2a7c1e90de5ba1d676783e2969277a3df5fa8cbcd720"
   },
   {
-    "10430041": "0d52fe72a294a63485eda8658394b92825a069036af2fe2d1853f5b326b2f9a8"
+    "id": "10430041",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1043_0041.jpg",
+    "hash": "0d52fe72a294a63485eda8658394b92825a069036af2fe2d1853f5b326b2f9a8"
   },
   {
-    "10430042": "4afc9e5ebcdc220ffafc1586efa6b9d73c5572dc1ecf24f4ec391fc2f306cc1a"
+    "id": "10430042",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1043_0042.jpg",
+    "hash": "4afc9e5ebcdc220ffafc1586efa6b9d73c5572dc1ecf24f4ec391fc2f306cc1a"
   },
   {
-    "10430043": "637fd1666807da19a815064f2bfe58a8fe139f98b094d7f15fb84dfc99f268fb"
+    "id": "10430043",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1043_0043.jpg",
+    "hash": "637fd1666807da19a815064f2bfe58a8fe139f98b094d7f15fb84dfc99f268fb"
   },
   {
-    "10430044": "e32a0509317cab30d04d61e1186b65379d3ef3b6f0ffb5ee77acc8727e70e90d"
+    "id": "10430044",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1043_0044.jpg",
+    "hash": "e32a0509317cab30d04d61e1186b65379d3ef3b6f0ffb5ee77acc8727e70e90d"
   },
   {
-    "10430045": "28276745512fd278eb41364709982272424ea0353c050938599de608b0150429"
+    "id": "10430045",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1043_0045.jpg",
+    "hash": "28276745512fd278eb41364709982272424ea0353c050938599de608b0150429"
   },
   {
-    "10430046": "46b674687a87beb8c1fac849c2b650c4412d22ac69539d7bf1a18b14fa51aa19"
+    "id": "10430046",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1043_0046.jpg",
+    "hash": "46b674687a87beb8c1fac849c2b650c4412d22ac69539d7bf1a18b14fa51aa19"
   },
   {
-    "10430047": "4a7ecb32a4a3e8d2a65fc718b024fbb2360116657bbf083ffd99e739fd3f6350"
+    "id": "10430047",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1043_0047.jpg",
+    "hash": "4a7ecb32a4a3e8d2a65fc718b024fbb2360116657bbf083ffd99e739fd3f6350"
   },
   {
-    "10430048": "1e30199808b08af91af30a4dc3774b4018a3ae38781b4e16932ec778a022b88f"
+    "id": "10430048",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1043_0048.jpg",
+    "hash": "1e30199808b08af91af30a4dc3774b4018a3ae38781b4e16932ec778a022b88f"
   },
   {
-    "10430049": "d9deb795314d907e6527cb94cf3076636922ec2f6e2454737e48c6e3ebd0856c"
+    "id": "10430049",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1043_0049.jpg",
+    "hash": "d9deb795314d907e6527cb94cf3076636922ec2f6e2454737e48c6e3ebd0856c"
   },
   {
-    "10430050": "589cbfb6c4e1dd4b2405994a1badbd566468f8662f35f70f4ccb57709462907d"
+    "id": "10430050",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1043_0050.jpg",
+    "hash": "589cbfb6c4e1dd4b2405994a1badbd566468f8662f35f70f4ccb57709462907d"
   },
   {
-    "10430051": "759af47e192a3fa14f3615ca08772712ae4646741cde1c73390cf067c2132d0a"
+    "id": "10430051",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1043_0051.jpg",
+    "hash": "759af47e192a3fa14f3615ca08772712ae4646741cde1c73390cf067c2132d0a"
   },
   {
-    "10430052": "134d9b557505755172de028ad3b3b152c5a58ff2d689622357c87bad4cc8e08a"
+    "id": "10430052",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1043_0052.jpg",
+    "hash": "134d9b557505755172de028ad3b3b152c5a58ff2d689622357c87bad4cc8e08a"
   },
   {
-    "10430054": "261674d8b6569f704548aa7e0c0b4b727b84a055398bf371f07b377f2a90c529"
+    "id": "10430054",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1043_0054.jpg",
+    "hash": "261674d8b6569f704548aa7e0c0b4b727b84a055398bf371f07b377f2a90c529"
   },
   {
-    "10430055": "b5e6774285da6895853fbd397e71ecb0acb2f4a251f642903493ae4a1ea7a0bd"
+    "id": "10430055",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1043_0055.jpg",
+    "hash": "b5e6774285da6895853fbd397e71ecb0acb2f4a251f642903493ae4a1ea7a0bd"
   },
   {
-    "10430056": "d1a775c121aee527a9b06454261a467426551904e46ed35e89107010af647c8a"
+    "id": "10430056",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1043_0056.jpg",
+    "hash": "d1a775c121aee527a9b06454261a467426551904e46ed35e89107010af647c8a"
   },
   {
-    "10430057": "1d2ea170c2b402a1666ab10e8ad11cbecff7a5eb1a02f703c62e74fc5ebb8a83"
+    "id": "10430057",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1043_0057.jpg",
+    "hash": "1d2ea170c2b402a1666ab10e8ad11cbecff7a5eb1a02f703c62e74fc5ebb8a83"
   },
   {
-    "10430058": "aee705b49b4440b24a40f11f89149196c1e9b0915f3cbf75b68d29e8d2ea6249"
+    "id": "10430058",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1043_0058.jpg",
+    "hash": "aee705b49b4440b24a40f11f89149196c1e9b0915f3cbf75b68d29e8d2ea6249"
   },
   {
-    "10430059": "4340aeed4b9b051707fde313005cf768ccba708a7ad8d22a3754cb33a9261335"
+    "id": "10430059",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1043_0059.jpg",
+    "hash": "4340aeed4b9b051707fde313005cf768ccba708a7ad8d22a3754cb33a9261335"
   },
   {
-    "10430061": "0d24e563e6702f9da6f72b50fed5aa6122ecff56d120adefc63bbcd75494b582"
+    "id": "10430061",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1043_0061.jpg",
+    "hash": "0d24e563e6702f9da6f72b50fed5aa6122ecff56d120adefc63bbcd75494b582"
   },
   {
-    "10430062": "95b46a6dd24efc474cb944df485c93ff4d1c6b22801c464fc7ec3d269dd768d9"
+    "id": "10430062",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1043_0062.jpg",
+    "hash": "95b46a6dd24efc474cb944df485c93ff4d1c6b22801c464fc7ec3d269dd768d9"
   },
   {
-    "10430063": "7aba96358fe13243b1c14dd8ba8b50b47a7d60fb41eaf8623a9a35e126e926c7"
+    "id": "10430063",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1043_0063.jpg",
+    "hash": "7aba96358fe13243b1c14dd8ba8b50b47a7d60fb41eaf8623a9a35e126e926c7"
   },
   {
-    "10430064": "e73688e90653680ea4a0ff810c017369ffafe1db8240daa257ed41ff2bcec133"
+    "id": "10430064",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1043_0064.jpg",
+    "hash": "e73688e90653680ea4a0ff810c017369ffafe1db8240daa257ed41ff2bcec133"
   },
   {
-    "10430065": "a34c696121f7eb23c1f263097ddc0d191efd99f3da030b04f0044089c2d87317"
+    "id": "10430065",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1043_0065.jpg",
+    "hash": "a34c696121f7eb23c1f263097ddc0d191efd99f3da030b04f0044089c2d87317"
   },
   {
-    "10430066": "825f5b4abcc0e44e33d032428fdf42be9d412185848b8692878ccf6e5190900d"
+    "id": "10430066",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1043_0066.jpg",
+    "hash": "825f5b4abcc0e44e33d032428fdf42be9d412185848b8692878ccf6e5190900d"
   },
   {
-    "10430067": "974e5043aa0854e396790f42cf3070348306466261d689fa4c7eac1a4ba988b6"
+    "id": "10430067",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1043_0067.jpg",
+    "hash": "974e5043aa0854e396790f42cf3070348306466261d689fa4c7eac1a4ba988b6"
   },
   {
-    "10430068": "608a01490c6f4b7acbafc17ef65af29e005f6c3eb3589c71d0173d6f8e74d8fc"
+    "id": "10430068",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1043_0068.jpg",
+    "hash": "608a01490c6f4b7acbafc17ef65af29e005f6c3eb3589c71d0173d6f8e74d8fc"
   },
   {
-    "10430069": "86b3961f2edf3a9b76156c9cb1145bd43d071432f1c9a1fa9edeb37359db4410"
+    "id": "10430069",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1043_0069.jpg",
+    "hash": "86b3961f2edf3a9b76156c9cb1145bd43d071432f1c9a1fa9edeb37359db4410"
   },
   {
-    "10430070": "b92b2027d9b925028c384ce828a3d22fac43c86979443881cea3025f9f669d0e"
+    "id": "10430070",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1043_0070.jpg",
+    "hash": "b92b2027d9b925028c384ce828a3d22fac43c86979443881cea3025f9f669d0e"
   },
   {
-    "10430071": "c83f8189bfc33c2584a9a71ec3697266d5bc8ac285cb0dab52807d96fb000ee4"
+    "id": "10430071",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1043_0071.jpg",
+    "hash": "c83f8189bfc33c2584a9a71ec3697266d5bc8ac285cb0dab52807d96fb000ee4"
   },
   {
-    "10430072": "1c492d30230838e68ac6efb5fe4ce4c84766bc6b5cb46d635920c77553ad021d"
+    "id": "10430072",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1043_0072.jpg",
+    "hash": "1c492d30230838e68ac6efb5fe4ce4c84766bc6b5cb46d635920c77553ad021d"
   },
   {
-    "10430073": "7a95476dfda34013bb9aca72d2a54c50db07850f8ba35c5e789a999549be05f3"
+    "id": "10430073",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1043_0073.jpg",
+    "hash": "7a95476dfda34013bb9aca72d2a54c50db07850f8ba35c5e789a999549be05f3"
   },
   {
-    "10430074": "6df5c17fec8837645556a77ddf86d82dbedbede9ecf0338e21e3926e547e802c"
+    "id": "10430074",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1043_0074.jpg",
+    "hash": "6df5c17fec8837645556a77ddf86d82dbedbede9ecf0338e21e3926e547e802c"
   },
   {
-    "10430075": "64b5e7e8399e9e84f96c2c061806497c7fff0220d7f0d21a7423b064f43f4ba9"
+    "id": "10430075",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1043_0075.jpg",
+    "hash": "64b5e7e8399e9e84f96c2c061806497c7fff0220d7f0d21a7423b064f43f4ba9"
   },
   {
-    "10430076": "c54c95f4eb0ba8075ef92f6692a5ead4a975786bfbeb0155ed738ffbec019060"
+    "id": "10430076",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1043_0076.jpg",
+    "hash": "c54c95f4eb0ba8075ef92f6692a5ead4a975786bfbeb0155ed738ffbec019060"
   },
   {
-    "10430077": "cf56b3490965dcd3e20579abe7fe1472d6a1327cf802faa61af874a4aee3474e"
+    "id": "10430077",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1043_0077.jpg",
+    "hash": "cf56b3490965dcd3e20579abe7fe1472d6a1327cf802faa61af874a4aee3474e"
   },
   {
-    "10430078": "517c2b638060a61fe999ce53e1d0f4de59347df28951a9a3b173aa56107209a7"
+    "id": "10430078",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1043_0078.jpg",
+    "hash": "517c2b638060a61fe999ce53e1d0f4de59347df28951a9a3b173aa56107209a7"
   },
   {
-    "10430079": "8858f79264a3afe82c3fabe70ce4f5567403af6c25f5a24eec37b854e714a399"
+    "id": "10430079",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1043_0079.jpg",
+    "hash": "8858f79264a3afe82c3fabe70ce4f5567403af6c25f5a24eec37b854e714a399"
   },
   {
-    "10440002": "b059354a2b1b128eaec373033aa3c0243f6922d1e10f83d0d92909f34347dda8"
+    "id": "10440002",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1044_0002.jpg",
+    "hash": "b059354a2b1b128eaec373033aa3c0243f6922d1e10f83d0d92909f34347dda8"
   },
   {
-    "10440004": "64469d547e428024623a62492c28639cb0ddbb7bcc4ad63173efa697d01ef873"
+    "id": "10440004",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1044_0004.jpg",
+    "hash": "64469d547e428024623a62492c28639cb0ddbb7bcc4ad63173efa697d01ef873"
   },
   {
-    "10440014": "6eab4897f5b213f00f68dc6546add1491963f780f93c1eb127e57081ff927448"
+    "id": "10440014",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1044_0014.jpg",
+    "hash": "6eab4897f5b213f00f68dc6546add1491963f780f93c1eb127e57081ff927448"
   },
   {
-    "10440028": "7d10b1cdc5f02f97c1a56ec5be4734f8d738f7542d8e5bf06e673510a2b5d485"
+    "id": "10440028",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1044_0028.jpg",
+    "hash": "7d10b1cdc5f02f97c1a56ec5be4734f8d738f7542d8e5bf06e673510a2b5d485"
   },
   {
-    "10440033": "9b9ea593428551d27bcd80d3521566cdc58e5281225e1b0c7862c3d40230bfb6"
+    "id": "10440033",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1044_0033.jpg",
+    "hash": "9b9ea593428551d27bcd80d3521566cdc58e5281225e1b0c7862c3d40230bfb6"
   },
   {
-    "10440034": "2057925efd7d5476cfedbef854e43204ac10e26164b1d566be1cb7fb5babf42c"
+    "id": "10440034",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1044_0034.jpg",
+    "hash": "2057925efd7d5476cfedbef854e43204ac10e26164b1d566be1cb7fb5babf42c"
   },
   {
-    "10440041": "98a53631a1f9b586b02f99c14aa226fc369c7c1dcd974d5dbcc0857d85e2b6f7"
+    "id": "10440041",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1044_0041.jpg",
+    "hash": "98a53631a1f9b586b02f99c14aa226fc369c7c1dcd974d5dbcc0857d85e2b6f7"
   },
   {
-    "10440044": "2515a82c35423f18258e61e556a2c099a960976be3d6e8d43d1cae8cd7bfb412"
+    "id": "10440044",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1044_0044.jpg",
+    "hash": "2515a82c35423f18258e61e556a2c099a960976be3d6e8d43d1cae8cd7bfb412"
   },
   {
-    "10440055": "b312fb3cd2fe19506b6d47519183c49700dcab7f45e576d43c3b988f4cd4b382"
+    "id": "10440055",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1044_0055.jpg",
+    "hash": "b312fb3cd2fe19506b6d47519183c49700dcab7f45e576d43c3b988f4cd4b382"
   },
   {
-    "10440057": "b68eb05f26dca73130f54bb85f3c65f9ffc46a7bc82a3eb23176431ff9a38469"
+    "id": "10440057",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1044_0057.jpg",
+    "hash": "b68eb05f26dca73130f54bb85f3c65f9ffc46a7bc82a3eb23176431ff9a38469"
   },
   {
-    "10460003": "4e70fead3b8f23ab4b2f99ebf28ea067c6dd9ca5ea882d859d2f8c3925f60441"
+    "id": "10460003",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1046_0003.jpg",
+    "hash": "4e70fead3b8f23ab4b2f99ebf28ea067c6dd9ca5ea882d859d2f8c3925f60441"
   },
   {
-    "10460008": "6b7c0e2ef0f8088378e6d6617579907387eac689ac74964ad8974c47f269dbe2"
+    "id": "10460008",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1046_0008.jpg",
+    "hash": "6b7c0e2ef0f8088378e6d6617579907387eac689ac74964ad8974c47f269dbe2"
   },
   {
-    "10470002": "928077e65c05a0e65233c44cf2c1e8bee1455e0147257208f035cd07d2a1e323"
+    "id": "10470002",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1047_0002.jpg",
+    "hash": "928077e65c05a0e65233c44cf2c1e8bee1455e0147257208f035cd07d2a1e323"
   },
   {
-    "10490001": "086997ec3bbf96ae23b333551478a92b95bacc9b89618606499ea850e7d4995d"
+    "id": "10490001",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1049_0001.jpg",
+    "hash": "086997ec3bbf96ae23b333551478a92b95bacc9b89618606499ea850e7d4995d"
   },
   {
-    "10490002": "7bb10431ceede8fb2ff9e81947b04e569034d78761ff48cdad19ac1289ecc878"
+    "id": "10490002",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1049_0002.jpg",
+    "hash": "7bb10431ceede8fb2ff9e81947b04e569034d78761ff48cdad19ac1289ecc878"
   },
   {
-    "10490003": "45608184dd7524c39de154091d61f64aab6048fe530cdb1c66a58b42eef4a2e3"
+    "id": "10490003",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1049_0003.jpg",
+    "hash": "45608184dd7524c39de154091d61f64aab6048fe530cdb1c66a58b42eef4a2e3"
   },
   {
-    "10490004": "629c56652cc2a2f464d1e455e0b75effd2584068505fa72aa9b8d20967aae968"
+    "id": "10490004",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1049_0004.jpg",
+    "hash": "629c56652cc2a2f464d1e455e0b75effd2584068505fa72aa9b8d20967aae968"
   },
   {
-    "10490006": "1a3380d12c6b4415c46a307ac765a0aa797a7eb4e9ac3e1f622026222acc4157"
+    "id": "10490006",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1049_0006.jpg",
+    "hash": "1a3380d12c6b4415c46a307ac765a0aa797a7eb4e9ac3e1f622026222acc4157"
   },
   {
-    "10490007": "b4abb98cc9946645c0dee932026e028b4b99936f9bbaa07cebae18a8bbc566ae"
+    "id": "10490007",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1049_0007.jpg",
+    "hash": "b4abb98cc9946645c0dee932026e028b4b99936f9bbaa07cebae18a8bbc566ae"
   },
   {
-    "10490008": "64b9aebbc18596e311b2f4c17250698f477deb9e8ac77280eb6041004fe8b576"
+    "id": "10490008",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1049_0008.jpg",
+    "hash": "64b9aebbc18596e311b2f4c17250698f477deb9e8ac77280eb6041004fe8b576"
   },
   {
-    "10490009": "171036923f36458c8e71a34d24328ba14d78bb7cb0e4ed1871f5aebc6fae8808"
+    "id": "10490009",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1049_0009.jpg",
+    "hash": "171036923f36458c8e71a34d24328ba14d78bb7cb0e4ed1871f5aebc6fae8808"
   },
   {
-    "10490010": "a0858ac27495c4335d0b61d1f8c7460942279911b93dbf78067d4e051c85971a"
+    "id": "10490010",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1049_0010.jpg",
+    "hash": "a0858ac27495c4335d0b61d1f8c7460942279911b93dbf78067d4e051c85971a"
   },
   {
-    "10490011": "861195aaafa515ed7a1a9e9a4bae60ceb4617dfc9e61a0e99122f45e74bb5fed"
+    "id": "10490011",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1049_0011.jpg",
+    "hash": "861195aaafa515ed7a1a9e9a4bae60ceb4617dfc9e61a0e99122f45e74bb5fed"
   },
   {
-    "10510003": "9fe6746ebe5ffed50024e72d0094bd810684f50a218a0254fbcbbfdf6e7231ba"
+    "id": "10510003",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1051_0003.jpg",
+    "hash": "9fe6746ebe5ffed50024e72d0094bd810684f50a218a0254fbcbbfdf6e7231ba"
   },
   {
-    "10530005": "b270c6972d7d431ed1c3abda6c1cb696b24ca5ace8501f43bd38083558b1ec0b"
+    "id": "10530005",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1053_0005.jpg",
+    "hash": "b270c6972d7d431ed1c3abda6c1cb696b24ca5ace8501f43bd38083558b1ec0b"
   },
   {
-    "10530014": "1da1dfb08e2fd0761a1c64946e08ccfd41f195b008a2d317379e9906b53b8422"
+    "id": "10530014",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1053_0014.jpg",
+    "hash": "1da1dfb08e2fd0761a1c64946e08ccfd41f195b008a2d317379e9906b53b8422"
   },
   {
-    "10530015": "ae2ad3a678ac2ab6cf602372f5ead8b811b6e35a53e4d82e2b1933b53cb87edc"
+    "id": "10530015",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1053_0015.jpg",
+    "hash": "ae2ad3a678ac2ab6cf602372f5ead8b811b6e35a53e4d82e2b1933b53cb87edc"
   },
   {
-    "10560005": "f37917222e21293eb92488834c048faa36cbd2435eeb8aa8c4b437e3a0227d31"
+    "id": "10560005",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1056_0005.jpg",
+    "hash": "f37917222e21293eb92488834c048faa36cbd2435eeb8aa8c4b437e3a0227d31"
   },
   {
-    "10560006": "a9a6239335e5c7b02862719ee1ca0133e701f039253a91d18c57c946ae7c4b4e"
+    "id": "10560006",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1056_0006.jpg",
+    "hash": "a9a6239335e5c7b02862719ee1ca0133e701f039253a91d18c57c946ae7c4b4e"
   },
   {
-    "10560008": "407b3aaa8bd9bba02b59f942bb8a2f04c8f7ed4222141080ed5d7e12d80e8e7d"
+    "id": "10560008",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1056_0008.jpg",
+    "hash": "407b3aaa8bd9bba02b59f942bb8a2f04c8f7ed4222141080ed5d7e12d80e8e7d"
   },
   {
-    "10570017": "db8475874ba3c717fc90aae4c8b3e4c655abefc35d1f07de1c4f711552c71f7b"
+    "id": "10570017",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1057_0017.jpg",
+    "hash": "db8475874ba3c717fc90aae4c8b3e4c655abefc35d1f07de1c4f711552c71f7b"
   },
   {
-    "10570018": "f17b21f81423229ffb98d4f16ff5f1e9634333703117fb9c9426d02a2363f8a6"
+    "id": "10570018",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1057_0018.jpg",
+    "hash": "f17b21f81423229ffb98d4f16ff5f1e9634333703117fb9c9426d02a2363f8a6"
   },
   {
-    "10570019": "be55f97078a77da6a4abf6719bbdcb419195f1a3bdbefac98632c16c1bdf8ee9"
+    "id": "10570019",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1057_0019.jpg",
+    "hash": "be55f97078a77da6a4abf6719bbdcb419195f1a3bdbefac98632c16c1bdf8ee9"
   },
   {
-    "10570021": "ba8e4b531964fdad7b8ff399a5acdf75f17465fa62989477464534c785126f03"
+    "id": "10570021",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1057_0021.jpg",
+    "hash": "ba8e4b531964fdad7b8ff399a5acdf75f17465fa62989477464534c785126f03"
   },
   {
-    "10570022": "6ef89e6b04777bc5e3502acaa1de8ddaa89f8abdca5557b7bcc24eecec2d256a"
+    "id": "10570022",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1057_0022.jpg",
+    "hash": "6ef89e6b04777bc5e3502acaa1de8ddaa89f8abdca5557b7bcc24eecec2d256a"
   },
   {
-    "10570023": "0371e58648e042ece214ba54caf9d384c8554f7c6105ffb67a58e3d74b32c65c"
+    "id": "10570023",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1057_0023.jpg",
+    "hash": "0371e58648e042ece214ba54caf9d384c8554f7c6105ffb67a58e3d74b32c65c"
   },
   {
-    "10570027": "9ab53c35ff353f18972cee71827fcf7a63bfd568f2b7702dc6892b38fe5234e1"
+    "id": "10570027",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1057_0027.jpg",
+    "hash": "9ab53c35ff353f18972cee71827fcf7a63bfd568f2b7702dc6892b38fe5234e1"
   },
   {
-    "10570028": "60c27b83b8901ac9e7dd5bfd213ff8b80291cdb236696661fe90ac6767fe7260"
+    "id": "10570028",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1057_0028.jpg",
+    "hash": "60c27b83b8901ac9e7dd5bfd213ff8b80291cdb236696661fe90ac6767fe7260"
   },
   {
-    "10570029": "13a29671206409d4865ead91facc461b15959068e50552b54d9806688022c39f"
+    "id": "10570029",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1057_0029.jpg",
+    "hash": "13a29671206409d4865ead91facc461b15959068e50552b54d9806688022c39f"
   },
   {
-    "10570030": "8a9ef4eb69e5fc164bb325391b9cabffced399f353345c6bfefbc154ec9b1d07"
+    "id": "10570030",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1057_0030.jpg",
+    "hash": "8a9ef4eb69e5fc164bb325391b9cabffced399f353345c6bfefbc154ec9b1d07"
   },
   {
-    "10570031": "1b415a87205902e07ec53401b01d69c763fd69462fccff03fe440a2d92d867f0"
+    "id": "10570031",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1057_0031.jpg",
+    "hash": "1b415a87205902e07ec53401b01d69c763fd69462fccff03fe440a2d92d867f0"
   },
   {
-    "10570032": "65abe0ab1024add7d9ded03b8aa8588b885a3ba3981af7660cbc63bb43131c78"
+    "id": "10570032",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1057_0032.jpg",
+    "hash": "65abe0ab1024add7d9ded03b8aa8588b885a3ba3981af7660cbc63bb43131c78"
   },
   {
-    "10570033": "26156fb0183cf4ea9cffdd1e847847b972f931f7aaf88111740e823f759c8525"
+    "id": "10570033",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1057_0033.jpg",
+    "hash": "26156fb0183cf4ea9cffdd1e847847b972f931f7aaf88111740e823f759c8525"
   },
   {
-    "10570035": "90a483d5da52ddec71b351894be28cdf1fbf8c35dabeb5469888b54048350626"
+    "id": "10570035",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1057_0035.jpg",
+    "hash": "90a483d5da52ddec71b351894be28cdf1fbf8c35dabeb5469888b54048350626"
   },
   {
-    "10570036": "d3133941c727d5f0902776fbc680e3c359c1da33d44fcc5ba8e42082a22b1533"
+    "id": "10570036",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1057_0036.jpg",
+    "hash": "d3133941c727d5f0902776fbc680e3c359c1da33d44fcc5ba8e42082a22b1533"
   },
   {
-    "10570037": "ee4debd23959ed011c47decbd9a03de235990b2ffc40e8e31a9da81abe04d42a"
+    "id": "10570037",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1057_0037.jpg",
+    "hash": "ee4debd23959ed011c47decbd9a03de235990b2ffc40e8e31a9da81abe04d42a"
   },
   {
-    "10570038": "2508c4b9e822336dc1c5ebc8330b8afe67a53bada7dcd9fa9b0da38f8943b1ae"
+    "id": "10570038",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1057_0038.jpg",
+    "hash": "2508c4b9e822336dc1c5ebc8330b8afe67a53bada7dcd9fa9b0da38f8943b1ae"
   },
   {
-    "10570039": "509973d46d54f7e29f372a5115e64c3047b7db9a0ed175d60e825129848bd0df"
+    "id": "10570039",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1057_0039.jpg",
+    "hash": "509973d46d54f7e29f372a5115e64c3047b7db9a0ed175d60e825129848bd0df"
   },
   {
-    "10570040": "b2577f3a9f7f24ee4b93b756bac5fa69899f0f9d08b95426fbe087516dccf98f"
+    "id": "10570040",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1057_0040.jpg",
+    "hash": "b2577f3a9f7f24ee4b93b756bac5fa69899f0f9d08b95426fbe087516dccf98f"
   },
   {
-    "10570041": "9921e2bdd60daec2e729dda68a9d34451e88733d20fd8c9401039a43c8abd844"
+    "id": "10570041",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1057_0041.jpg",
+    "hash": "9921e2bdd60daec2e729dda68a9d34451e88733d20fd8c9401039a43c8abd844"
   },
   {
-    "10570042": "929c2626af73f813b3dd8c9e63aba45d266fc60c1a449dcde020bc1f2346dccc"
+    "id": "10570042",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1057_0042.jpg",
+    "hash": "929c2626af73f813b3dd8c9e63aba45d266fc60c1a449dcde020bc1f2346dccc"
   },
   {
-    "10570043": "bad50526799131ab2ab50b0ddd2c05c9a0a31a36c27ce8a922bbef4ddc67c56b"
+    "id": "10570043",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1057_0043.jpg",
+    "hash": "bad50526799131ab2ab50b0ddd2c05c9a0a31a36c27ce8a922bbef4ddc67c56b"
   },
   {
-    "10570044": "a614272cc05e4edc7d66eedb55f01f42b947af25aba132bbc2a75ea4581c41e1"
+    "id": "10570044",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1057_0044.jpg",
+    "hash": "a614272cc05e4edc7d66eedb55f01f42b947af25aba132bbc2a75ea4581c41e1"
   },
   {
-    "10570045": "0b43dc2897519073920504e67562a01d9e53aaaa03d2623ab79885328db2b977"
+    "id": "10570045",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1057_0045.jpg",
+    "hash": "0b43dc2897519073920504e67562a01d9e53aaaa03d2623ab79885328db2b977"
   },
   {
-    "10580001": "52de875a28c29a261d65a840cf3c3c659a3b801fa4d688ef9bdf553d91f7b41e"
+    "id": "10580001",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1058_0001.jpg",
+    "hash": "52de875a28c29a261d65a840cf3c3c659a3b801fa4d688ef9bdf553d91f7b41e"
   },
   {
-    "10580002": "f95320a3cd38e039ab4b10bd5baea4cb094d87c436a8b4a796d91575ea1f11db"
+    "id": "10580002",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1058_0002.jpg",
+    "hash": "f95320a3cd38e039ab4b10bd5baea4cb094d87c436a8b4a796d91575ea1f11db"
   },
   {
-    "10580011": "1c03695f0e1860fcdebcb2a77588d5569fa21027ff0b8322fff01b9513359a67"
+    "id": "10580011",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1058_0011.jpg",
+    "hash": "1c03695f0e1860fcdebcb2a77588d5569fa21027ff0b8322fff01b9513359a67"
   },
   {
-    "10580012": "bee6010e514afaced433de592dd809b7701cf2ac8028a83499aac5f195f65906"
+    "id": "10580012",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1058_0012.jpg",
+    "hash": "bee6010e514afaced433de592dd809b7701cf2ac8028a83499aac5f195f65906"
   },
   {
-    "10580013": "83f6f71ac0610fcbaa646e47848a23e96ad2f0361d37d49afef77d4d0932b774"
+    "id": "10580013",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1058_0013.jpg",
+    "hash": "83f6f71ac0610fcbaa646e47848a23e96ad2f0361d37d49afef77d4d0932b774"
   },
   {
-    "10610002": "4440e89e60e4f08fd7a06495e6688709ae3e124f92740db679c7f0be53094024"
+    "id": "10610002",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1061_0002.jpg",
+    "hash": "4440e89e60e4f08fd7a06495e6688709ae3e124f92740db679c7f0be53094024"
   },
   {
-    "10610003": "ff0feddea17246b162201da50a0fc182889a4f2a609c37ffb29363c30632e0e4"
+    "id": "10610003",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1061_0003.jpg",
+    "hash": "ff0feddea17246b162201da50a0fc182889a4f2a609c37ffb29363c30632e0e4"
   },
   {
-    "10620001": "e3942484e493b136be9bdf5f00de780638e11537561605fa754396734542566c"
+    "id": "10620001",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1062_0001.jpg",
+    "hash": "e3942484e493b136be9bdf5f00de780638e11537561605fa754396734542566c"
   },
   {
-    "10670003": "c0baa7fea7373bd61e05de1ecad42fef78096ca0eba5084a44aa8feab1a0f7d6"
+    "id": "10670003",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1067_0003.jpg",
+    "hash": "c0baa7fea7373bd61e05de1ecad42fef78096ca0eba5084a44aa8feab1a0f7d6"
   },
   {
-    "10670005": "a2bdcea9abdcf7fd4c8d96dce4011b862034fe31845c62cc37ef758993bb62c8"
+    "id": "10670005",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1067_0005.jpg",
+    "hash": "a2bdcea9abdcf7fd4c8d96dce4011b862034fe31845c62cc37ef758993bb62c8"
   },
   {
-    "10670006": "a13a7f8402544eb2ee64ca2343f1df1b72905a5abd380b20210d929dfc78505f"
+    "id": "10670006",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1067_0006.jpg",
+    "hash": "a13a7f8402544eb2ee64ca2343f1df1b72905a5abd380b20210d929dfc78505f"
   },
   {
-    "10670010": "672585bbd93814d5505a2f3e0b7d3e8bd4b52bc0e9fc2c82af2832e9ead04bb0"
+    "id": "10670010",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1067_0010.jpg",
+    "hash": "672585bbd93814d5505a2f3e0b7d3e8bd4b52bc0e9fc2c82af2832e9ead04bb0"
   },
   {
-    "10670014": "3b5d4bd16a3d0edfd962e32f10d6d6ab94b41e1e0539495505f61a61801593ff"
+    "id": "10670014",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1067_0014.jpg",
+    "hash": "3b5d4bd16a3d0edfd962e32f10d6d6ab94b41e1e0539495505f61a61801593ff"
   },
   {
-    "10670015": "e7a5f0d3b62a0ac702b7b0a7a5e0d7d4e92f07e450d5b2b7a5ea64d1c459a60f"
+    "id": "10670015",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1067_0015.jpg",
+    "hash": "e7a5f0d3b62a0ac702b7b0a7a5e0d7d4e92f07e450d5b2b7a5ea64d1c459a60f"
   },
   {
-    "10670016": "6c1093349037b0f195d5348d32612842371f384de9108eedeafa2b01a23fe123"
+    "id": "10670016",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1067_0016.jpg",
+    "hash": "6c1093349037b0f195d5348d32612842371f384de9108eedeafa2b01a23fe123"
   },
   {
-    "10670017": "9ddcd40f4ca0c3874c7226913615c492517d010eefdde96fa632f615264765a5"
+    "id": "10670017",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1067_0017.jpg",
+    "hash": "9ddcd40f4ca0c3874c7226913615c492517d010eefdde96fa632f615264765a5"
   },
   {
-    "10670020": "6efc6dd1ce209354dd823529613aea98e0e9dfbb0a1fc55fe1637c5ea5b2d236"
+    "id": "10670020",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1067_0020.jpg",
+    "hash": "6efc6dd1ce209354dd823529613aea98e0e9dfbb0a1fc55fe1637c5ea5b2d236"
   },
   {
-    "10670023": "39a87d4317daa36982093c1f7497f630c9b7c24dc7325dcb4644830fc31ec4d6"
+    "id": "10670023",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1067_0023.jpg",
+    "hash": "39a87d4317daa36982093c1f7497f630c9b7c24dc7325dcb4644830fc31ec4d6"
   },
   {
-    "10670024": "b3a12e0ff53ab5b64b2af933761b513a8d2c78f093f08694210e7638cb36cf1b"
+    "id": "10670024",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1067_0024.jpg",
+    "hash": "b3a12e0ff53ab5b64b2af933761b513a8d2c78f093f08694210e7638cb36cf1b"
   },
   {
-    "10670025": "3b57b3730d8215d09c075b14bbbd26c0d6d25f8cc876ec027b9b738a9001cffd"
+    "id": "10670025",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1067_0025.jpg",
+    "hash": "3b57b3730d8215d09c075b14bbbd26c0d6d25f8cc876ec027b9b738a9001cffd"
   },
   {
-    "10670026": "7e03ee6eaf0d5c727337f5d1c428563c9f0488600d06d9dccfe49cb54f762cdf"
+    "id": "10670026",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1067_0026.jpg",
+    "hash": "7e03ee6eaf0d5c727337f5d1c428563c9f0488600d06d9dccfe49cb54f762cdf"
   },
   {
-    "10670028": "69d8c586e628dc7c879d834d6a81d4ccdf7a31bd78a86a1e86f2eeeb6826993c"
+    "id": "10670028",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1067_0028.jpg",
+    "hash": "69d8c586e628dc7c879d834d6a81d4ccdf7a31bd78a86a1e86f2eeeb6826993c"
   },
   {
-    "10670029": "5a42582419c52d3a0242bf5dbda9276e6b5fd88abf18b685a9e441449fe88565"
+    "id": "10670029",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1067_0029.jpg",
+    "hash": "5a42582419c52d3a0242bf5dbda9276e6b5fd88abf18b685a9e441449fe88565"
   },
   {
-    "10670030": "59e05a01af1e32ec4b428c501c63960889bd6996b3f9455ab1779132104b7538"
+    "id": "10670030",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1067_0030.jpg",
+    "hash": "59e05a01af1e32ec4b428c501c63960889bd6996b3f9455ab1779132104b7538"
   },
   {
-    "10670032": "0c337cecff35662a6ed9ecd0c21b795d0f2a2dc7bf25ac855db9778bd9d42e28"
+    "id": "10670032",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1067_0032.jpg",
+    "hash": "0c337cecff35662a6ed9ecd0c21b795d0f2a2dc7bf25ac855db9778bd9d42e28"
   },
   {
-    "10670033": "5dea813ff74e1dea556239f0fbb1feb0beeef224a0de6040d844b1fc4d98d74c"
+    "id": "10670033",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1067_0033.jpg",
+    "hash": "5dea813ff74e1dea556239f0fbb1feb0beeef224a0de6040d844b1fc4d98d74c"
   },
   {
-    "10670034": "c6c681433810234d62b558f03c957506bfb418ec1a091ada03dc99a95e9ec933"
+    "id": "10670034",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1067_0034.jpg",
+    "hash": "c6c681433810234d62b558f03c957506bfb418ec1a091ada03dc99a95e9ec933"
   },
   {
-    "10670035": "79906a6af7ed0a2ffcba382c630afbd982b0d70b663da6ce445df690f170295d"
+    "id": "10670035",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1067_0035.jpg",
+    "hash": "79906a6af7ed0a2ffcba382c630afbd982b0d70b663da6ce445df690f170295d"
   },
   {
-    "10670036": "d199465d8458a90460c41de827e40e283d91d5f83a65d87e468e50891d2840e5"
+    "id": "10670036",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1067_0036.jpg",
+    "hash": "d199465d8458a90460c41de827e40e283d91d5f83a65d87e468e50891d2840e5"
   },
   {
-    "10670037": "312d22c77362c017a52784cc133d1a71863e58dd462fe1b6db79e573a8cdcc20"
+    "id": "10670037",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1067_0037.jpg",
+    "hash": "312d22c77362c017a52784cc133d1a71863e58dd462fe1b6db79e573a8cdcc20"
   },
   {
-    "10670038": "fa688707c5031101ed4d05d2de993351a72aade7909427754fbbdf45d4fe1a2e"
+    "id": "10670038",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1067_0038.jpg",
+    "hash": "fa688707c5031101ed4d05d2de993351a72aade7909427754fbbdf45d4fe1a2e"
   },
   {
-    "10670039": "3fdbd308a3d29bc68472d012e9dfe36d85cda62355b819f8a8e788e7592026f7"
+    "id": "10670039",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1067_0039.jpg",
+    "hash": "3fdbd308a3d29bc68472d012e9dfe36d85cda62355b819f8a8e788e7592026f7"
   },
   {
-    "10670040": "ed567e716e01967b7fa004d083cc7adb5fdd74120b6ccbf2b9f0b0119af4348a"
+    "id": "10670040",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1067_0040.jpg",
+    "hash": "ed567e716e01967b7fa004d083cc7adb5fdd74120b6ccbf2b9f0b0119af4348a"
   },
   {
-    "10670042": "4acd6e666e6a9c6a2996afb44e8df70c8c67d4332d08ce3a8367053f4bd86d57"
+    "id": "10670042",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1067_0042.jpg",
+    "hash": "4acd6e666e6a9c6a2996afb44e8df70c8c67d4332d08ce3a8367053f4bd86d57"
   },
   {
-    "10670043": "8bb1e1c872a732790b8b29675a6a2896ff77b3cd32a6f0adcb355fecdccc4445"
+    "id": "10670043",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1067_0043.jpg",
+    "hash": "8bb1e1c872a732790b8b29675a6a2896ff77b3cd32a6f0adcb355fecdccc4445"
   },
   {
-    "10670044": "ba5dfbf169f915f59319a98ba05c921b50dff925860514aaffca4ce2b620451c"
+    "id": "10670044",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1067_0044.jpg",
+    "hash": "ba5dfbf169f915f59319a98ba05c921b50dff925860514aaffca4ce2b620451c"
   },
   {
-    "10670045": "9280ae864656dd90f2467e6879894ed5a9e27e9c5a6be8019a6ddc5a826f48f0"
+    "id": "10670045",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1067_0045.jpg",
+    "hash": "9280ae864656dd90f2467e6879894ed5a9e27e9c5a6be8019a6ddc5a826f48f0"
   },
   {
-    "10670046": "4e5087206630a477a8d913e210169589300044fe661f7a6539105fc8749b3e91"
+    "id": "10670046",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1067_0046.jpg",
+    "hash": "4e5087206630a477a8d913e210169589300044fe661f7a6539105fc8749b3e91"
   },
   {
-    "10670047": "ed08877195ab80f02d7de3620a845bcea58289447372384d19b65c3dfa746986"
+    "id": "10670047",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1067_0047.jpg",
+    "hash": "ed08877195ab80f02d7de3620a845bcea58289447372384d19b65c3dfa746986"
   },
   {
-    "10670048": "b063c73a6f3f2cd9ddd688cfa78a85da824be859331f2f8d0d35e6576b001937"
+    "id": "10670048",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1067_0048.jpg",
+    "hash": "b063c73a6f3f2cd9ddd688cfa78a85da824be859331f2f8d0d35e6576b001937"
   },
   {
-    "10670049": "cd5a61d5ac07da54d28e1fcee636c026b4189ee6469fc97a926cfb9bb2203d4d"
+    "id": "10670049",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1067_0049.jpg",
+    "hash": "cd5a61d5ac07da54d28e1fcee636c026b4189ee6469fc97a926cfb9bb2203d4d"
   },
   {
-    "10670050": "7cfdf9603ae3a59c9c9714db374bf50613a12be3d595649c7c42f179abe4b8bd"
+    "id": "10670050",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1067_0050.jpg",
+    "hash": "7cfdf9603ae3a59c9c9714db374bf50613a12be3d595649c7c42f179abe4b8bd"
   },
   {
-    "10670051": "1dfa458d7d128a99f94669e1cdfdb6dfae4cc3b94f6a8f7ff729a94f667fe33e"
+    "id": "10670051",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1067_0051.jpg",
+    "hash": "1dfa458d7d128a99f94669e1cdfdb6dfae4cc3b94f6a8f7ff729a94f667fe33e"
   },
   {
-    "10670052": "7f7b8cb4bb8e5f34d2136227508748aaa5fa59383135463ba187182fe8d68e30"
+    "id": "10670052",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1067_0052.jpg",
+    "hash": "7f7b8cb4bb8e5f34d2136227508748aaa5fa59383135463ba187182fe8d68e30"
   },
   {
-    "10670053": "89fbf8c62986202cf84dd29ffcebf79b4d195b193a625b2ed9154df4d234eeea"
+    "id": "10670053",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1067_0053.jpg",
+    "hash": "89fbf8c62986202cf84dd29ffcebf79b4d195b193a625b2ed9154df4d234eeea"
   },
   {
-    "10670054": "9e8eaeaa767a729e8a2b9b9ec8ef5f4c0a97d6d2d519a7eaab2e6800a6dfa06a"
+    "id": "10670054",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1067_0054.jpg",
+    "hash": "9e8eaeaa767a729e8a2b9b9ec8ef5f4c0a97d6d2d519a7eaab2e6800a6dfa06a"
   },
   {
-    "10680001": "5d7623090bd1557011fdba754db2671de0695e6cba361e1a508a733efa329cbe"
+    "id": "10680001",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1068_0001.jpg",
+    "hash": "5d7623090bd1557011fdba754db2671de0695e6cba361e1a508a733efa329cbe"
   },
   {
-    "10680003": "b819b2ffa3012d3287219752790f951c6aa562fad85bf5fb278c305627e632af"
+    "id": "10680003",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1068_0003.jpg",
+    "hash": "b819b2ffa3012d3287219752790f951c6aa562fad85bf5fb278c305627e632af"
   },
   {
-    "10680009": "309dc01e1bcb6fdfed4a4eacdf3266f198290ed07da026d7e7b667cf3603abbf"
+    "id": "10680009",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1068_0009.jpg",
+    "hash": "309dc01e1bcb6fdfed4a4eacdf3266f198290ed07da026d7e7b667cf3603abbf"
   },
   {
-    "10680010": "93e797ee0992b87d94273b80bc3b918c4323f66fadb306ac5ff28ad4411ac5bf"
+    "id": "10680010",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1068_0010.jpg",
+    "hash": "93e797ee0992b87d94273b80bc3b918c4323f66fadb306ac5ff28ad4411ac5bf"
   },
   {
-    "10680013": "182823d4bb2ce0bfa7df0058aaa1c0d9e3d1781f88b9c50981539a78fed0cc14"
+    "id": "10680013",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1068_0013.jpg",
+    "hash": "182823d4bb2ce0bfa7df0058aaa1c0d9e3d1781f88b9c50981539a78fed0cc14"
   },
   {
-    "10680014": "8de8e9b736189093d5244a9e30c9f2f80c3521797c747570bea614bd26e73acc"
+    "id": "10680014",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1068_0014.jpg",
+    "hash": "8de8e9b736189093d5244a9e30c9f2f80c3521797c747570bea614bd26e73acc"
   },
   {
-    "10680015": "6471cc4dde1e48834236fcef0f6965e50c57c9e734b0a2151d4319663699bc89"
+    "id": "10680015",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1068_0015.jpg",
+    "hash": "6471cc4dde1e48834236fcef0f6965e50c57c9e734b0a2151d4319663699bc89"
   },
   {
-    "10680016": "bb249731ffd15717ed02cc4f567bdb2b71fe44ce859a2643d7ad7e744396f666"
+    "id": "10680016",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1068_0016.jpg",
+    "hash": "bb249731ffd15717ed02cc4f567bdb2b71fe44ce859a2643d7ad7e744396f666"
   },
   {
-    "10680017": "e13984d5c49a97fb775ffd789852eb05e2b424bab166ebe9e54e3816444134c4"
+    "id": "10680017",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1068_0017.jpg",
+    "hash": "e13984d5c49a97fb775ffd789852eb05e2b424bab166ebe9e54e3816444134c4"
   },
   {
-    "10680018": "96d73c534afb5fad1d09d9634029fc521713958f5f618fd1ce07244e7111244a"
+    "id": "10680018",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1068_0018.jpg",
+    "hash": "96d73c534afb5fad1d09d9634029fc521713958f5f618fd1ce07244e7111244a"
   },
   {
-    "10680019": "b960b33c9bd2ed4d87204131d038424336928c8c2ee9291fe2c78f11052eef0b"
+    "id": "10680019",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1068_0019.jpg",
+    "hash": "b960b33c9bd2ed4d87204131d038424336928c8c2ee9291fe2c78f11052eef0b"
   },
   {
-    "10680020": "9dbb09a0e22b496b348b6318f077b3529b8b4a259aa22a7c9a8e31b6fc7096eb"
+    "id": "10680020",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1068_0020.jpg",
+    "hash": "9dbb09a0e22b496b348b6318f077b3529b8b4a259aa22a7c9a8e31b6fc7096eb"
   },
   {
-    "10680021": "24c9109b34ed9945b65215e9026237cc2759d9fa0f43df6bf6fdac476c86ed35"
+    "id": "10680021",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1068_0021.jpg",
+    "hash": "24c9109b34ed9945b65215e9026237cc2759d9fa0f43df6bf6fdac476c86ed35"
   },
   {
-    "10680022": "68f396497177116ef97f5e01c6457346d372b427d215f85e2de99b3bc658adae"
+    "id": "10680022",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1068_0022.jpg",
+    "hash": "68f396497177116ef97f5e01c6457346d372b427d215f85e2de99b3bc658adae"
   },
   {
-    "10680023": "931f2a28dfa679494f12abd71526fd4e39347f133d8cdeb3d13d90001f3e3442"
+    "id": "10680023",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1068_0023.jpg",
+    "hash": "931f2a28dfa679494f12abd71526fd4e39347f133d8cdeb3d13d90001f3e3442"
   },
   {
-    "10680024": "c05bed3a3b456db6159492da0070461df679861cbf7bb64cc6ff8bb863b655e0"
+    "id": "10680024",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1068_0024.jpg",
+    "hash": "c05bed3a3b456db6159492da0070461df679861cbf7bb64cc6ff8bb863b655e0"
   },
   {
-    "10680025": "03c2ac6713d2432320a6b36a24e3eb681f2966d6349bf58bcc102fb9d1e6a929"
+    "id": "10680025",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1068_0025.jpg",
+    "hash": "03c2ac6713d2432320a6b36a24e3eb681f2966d6349bf58bcc102fb9d1e6a929"
   },
   {
-    "10680026": "54ea825ffdefa1d50da30b230ba8ac1be802e88d265969e3ead3eed783b19584"
+    "id": "10680026",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1068_0026.jpg",
+    "hash": "54ea825ffdefa1d50da30b230ba8ac1be802e88d265969e3ead3eed783b19584"
   },
   {
-    "10680027": "fc7c86f613ed85684a07916dfda0e623b2842e4a1faf072eb8f81b8ac9755373"
+    "id": "10680027",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1068_0027.jpg",
+    "hash": "fc7c86f613ed85684a07916dfda0e623b2842e4a1faf072eb8f81b8ac9755373"
   },
   {
-    "10680028": "24d149f64f4bda7e7efe7ebf2d9f6d4f87b1121e411b788c62b4e8cf87500216"
+    "id": "10680028",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1068_0028.jpg",
+    "hash": "24d149f64f4bda7e7efe7ebf2d9f6d4f87b1121e411b788c62b4e8cf87500216"
   },
   {
-    "10680029": "9c9e51460eb7ae147c35ddb3338b90f9cdcaf9154e749f37260a1c50faa5efa4"
+    "id": "10680029",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1068_0029.jpg",
+    "hash": "9c9e51460eb7ae147c35ddb3338b90f9cdcaf9154e749f37260a1c50faa5efa4"
   },
   {
-    "10680030": "5632361e047708a3a3e18a17e5d063eb0a1332e62c1b95c30867a4bea9475768"
+    "id": "10680030",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1068_0030.jpg",
+    "hash": "5632361e047708a3a3e18a17e5d063eb0a1332e62c1b95c30867a4bea9475768"
   },
   {
-    "10680031": "0c2a8d3b25435a8e3f314b94438d30236c426d54cb21751ca93546eeff3acc77"
+    "id": "10680031",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1068_0031.jpg",
+    "hash": "0c2a8d3b25435a8e3f314b94438d30236c426d54cb21751ca93546eeff3acc77"
   },
   {
-    "10680034": "ff66cf10eaa4659a604fae37fc2c8964743bcfef9f2472f2a6036a8d9f9ddbc6"
+    "id": "10680034",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1068_0034.jpg",
+    "hash": "ff66cf10eaa4659a604fae37fc2c8964743bcfef9f2472f2a6036a8d9f9ddbc6"
   },
   {
-    "10680036": "98d83975ed8f5723f7d452f7049c1912f47d503623c1f443997ab0a731a267a2"
+    "id": "10680036",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1068_0036.jpg",
+    "hash": "98d83975ed8f5723f7d452f7049c1912f47d503623c1f443997ab0a731a267a2"
   },
   {
-    "10680037": "46736a0a619d24edd90fe085c5fe2a15a5fd1a15d75a81f892487d5d3ba440de"
+    "id": "10680037",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1068_0037.jpg",
+    "hash": "46736a0a619d24edd90fe085c5fe2a15a5fd1a15d75a81f892487d5d3ba440de"
   },
   {
-    "10680038": "f5964f3a75ad467fa396c03a9c462b5c76a774ec21597e5bd6f4c00beed11f0f"
+    "id": "10680038",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1068_0038.jpg",
+    "hash": "f5964f3a75ad467fa396c03a9c462b5c76a774ec21597e5bd6f4c00beed11f0f"
   },
   {
-    "10680039": "8a9cf2339f957897972d80357eb1918e4c7f7053af643c8010f1278e8a7c82b2"
+    "id": "10680039",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1068_0039.jpg",
+    "hash": "8a9cf2339f957897972d80357eb1918e4c7f7053af643c8010f1278e8a7c82b2"
   },
   {
-    "10680040": "3645b726b8d7c7b076f25c43f66efbc2038e35a005ab7285f3ae8dc5b51b5186"
+    "id": "10680040",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1068_0040.jpg",
+    "hash": "3645b726b8d7c7b076f25c43f66efbc2038e35a005ab7285f3ae8dc5b51b5186"
   },
   {
-    "10680041": "777cdb17d5b13a8dc2836ac9d912c7a4144779ad78f0d37376f005cb9511f94b"
+    "id": "10680041",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1068_0041.jpg",
+    "hash": "777cdb17d5b13a8dc2836ac9d912c7a4144779ad78f0d37376f005cb9511f94b"
   },
   {
-    "10680042": "a7b4c80934b6681993f68e46a5ae8c6d14fb720e06e4f4d91ce3300605b5a148"
+    "id": "10680042",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1068_0042.jpg",
+    "hash": "a7b4c80934b6681993f68e46a5ae8c6d14fb720e06e4f4d91ce3300605b5a148"
   },
   {
-    "10680043": "6a79bf532eeda1a0322ed9065935e5fccfd0e3b0d6a6989546d0dfcb52c1b481"
+    "id": "10680043",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1068_0043.jpg",
+    "hash": "6a79bf532eeda1a0322ed9065935e5fccfd0e3b0d6a6989546d0dfcb52c1b481"
   },
   {
-    "10680044": "b3cf651bb850952d3518629156e9ed0bf546c74d005c62c8a715a19770237dca"
+    "id": "10680044",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1068_0044.jpg",
+    "hash": "b3cf651bb850952d3518629156e9ed0bf546c74d005c62c8a715a19770237dca"
   },
   {
-    "10680045": "e689cd2be6f26626686d6f331b08a22ddcc6270ce26e7921883e0afe6f342568"
+    "id": "10680045",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1068_0045.jpg",
+    "hash": "e689cd2be6f26626686d6f331b08a22ddcc6270ce26e7921883e0afe6f342568"
   },
   {
-    "10680046": "135dc6c08a3c96090ae4f12d9b4a42f38a3f62b3bcf3b8c276f58e2265c2abdd"
+    "id": "10680046",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1068_0046.jpg",
+    "hash": "135dc6c08a3c96090ae4f12d9b4a42f38a3f62b3bcf3b8c276f58e2265c2abdd"
   },
   {
-    "10680047": "d91e45d92b863037084c351056d0c16e231d7bb02c8bb40cb703fedc949146cc"
+    "id": "10680047",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1068_0047.jpg",
+    "hash": "d91e45d92b863037084c351056d0c16e231d7bb02c8bb40cb703fedc949146cc"
   },
   {
-    "10680048": "dd442854ec4b060f14a3262e43498e015c678be9c7c27d3448adeec591fbd1b7"
+    "id": "10680048",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1068_0048.jpg",
+    "hash": "dd442854ec4b060f14a3262e43498e015c678be9c7c27d3448adeec591fbd1b7"
   },
   {
-    "10690002": "3f1c49886d0a97b4829389420626a5def8e1596d052d6b663bffcd06fc5fe915"
+    "id": "10690002",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1069_0002.jpg",
+    "hash": "3f1c49886d0a97b4829389420626a5def8e1596d052d6b663bffcd06fc5fe915"
   },
   {
-    "10690005": "4b08ae6b92b2ccba22ed12c3c64ea9a7b8755d4a88e84ebb045c81a77dc73945"
+    "id": "10690005",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1069_0005.jpg",
+    "hash": "4b08ae6b92b2ccba22ed12c3c64ea9a7b8755d4a88e84ebb045c81a77dc73945"
   },
   {
-    "10690007": "62ec8eaf868e37115ab3485860baea05b7cad043a5b6a9a18489dc545d0305ab"
+    "id": "10690007",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1069_0007.jpg",
+    "hash": "62ec8eaf868e37115ab3485860baea05b7cad043a5b6a9a18489dc545d0305ab"
   },
   {
-    "10710006": "f9aca21733e8050d1cad2b0f0231f70ea9d4a19bff143fee8887aaa534f67168"
+    "id": "10710006",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1071_0006.jpg",
+    "hash": "f9aca21733e8050d1cad2b0f0231f70ea9d4a19bff143fee8887aaa534f67168"
   },
   {
-    "10740002": "53fda497b588d08c5ebcd8a28a6eb2c40025d3c13c41cbad7cc6eecfa00f370e"
+    "id": "10740002",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1074_0002.jpg",
+    "hash": "53fda497b588d08c5ebcd8a28a6eb2c40025d3c13c41cbad7cc6eecfa00f370e"
   },
   {
-    "10740003": "04649b57ccb6b1cccf4ef1e07827d2a6377182f48b61c369be86bfcf32412583"
+    "id": "10740003",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1074_0003.jpg",
+    "hash": "04649b57ccb6b1cccf4ef1e07827d2a6377182f48b61c369be86bfcf32412583"
   },
   {
-    "10740004": "4c16aac5795f36013b7ee7c9d8698d9b94e025b37ede4d1fddfed51dbaabc0dc"
+    "id": "10740004",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1074_0004.jpg",
+    "hash": "4c16aac5795f36013b7ee7c9d8698d9b94e025b37ede4d1fddfed51dbaabc0dc"
   },
   {
-    "10740005": "04cced266c3bda2e0dd34c1fffde00864d7092641445e7089ed61ee195bb1380"
+    "id": "10740005",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1074_0005.jpg",
+    "hash": "04cced266c3bda2e0dd34c1fffde00864d7092641445e7089ed61ee195bb1380"
   },
   {
-    "10740006": "7f4800f04ee231317dd13d46cd5957c0278ec20533215bf7685fd657ec532a05"
+    "id": "10740006",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1074_0006.jpg",
+    "hash": "7f4800f04ee231317dd13d46cd5957c0278ec20533215bf7685fd657ec532a05"
   },
   {
-    "10740008": "16053d2f5f6390673e6bd78596f75a8d1290e4ef6833dfaf6f28e97e811cab0c"
+    "id": "10740008",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1074_0008.jpg",
+    "hash": "16053d2f5f6390673e6bd78596f75a8d1290e4ef6833dfaf6f28e97e811cab0c"
   },
   {
-    "10740009": "592508d46e494cbdc2d830dac945df2a05acd26d5a58d699f06aebcab866eb13"
+    "id": "10740009",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1074_0009.jpg",
+    "hash": "592508d46e494cbdc2d830dac945df2a05acd26d5a58d699f06aebcab866eb13"
   },
   {
-    "10740010": "dc83776ddc62e6527fd2d48d962f144714083d5f9fe4536020ab04e14bb1da28"
+    "id": "10740010",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1074_0010.jpg",
+    "hash": "dc83776ddc62e6527fd2d48d962f144714083d5f9fe4536020ab04e14bb1da28"
   },
   {
-    "10740013": "7e66ef183e921acb36bb73af90df5ecff7486b6acc7f53ed67778d24e551ec09"
+    "id": "10740013",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1074_0013.jpg",
+    "hash": "7e66ef183e921acb36bb73af90df5ecff7486b6acc7f53ed67778d24e551ec09"
   },
   {
-    "10740014": "3812e74d6b2f391a5a69620bbb9ed48ef44d3ca615d78b1a4ec8d17ba670251e"
+    "id": "10740014",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1074_0014.jpg",
+    "hash": "3812e74d6b2f391a5a69620bbb9ed48ef44d3ca615d78b1a4ec8d17ba670251e"
   },
   {
-    "10740016": "69c9af1bf833508906273a11f21905ff8d981e6c3a064750b8b6ac12988dbc29"
+    "id": "10740016",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1074_0016.jpg",
+    "hash": "69c9af1bf833508906273a11f21905ff8d981e6c3a064750b8b6ac12988dbc29"
   },
   {
-    "10740017": "00b89c2afd15f012615a733b37d16287df2b85ae5fc97de7f7a4b15fd8dee04c"
+    "id": "10740017",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1074_0017.jpg",
+    "hash": "00b89c2afd15f012615a733b37d16287df2b85ae5fc97de7f7a4b15fd8dee04c"
   },
   {
-    "10740018": "b5b9179e05e63025a0d40ff3db874090a051459cf35cb2f68f5f99e351ed090e"
+    "id": "10740018",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1074_0018.jpg",
+    "hash": "b5b9179e05e63025a0d40ff3db874090a051459cf35cb2f68f5f99e351ed090e"
   },
   {
-    "10740019": "a81c3ba5c7184f0d03b03bcd7fc8e41073be41eab024ef12c928d4b8ee70b1e6"
+    "id": "10740019",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1074_0019.jpg",
+    "hash": "a81c3ba5c7184f0d03b03bcd7fc8e41073be41eab024ef12c928d4b8ee70b1e6"
   },
   {
-    "10740020": "64547050242e3ae40087273a87a5d3ac4f710cf3c7904cd7e7c05a72c72f9cb7"
+    "id": "10740020",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1074_0020.jpg",
+    "hash": "64547050242e3ae40087273a87a5d3ac4f710cf3c7904cd7e7c05a72c72f9cb7"
   },
   {
-    "10740021": "13fac93045f2509837b1c69fc2d57b470ce8c7f6967814548cb5df70000c410c"
+    "id": "10740021",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1074_0021.jpg",
+    "hash": "13fac93045f2509837b1c69fc2d57b470ce8c7f6967814548cb5df70000c410c"
   },
   {
-    "10740022": "d8d6e45348b2f8f3a36156a3157fa4aab29ac5c009e1dc6c5853b22da65f22f3"
+    "id": "10740022",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1074_0022.jpg",
+    "hash": "d8d6e45348b2f8f3a36156a3157fa4aab29ac5c009e1dc6c5853b22da65f22f3"
   },
   {
-    "10740023": "5eabdf477fa9e3d9fe15a2955317cbf040d2e800a15e72c91a4e65d78c0129cf"
+    "id": "10740023",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1074_0023.jpg",
+    "hash": "5eabdf477fa9e3d9fe15a2955317cbf040d2e800a15e72c91a4e65d78c0129cf"
   },
   {
-    "10740024": "739417618028ef105bada87b454d746c7b64b43f70e6d0ddae96f5a5c15fbf37"
+    "id": "10740024",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1074_0024.jpg",
+    "hash": "739417618028ef105bada87b454d746c7b64b43f70e6d0ddae96f5a5c15fbf37"
   },
   {
-    "10740025": "aa82507a07aad5a37a9d5f50f677fc827e4960fb7234f08ad468228cee5b6202"
+    "id": "10740025",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1074_0025.jpg",
+    "hash": "aa82507a07aad5a37a9d5f50f677fc827e4960fb7234f08ad468228cee5b6202"
   },
   {
-    "10740026": "640f7398174a8e0782009d6c84fc27036cc6ddd638158dbfe7422d903d4e2150"
+    "id": "10740026",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1074_0026.jpg",
+    "hash": "640f7398174a8e0782009d6c84fc27036cc6ddd638158dbfe7422d903d4e2150"
   },
   {
-    "10740027": "4aed40adda4d5e087fdf32bda1aea3c700228a1def73cbe5d184907042855c75"
+    "id": "10740027",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1074_0027.jpg",
+    "hash": "4aed40adda4d5e087fdf32bda1aea3c700228a1def73cbe5d184907042855c75"
   },
   {
-    "10740028": "de31cce8ffe0068ad2fea8041e0455abd880d9dcb9ce620614d6ca6c96aa26be"
+    "id": "10740028",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1074_0028.jpg",
+    "hash": "de31cce8ffe0068ad2fea8041e0455abd880d9dcb9ce620614d6ca6c96aa26be"
   },
   {
-    "10740029": "0ae5220ce0fca227cdbfe13396b6f793b7a4c83f865859b48582ddd76e0579f6"
+    "id": "10740029",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1074_0029.jpg",
+    "hash": "0ae5220ce0fca227cdbfe13396b6f793b7a4c83f865859b48582ddd76e0579f6"
   },
   {
-    "10740030": "d870cdb89384d2901d0fc5f025eb3433b512e5b29c24fc6b07675700589b1d5a"
+    "id": "10740030",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1074_0030.jpg",
+    "hash": "d870cdb89384d2901d0fc5f025eb3433b512e5b29c24fc6b07675700589b1d5a"
   },
   {
-    "10740031": "98b56b511bff9ee50bb4b0707955cbc6dc9c82897520cb53a4c6d74e78e575ad"
+    "id": "10740031",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1074_0031.jpg",
+    "hash": "98b56b511bff9ee50bb4b0707955cbc6dc9c82897520cb53a4c6d74e78e575ad"
   },
   {
-    "10740032": "e14bf3e271886ee57a58a95ff61f8ad77548ae5b73890ca7c2d8b417f1564bf6"
+    "id": "10740032",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1074_0032.jpg",
+    "hash": "e14bf3e271886ee57a58a95ff61f8ad77548ae5b73890ca7c2d8b417f1564bf6"
   },
   {
-    "10740033": "0a2ba02729fcca5a9b3e5886b28e48289a7b6123a7e4e40e3b6f800318425937"
+    "id": "10740033",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1074_0033.jpg",
+    "hash": "0a2ba02729fcca5a9b3e5886b28e48289a7b6123a7e4e40e3b6f800318425937"
   },
   {
-    "10740034": "6d95823b282d64dae2b53b883d9721720ae7abcd67d64ebfc036c175e8d6341a"
+    "id": "10740034",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1074_0034.jpg",
+    "hash": "6d95823b282d64dae2b53b883d9721720ae7abcd67d64ebfc036c175e8d6341a"
   },
   {
-    "10740035": "79024571599506b7c3f2175aa05d246370516acddbb3cc0428052ac30d9de435"
+    "id": "10740035",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1074_0035.jpg",
+    "hash": "79024571599506b7c3f2175aa05d246370516acddbb3cc0428052ac30d9de435"
   },
   {
-    "10740036": "42daf532f5864e2f79218783ecc120130bb7c4742324149db4a8c78013fd90c8"
+    "id": "10740036",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1074_0036.jpg",
+    "hash": "42daf532f5864e2f79218783ecc120130bb7c4742324149db4a8c78013fd90c8"
   },
   {
-    "10740037": "2dc94e6bdcc6c5aa7b428e80a31ec0a7602ebe41c9e8b14e66dd926510c7edda"
+    "id": "10740037",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1074_0037.jpg",
+    "hash": "2dc94e6bdcc6c5aa7b428e80a31ec0a7602ebe41c9e8b14e66dd926510c7edda"
   },
   {
-    "10740038": "8721619dedc0aee19c32cebeb83093c83cee0b1d28da727250ecbb5bdd683fea"
+    "id": "10740038",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1074_0038.jpg",
+    "hash": "8721619dedc0aee19c32cebeb83093c83cee0b1d28da727250ecbb5bdd683fea"
   },
   {
-    "10740039": "4efb7d0e6df3edd1ecf1594883dfcdbb81e530ad01ed2f377a75e429f5966d4e"
+    "id": "10740039",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1074_0039.jpg",
+    "hash": "4efb7d0e6df3edd1ecf1594883dfcdbb81e530ad01ed2f377a75e429f5966d4e"
   },
   {
-    "10740040": "05bd2f8c9d129a31d41735e80d38ca758ecc0b05c6937c03278d1861add2b411"
+    "id": "10740040",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1074_0040.jpg",
+    "hash": "05bd2f8c9d129a31d41735e80d38ca758ecc0b05c6937c03278d1861add2b411"
   },
   {
-    "10740041": "a658fae6b0b0cbcd8189e8eeb9cd7692d44134010fc6b7e543dad65cbcf26333"
+    "id": "10740041",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1074_0041.jpg",
+    "hash": "a658fae6b0b0cbcd8189e8eeb9cd7692d44134010fc6b7e543dad65cbcf26333"
   },
   {
-    "10740042": "b7386aa9aab7f69518f2bd65e83658dc1cdb691bf8368a95c99995e26d60a31f"
+    "id": "10740042",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1074_0042.jpg",
+    "hash": "b7386aa9aab7f69518f2bd65e83658dc1cdb691bf8368a95c99995e26d60a31f"
   },
   {
-    "10740043": "9810f71813d57ca0e3197d414767d08b38695fc373782d175ed7571a6a1444b6"
+    "id": "10740043",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1074_0043.jpg",
+    "hash": "9810f71813d57ca0e3197d414767d08b38695fc373782d175ed7571a6a1444b6"
   },
   {
-    "10740044": "f01a8b3575f785be6446f75df9e70c4010d706400b5cc116d2c3dbc24e7e1670"
+    "id": "10740044",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1074_0044.jpg",
+    "hash": "f01a8b3575f785be6446f75df9e70c4010d706400b5cc116d2c3dbc24e7e1670"
   },
   {
-    "10750003": "d06d184b7a815cc3958b5a8d6dbff8661e899f86276ef36b84d547649e2243c6"
+    "id": "10750003",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1075_0003.jpg",
+    "hash": "d06d184b7a815cc3958b5a8d6dbff8661e899f86276ef36b84d547649e2243c6"
   },
   {
-    "10750004": "de8bfae9591189d8ad1d4cb0710cbb051304436e9ccf8e57b72b62e50c92ff08"
+    "id": "10750004",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1075_0004.jpg",
+    "hash": "de8bfae9591189d8ad1d4cb0710cbb051304436e9ccf8e57b72b62e50c92ff08"
   },
   {
-    "10750005": "d52325977d87715da5fe86de1b6e7c5cfc432d020c8b974ba07aaab39ec2a5de"
+    "id": "10750005",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1075_0005.jpg",
+    "hash": "d52325977d87715da5fe86de1b6e7c5cfc432d020c8b974ba07aaab39ec2a5de"
   },
   {
-    "10750006": "c0ee4af31956b70c2174266755d2399078108fc4f70e2fcf989c230652b84476"
+    "id": "10750006",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1075_0006.jpg",
+    "hash": "c0ee4af31956b70c2174266755d2399078108fc4f70e2fcf989c230652b84476"
   },
   {
-    "10750007": "a89237c19dd3e4479aaf59d837f350c9ee94dc223cf50ad3085c3c133754cead"
+    "id": "10750007",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1075_0007.jpg",
+    "hash": "a89237c19dd3e4479aaf59d837f350c9ee94dc223cf50ad3085c3c133754cead"
   },
   {
-    "10750008": "4816bedec0e5a99cbf6552123971d564b85a535e0a348f01ca10b4181cf77616"
+    "id": "10750008",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1075_0008.jpg",
+    "hash": "4816bedec0e5a99cbf6552123971d564b85a535e0a348f01ca10b4181cf77616"
   },
   {
-    "10780001": "437391e543c63705fd05e4f28f8e165c108bea61e2944846d8fc0fe3b53846a7"
+    "id": "10780001",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1078_0001.jpg",
+    "hash": "437391e543c63705fd05e4f28f8e165c108bea61e2944846d8fc0fe3b53846a7"
   },
   {
-    "10780002": "623dfddb759548b2747f0383b764eac767862b517ad5091d0cacc6c72439a321"
+    "id": "10780002",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1078_0002.jpg",
+    "hash": "623dfddb759548b2747f0383b764eac767862b517ad5091d0cacc6c72439a321"
   },
   {
-    "10780003": "85459516bd1fcc2e6796ea2224ff1f0ea9a89304ab19b3e59bae995042b22bc9"
+    "id": "10780003",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1078_0003.jpg",
+    "hash": "85459516bd1fcc2e6796ea2224ff1f0ea9a89304ab19b3e59bae995042b22bc9"
   },
   {
-    "10780004": "85b285846bfcbee5c23f64a015c72ecdd3a8c3926f1bbbbdd1c19e41abc641c3"
+    "id": "10780004",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1078_0004.jpg",
+    "hash": "85b285846bfcbee5c23f64a015c72ecdd3a8c3926f1bbbbdd1c19e41abc641c3"
   },
   {
-    "10780007": "9b238761c2f6ce2e6fc6cd018e0b26b497f4d8347aa2a84e5b385e98b4786b70"
+    "id": "10780007",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1078_0007.jpg",
+    "hash": "9b238761c2f6ce2e6fc6cd018e0b26b497f4d8347aa2a84e5b385e98b4786b70"
   },
   {
-    "10780008": "dda713531cdb69b14042b38624dfa226d99ba3c276818e53242d9f39dafa6293"
+    "id": "10780008",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1078_0008.jpg",
+    "hash": "dda713531cdb69b14042b38624dfa226d99ba3c276818e53242d9f39dafa6293"
   },
   {
-    "10780009": "c6c5153d4a13188a6f96d06869a4be093807fb98a4710af99dedd9e11c11591d"
+    "id": "10780009",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1078_0009.jpg",
+    "hash": "c6c5153d4a13188a6f96d06869a4be093807fb98a4710af99dedd9e11c11591d"
   },
   {
-    "10780014": "6b12c0f1737dc9e771ad84290b9fd66fd8da218fe310467d5d28b454571eaf96"
+    "id": "10780014",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1078_0014.jpg",
+    "hash": "6b12c0f1737dc9e771ad84290b9fd66fd8da218fe310467d5d28b454571eaf96"
   },
   {
-    "10780015": "f90d3af7ee234ea40d9fa01800883517b4c281ec5563e0d96dbcb8de466039ca"
+    "id": "10780015",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1078_0015.jpg",
+    "hash": "f90d3af7ee234ea40d9fa01800883517b4c281ec5563e0d96dbcb8de466039ca"
   },
   {
-    "10790001": "0c8274e9a5755527b42bd671602036f4ad9edec08cfc9d0f07df7ff8783b8aa7"
+    "id": "10790001",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1079_0001.jpg",
+    "hash": "0c8274e9a5755527b42bd671602036f4ad9edec08cfc9d0f07df7ff8783b8aa7"
   },
   {
-    "10790002": "f11d683ffa98db9cf298538099fe05e8375c45ae5016af4171170692248eb0bc"
+    "id": "10790002",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1079_0002.jpg",
+    "hash": "f11d683ffa98db9cf298538099fe05e8375c45ae5016af4171170692248eb0bc"
   },
   {
-    "10790003": "f25c8e0fcabb3a120452514025b348545b35157416d67421b414894cbc16a884"
+    "id": "10790003",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1079_0003.jpg",
+    "hash": "f25c8e0fcabb3a120452514025b348545b35157416d67421b414894cbc16a884"
   },
   {
-    "10790004": "bcaeb6b9a4e6e74198e85d6ee7133e0d6dac98a7cf8683755b2d2702fd0aa33b"
+    "id": "10790004",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1079_0004.jpg",
+    "hash": "bcaeb6b9a4e6e74198e85d6ee7133e0d6dac98a7cf8683755b2d2702fd0aa33b"
   },
   {
-    "10790007": "4513716026014eac688db96bd0c71bc3f4eac52a2eb4a27aa53c4a91bdd38661"
+    "id": "10790007",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1079_0007.jpg",
+    "hash": "4513716026014eac688db96bd0c71bc3f4eac52a2eb4a27aa53c4a91bdd38661"
   },
   {
-    "10790010": "f16b311fa00978af4c67713c384f2ef8ec613fbbb034f8bcf30e439a43300042"
+    "id": "10790010",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1079_0010.jpg",
+    "hash": "f16b311fa00978af4c67713c384f2ef8ec613fbbb034f8bcf30e439a43300042"
   },
   {
-    "10790011": "4fbd81401898769953278cc085204656115d1349da77580a31aaa81c1e8a0d2c"
+    "id": "10790011",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1079_0011.jpg",
+    "hash": "4fbd81401898769953278cc085204656115d1349da77580a31aaa81c1e8a0d2c"
   },
   {
-    "10790012": "83f2e01a17929e131e11338d316cde2ed3d888d4b7f1c1979c9481c36a9aa58a"
+    "id": "10790012",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1079_0012.jpg",
+    "hash": "83f2e01a17929e131e11338d316cde2ed3d888d4b7f1c1979c9481c36a9aa58a"
   },
   {
-    "10790013": "6de280c14001e3d6ffa1a184f5c278e656eb12c52da50154811fa09bbdb8fe00"
+    "id": "10790013",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1079_0013.jpg",
+    "hash": "6de280c14001e3d6ffa1a184f5c278e656eb12c52da50154811fa09bbdb8fe00"
   },
   {
-    "10790014": "01dcf70973b7de9057844ccb1185dd505d8330a1a420581268bf23a6a5bf1f73"
+    "id": "10790014",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1079_0014.jpg",
+    "hash": "01dcf70973b7de9057844ccb1185dd505d8330a1a420581268bf23a6a5bf1f73"
   },
   {
-    "10800008": "b74c4a8758d5ea96c487fd938317e56bf162f6d4aad35c527b353b4e9b86f7d6"
+    "id": "10800008",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1080_0008.jpg",
+    "hash": "b74c4a8758d5ea96c487fd938317e56bf162f6d4aad35c527b353b4e9b86f7d6"
   },
   {
-    "10800010": "eceebf72e8b6430ac6d63c81c4fe649196b3ab577592b7cc75fc1b992ba2e5b9"
+    "id": "10800010",
+    "url": "https://kunstinhuis.be/assets/files/artworks/1080_0010.jpg",
+    "hash": "eceebf72e8b6430ac6d63c81c4fe649196b3ab577592b7cc75fc1b992ba2e5b9"
   }
 ]

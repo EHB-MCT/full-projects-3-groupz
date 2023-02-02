@@ -8,13 +8,6 @@ const resultContainer = document.getElementById("result-container");
 
 let htmlString = "";
 
-let amnk;
-
-getArtworkData().then((response) => {
-  console.log(response);
-  amnk = response;
-});
-
 compartForm.addEventListener("submit", async (e) => {
   e.preventDefault();
   resultContainer.innerHTML = "<p>het beeld wordt gegenereerd...</p>";
@@ -35,7 +28,6 @@ compartForm.addEventListener("submit", async (e) => {
 
       let imagesData = {
         imageUrl: img,
-        kunstwerken: amnk,
       };
 
       console.log(imagesData);
