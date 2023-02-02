@@ -5,7 +5,7 @@ document.getElementById('favorite_button').addEventListener("click", event =>{
   user.password = document.getElementById("inputPassword").value;
   
   //let user = JSON.parse(sessionStorage.getItem('user'))
-  getArtworkData("http://localhost:6456/login", "POST", user).then(result => {
+  getArtworkData("https://kunstinhuis.onrender.com/login", "POST", user).then(result => {
     sessionStorage.setItem('user', JSON.stringify(result.data))
     if(user){
       document.getElementById('favorite_button').addEventListener("click", () => {
