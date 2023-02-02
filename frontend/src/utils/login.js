@@ -11,8 +11,8 @@ document.getElementById('loginform').addEventListener("submit", event => {
     if (user) {
       document.getElementById('welcomemessage').innerText = `${result.data.username}`
       document.getElementById('succesmessageinlog').innerHTML = `Je bent succesvol ingelogd!`
-      setTimeout(1000)
-      window.location = '/index.html'
+      //setTimeout(1000)
+      //window.location = '/index.html'
     } else {
       document.getElementById('succesmessageinlog').innerHTML = `Kijk of al je velden correct zijn ingevuld of registreer eerst!`
     }
