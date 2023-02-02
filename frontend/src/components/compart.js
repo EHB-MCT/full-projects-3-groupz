@@ -40,7 +40,7 @@ compartForm.addEventListener("submit", async (e) => {
 
       console.log(imagesData);
 
-      fetch("https://kunstinhuis.onrender.com/uploadImageUrl", {
+      fetch("http://localhost:8080/uploadImageUrl", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
