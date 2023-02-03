@@ -330,12 +330,21 @@ main {
   justify-content: center;
 }
 
+#compart-main-subcontainer {
+  height: 450px;
+}
+
 #compart-main-subcontainer form {
   margin-top: 20px;
 }
 
 #result-container {
   width: 100%;
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  overflow: scroll;
+  column-gap: 10px;
 }
 
 #result-container img {
@@ -368,8 +377,7 @@ main {
 /*    COLLECTION    */
 
 #collection-body {
-  position:relative;
- 
+  position: relative;
 }
 
 #collection-main {
@@ -517,7 +525,7 @@ input {
   margin-left: 1%;
   width: 99%;
   margin-top: 15px;
-  overflow:hidden;
+  overflow: hidden;
   max-height: 114px;
 }
 
@@ -615,7 +623,7 @@ input {
   color: rgb(57, 182, 124);
 }
 
-.nonsuccesmessage{
+.nonsuccesmessage {
   padding: 10px;
   margin-bottom: 10px;
   color: rgb(223, 33, 12);
@@ -627,17 +635,20 @@ input {
   text-decoration: underline;
 }
 
-.artiesten-button{
+.artiesten-button {
   margin: 15px 0px 50px 0px;
   display: flex;
 }
 
-#infoo{
-
-  display:flex; 
-  flex-direction:column;
+#infoo {
+  display: flex;
+  flex-direction: column;
 }
 
-#closevideo{
+#closevideo {
   color: white;
+}
+
+#loading-container {
+  display: none;
 }

@@ -1,17 +1,25 @@
 import nav from "../utils/nav.js";
-import { getArtworkData } from "../utils/getData.js";
 nav();
 
 const compartForm = document.getElementById("compart-form");
 const compartInput = document.getElementById("compart-input");
-const resultContainer = document.getElementById("result-container");
-
-let htmlString = "";
+const compartColumn1 = document.getElementById("compart-column1");
+const compartColumn2 = document.getElementById("compart-column2");
+const loadingContainer = document.getElementById("loading-container");
 
 compartForm.addEventListener("submit", async (e) => {
   e.preventDefault();
-  resultContainer.innerHTML = "<p>het beeld wordt gegenereerd...</p>";
+  loadingContainer.style.display = "block";
+  let c1Counter = 0;
+  let c2Counter = 0;
+
+  let c1String = "";
+  let c2String = "";
+
+  compartColumn1.innerHTML = "";
+  compartColumn2.innerHTML = "";
   const description = compartInput.value;
+  // await fetch("http://localhost:6456/generateImage", {
   await fetch("https://kunstinhuis.onrender.com/generateImage", {
     method: "POST",
     headers: {
@@ -21,35 +29,19 @@ compartForm.addEventListener("submit", async (e) => {
   })
     .then((res) => res.json())
     .then((data) => {
-      let img = data.imageUrl;
-
-      htmlString = `<img src="${img}"/>`;
-      resultContainer.innerHTML = htmlString;
-
-      let imagesData = {
-        imageUrl: img,
-      };
-
-      console.log(imagesData);
-
-      fetch("http://localhost:8080/uploadImageUrl", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify(imagesData),
-      })
-        .then(
-          (response) => {
-            console.log(response);
-            response.json();
-          } // if the response is a JSON object
-        )
-        .then(
-          (success) => console.log(success) // Handle the success response object
-        )
-        .catch(
-          (error) => console.log(error) // Handle the error response object
-        );
+      console.log(data);
+      data.forEach((img) => {
+        if (c1Counter <= c2Counter) {
+          c1String += `<img class="artwork" src="${img.url}" />`;
+          c1Counter++;
+        } else {
+          c2String += `<img class="artwork" src="${img.url}" />`;
+          c2Counter++;
+        }
+        console.log(img.url);
+      });
+      loadingContainer.remove();
+      compartColumn1.innerHTML = c1String;
+      compartColumn2.innerHTML = c2String;
     });
 });

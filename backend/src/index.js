@@ -12,6 +12,8 @@ const { Configuration, OpenAIApi } = require("openai");
 const client = new MongoClient(process.env.FINAL_URL);
 const port = process.env.port || 6456;
 
+const topTen = require("./topTen");
+
 let users = [];
 
 app.use(express.urlencoded({ extended: false }));
@@ -209,30 +211,20 @@ const openai = new OpenAIApi(configuration);
 
 app.post("/generateImage", async (req, res) => {
   const description = req.body.description;
-  const response = await openai.createImage({
-    prompt: description,
-    n: 1,
-    size: "1024x1024",
-  });
-
-  let imageUrl = response.data.data[0].url;
-
-  console.log(imageUrl);
-
-  res.json({
-    imageUrl: imageUrl,
-  });
-});
-
-app.get("/hashedJpg", (req, res) => {
-  fs.readFile("../data/hashed-image-data.json", (err, data) => {
-    if (err) {
-      res.status(500).send({ error: "Error reading file" });
-    }
-    res.json(JSON.parse(data));
-  });
+  await openai
+    .createImage({
+      prompt: description,
+      n: 1,
+      size: "1024x1024",
+    })
+    .then((response) => {
+      topTen(response.data.data[0].url).then((response) => {
+        console.log(response);
+        res.json(response);
+      });
+    });
 });
 
 app.listen(port, () => {
-  console.log(`API is running at http://localhost:${port}`)
-})  
+  console.log(`API is running at http://localhost:${port}`);
+});
