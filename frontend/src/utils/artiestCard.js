@@ -23,12 +23,39 @@ export default function artiestCard(data) {
       `;
   })
 
+
   artisten.innerHTML = htmlString
 
-  window.onload = (event) => {
+  // document.getElementById(`btn_mr_${index}`).addEventListener("click", function(event) {
+    
+  //   let discription = document.getElementById(`discription_art_${index}`).innerHTML;
+  //   let selectedArtist = {
+  //     Kunstenaar: item.Kunstenaar,
+  //     discription: discription,
+  //     image: item.img
+  //   };
+  //   localStorage.setItem("selectedArtist", JSON.stringify(selectedArtist));
+  //   window.location = "./artiesteninfo.html";
+  // })
+
+  // document.getElementById(`btn_mr_${index}`).addEventListener("click", function () {
+  //   let discription = document.getElementById(`discription_art_${index}`).innerHTML;
+  //   let selectedArtist = {
+  //     Kunstenaar: item.Kunstenaar,
+  //     discription: discription,
+  //     image: item.img
+  //   };
+  //   localStorage.setItem("selectedArtist", JSON.stringify(selectedArtist));
+  //   window.location = "./artiesteninfo.html";
+  // });
+
+
+
+ 
     data.forEach((item, index) => {
       document.getElementById(`btn_mr_${index}`).addEventListener("click", function () {
         window.location = "./artiesteninfo.html"
+        
         let discription = document.getElementById(`discription_art_${index}`).innerHTML;
         let selectedArtist = {
           Kunstenaar: item.Kunstenaar,
@@ -39,4 +66,3 @@ export default function artiestCard(data) {
       });
     });
   };
-}
