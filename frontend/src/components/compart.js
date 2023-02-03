@@ -9,6 +9,8 @@ const loadingContainer = document.getElementById("loading-container");
 
 compartForm.addEventListener("submit", async (e) => {
   e.preventDefault();
+  loadingContainer.innerHTML =
+    "<p>We zijn druk bezig met het efficiënt laden van onze prachtige kunstwerken...</p>";
   loadingContainer.style.display = "block";
   let c1Counter = 0;
   let c2Counter = 0;
@@ -40,7 +42,7 @@ compartForm.addEventListener("submit", async (e) => {
         }
         console.log(img.url);
       });
-      loadingContainer.remove();
+      loadingContainer.style.display = "none";
       compartColumn1.innerHTML = c1String;
       compartColumn2.innerHTML = c2String;
     });
